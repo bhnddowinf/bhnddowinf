@@ -4,17 +4,25 @@
 
 - 世界变化太快，只能冷眼以对，慢慢拾取
 
-### 图表 ###
+### 图表 
 
 > React component for Chart.js
 
 - https://github.com/topdmc/react-chartjs2
 
-> 可视化 react-virtualized
+### 可视化 
+
+> react-virtualized React components for efficiently rendering large lists and tabular dat
 
 - https://github.com/bvaughn/react-virtualized
 
-- React components for efficiently rendering large lists and tabular data https://bvaughn.github.io/react-virtualized/
+- a https://bvaughn.github.io/react-virtualized/
+
+### markdown
+
+- http://rexxars.github.io/react-markdown/
+- https://github.com/rexxars/react-markdown
+
 
 ### Rudex ###
 
