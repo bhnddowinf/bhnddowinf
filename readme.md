@@ -2,7 +2,7 @@
 
 - [vuejs2 官网讲解, 永远备课中](https://github.com/bhnddowinf/vuejs2-learn)
 
-- [vuejs2 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/vuejs2.md.md)
+- [vuejs2 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/vuejs2.md)
 
 - [react 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/react.md)
 
