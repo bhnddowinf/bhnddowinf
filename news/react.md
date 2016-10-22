@@ -28,9 +28,7 @@
 - https://facebook.github.io/react/tutorial/tutorial.html
 
 
-> React 组件之间如何交流 (小撸)
 
-- http://60sky.com/post/react-component-communicate.html
 
 > 高性能 React 组件
 
@@ -39,6 +37,30 @@
 > 使用React重构百度新闻webapp前端 (王福朋)
 
 - http://wangfupeng.coding.me/share/2016/08/06/restruct-bdnews-webapp-by-react.html
+
+
+> React 数据的存储 (小撸)
+
+- http://60sky.com/post/how-to-saved-react-component-data.html
+
+> Redux 单纯系列 (小撸)
+
+- http://60sky.com/post/redux-can-do.html
+
+> React 基本模式 (小撸)
+
+- http://60sky.com/post/react-in-patterns.html
+
+> React 原生组件交流 (小撸)
+
+- http://60sky.com/post/react-component-communicate.html
+
+> React 一些简单背景 (小撸)
+
+- http://60sky.com/post/pro-react-get-started.html
+
+
+
 
 
 ### 脚手架
