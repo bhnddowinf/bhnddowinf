@@ -1,21 +1,21 @@
 
 
-# 前言
+# 前言 #
 
 - 世界变化太快，只能冷眼以对，慢慢拾取
 
-### 图表
+### 图表 ###
 
 > React component for Chart.js
 
 - https://github.com/topdmc/react-chartjs2
 
 
-### Rudex
+### Rudex ###
 
 > Redux 中文文档
 
--http://cn.redux.js.org/
+- http://cn.redux.js.org/
 
 
 
