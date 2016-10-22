@@ -16,7 +16,7 @@
 
 - https://github.com/bvaughn/react-virtualized
 
-- a https://bvaughn.github.io/react-virtualized/
+-  https://bvaughn.github.io/react-virtualized/
 
 ### markdown
 
