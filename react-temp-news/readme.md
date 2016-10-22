@@ -34,6 +34,9 @@
 
 - https://github.com/erikras/react-redux-universal-hot-example
 
+> Getting Started with Redux 121 minutes (egghead.io)
+
+- https://egghead.io/courses/getting-started-with-redux
 
 ### React Native
 
