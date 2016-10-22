@@ -30,6 +30,11 @@ vuejs2.md
 
 - https://github.com/jrainlau/vue-flatpickr
 
+> Infinite scroll component for Vue.js 2 
+
+- https://egoistian.com/vue-mugen-scroll/
+
+- https://github.com/egoist/vue-mugen-scroll
 
 ### vue ui
 
