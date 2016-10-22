@@ -17,6 +17,12 @@
 > Redux 中文文档
 
 
+### React Native
+
+- https://segmentfault.com/n/1330000004266763
+
+> React/React Native 的ES5 ES6写法对照表
+
 #### 测试
 
 ```JavaScript
