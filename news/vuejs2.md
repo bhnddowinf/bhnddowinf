@@ -36,3 +36,18 @@ vuejs2.md
 > mint-ui
 
 - http://mint-ui.github.io/docs/#!/zh-cn2/  
+
+
+
+
+### temp
+
+```js
+
+Vue.http.options.headers = {
+   'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8;'
+ }
+
+ Vue.http.headers.common['Authorization'] = 'ANASFFASFASDFASD';
+
+ ```
