@@ -30,7 +30,9 @@
 
 - http://cn.redux.js.org/
 
+> A starter boilerplate for a universal webapp using express, react, redux, webpack, and react-transform
 
+- https://github.com/erikras/react-redux-universal-hot-example
 
 
 ### React Native
