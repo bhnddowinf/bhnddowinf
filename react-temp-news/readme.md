@@ -6,22 +6,27 @@
 
 ### 图表
 
+> React component for Chart.js
+
 - https://github.com/topdmc/react-chartjs2
 
-> React component for Chart.js
 
 ### Rudex
 
+> Redux 中文文档
+
 -http://cn.redux.js.org/
 
-> Redux 中文文档
+
 
 
 ### React Native
 
+> React/React Native 的ES5 ES6写法对照表
+
 - https://segmentfault.com/n/1330000004266763
 
-> React/React Native 的ES5 ES6写法对照表
+
 
 #### 测试
 
