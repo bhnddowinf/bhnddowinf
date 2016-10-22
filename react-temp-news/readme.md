@@ -4,6 +4,22 @@
 
 - 世界变化太快，只能冷眼以对，慢慢拾取
 
+### react 官网
+
+> 官网的链结
+
+- https://facebook.github.io/react/
+
+> react 在想什么
+
+- https://facebook.github.io/react/docs/thinking-in-react.html
+
+> react 官网教学，学做井字游戏
+
+- https://facebook.github.io/react/tutorial/tutorial.html
+
+
+
 ### 图表 
 
 > React component for Chart.js
