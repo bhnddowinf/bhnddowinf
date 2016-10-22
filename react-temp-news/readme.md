@@ -7,12 +7,14 @@
 # 图表
 
 - https://github.com/topdmc/react-chartjs2
+> React component for <Chart class="js"></Chart>
+
 
 # 代码
 
 ## 测试
 
-``` js
+```JavaScript
 
     var a = 1;
 
