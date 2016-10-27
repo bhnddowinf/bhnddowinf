@@ -17,6 +17,16 @@ vuejs2.md
 
 - https://github.com/lincenying/mmf-blog-vue2
 
+
+> 爬了知乎日报十多万条数据后分析统计，并用Vue2.0写了一个webapp (ccforward)
+
+- GitHub仓库: https://github.com/ccforward/zhihu
+
+- 日报首页: http://zhihu.ccforward.net
+
+- 数据统计: http://zhihu.ccforward.net/statistics
+
+
 ### jsfiddle
 
 > vue1 , 延时3秒加载组件 (lcy)
