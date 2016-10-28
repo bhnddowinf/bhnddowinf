@@ -9,9 +9,9 @@
 
 - [SVG进阶 | SVG路径动画-SMIL](http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/201506262114.html)
 
-> 来源：jQuery 之家
+>> 来源：jQuery 之家
 
 
 - [SVG 系列教程目录](http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/201507082192.html)
 
-> 来源：jQuery 之家
+>> 来源：jQuery 之家
