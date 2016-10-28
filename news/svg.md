@@ -16,6 +16,10 @@
 
 - 来源：jQuery 之家
 
-> [带你轻松打开SVG动画的大门] (https://isux.tencent.com/svg-animate.html)
+> [带你轻松打开SVG动画的大门](https://isux.tencent.com/svg-animate.html)
+
+- 来源：练小习
+
+> [带你轻松打开svg滤镜的大门] (https://isux.tencent.com/svg-filter.html)
 
 - 来源：练小习
