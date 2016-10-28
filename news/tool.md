@@ -24,3 +24,8 @@
 > [No Flash. No frameworks. Just 3kb gzipped]
 
 - https://clipboardjs.com/
+
+> Smart PNG and JPEG compression
+Optimize your images with a perfect balance in quality and file size.
+
+- https://tinypng.com/
