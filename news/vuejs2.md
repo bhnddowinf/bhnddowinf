@@ -37,9 +37,11 @@ vuejs2.md
 
 > [Build a Single Page Time Tracking App with Vue.js: Introduction] (https://scotch.io/tutorials/build-a-single-page-time-tracking-app-with-vue-js-introduction)
 
+- scotch.io
 
 > [Build a Single Page Time Tracking App with Vue.js, Part II] (https://scotch.io/tutorials/build-a-single-page-time-tracking-app-with-vue-js-part-ii)
 
+- scotch.io
 
 ### jsfiddle
 
