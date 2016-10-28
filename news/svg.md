@@ -8,3 +8,7 @@
 
 > 来源：jQuery 之家
 
+
+-[SVG 系列教程目录] (http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/201507082192.html)
+
+> 来源：jQuery 之家
