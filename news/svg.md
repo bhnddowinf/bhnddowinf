@@ -15,3 +15,7 @@
 - [SVG 系列教程目录](http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/201507082192.html)
 
 >> 来源：jQuery 之家
+
+-[带你轻松打开SVG动画的大门] (https://isux.tencent.com/svg-animate.html)
+
+>> 来源：练小习

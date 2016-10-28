@@ -11,6 +11,12 @@ vuejs2.md
 
 - http://www.mmxiaowu.com/
 
+
+> WYseven 这里的例子在阅读官网文档写出来的，官网给的例子有点简单，所以在这个基础上写了完整的学习例子。
+
+
+- https://github.com/WYseven/vue2-basic-demo
+
 ### 好文
 
 > mmf-blog vue2.0 版 (vue2, vue-router, vuex)
