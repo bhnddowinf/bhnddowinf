@@ -14,8 +14,11 @@ vuejs2.md
 
 > WYseven 这里的例子在阅读官网文档写出来的，官网给的例子有点简单，所以在这个基础上写了完整的学习例子。
 
-
 - https://github.com/WYseven/vue2-basic-demo
+
+> ChobitsSP/vue-bootstrap-table
+
+- https://github.com/ChobitsSP/vue-bootstrap-table
 
 ### 好文
 
