@@ -71,9 +71,10 @@ vuejs2.md
 - 沙拉是一个基于 PostCSS 的 CSS 解决方案，它提供了一系列快捷的 at-rule 和默认语法声明来帮助你快速地搭建项目样式与类库，它只在调用时才输出代码，而不是直接提供 CSS 类库。
 
 
-> http://element.eleme.io/#/component/quickstart
+> https://github.com/icai/vue2-calendar
 
-- 本节将介绍如何在项目中使用 Element。
+- vue 2 calendar component http://icai.github.io/vue2-calendar/
+
 
 ### vue ui
 
@@ -81,6 +82,9 @@ vuejs2.md
 
 - http://mint-ui.github.io/docs/#!/zh-cn2/  
 
+> http://element.eleme.io/#/component/quickstart
+
+- 本节将介绍如何在项目中使用 Element。
 
 
 

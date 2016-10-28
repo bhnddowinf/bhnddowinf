@@ -15,3 +15,12 @@
 
 - [Based on the PPT to make cross-platform app template.] (https://github.com/JsAaron/app-generator)
 -  艾伦 http://www.cnblogs.com/aaronjs/p/4255232.html
+
+
+> [tesseract.js] (https://github.com/naptha/tesseract.js#tesseractjs)
+- Drop an English image on this page to OCR it!
+- Pure Javascript OCR for 62 Languages :book::tada::desktop_computer: http://tesseract.projectnaptha.com/
+
+> [No Flash. No frameworks. Just 3kb gzipped]
+
+- https://clipboardjs.com/
