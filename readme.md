@@ -11,6 +11,8 @@
 
 - [JavaScript 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/JavaScript.md)
 
+- [SVG 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/svg.md)
+
 
 - [vr 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/vr.md)
 
