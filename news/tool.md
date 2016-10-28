@@ -9,3 +9,9 @@
 
 - 来源：https://github.com/Bilibili
 
+> [paper.js] (http://paperjs.org/about/)
+
+- Paper.js is based on and largely compatible with Scriptographer, a scripting environment for Adobe Illustrator with an active community of scripters and more than 10 years of development.
+
+- [Based on the PPT to make cross-platform app template.] (https://github.com/JsAaron/app-generator)
+-  艾伦 http://www.cnblogs.com/aaronjs/p/4255232.html
