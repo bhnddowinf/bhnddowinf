@@ -10,6 +10,8 @@
 
 > 1.[basic] (https://bhnddowinf.github.io/bhnddowinf/react-demo/examples/basic/index.html)
 
+> [index.html] (https://github.com/bhnddowinf/bhnddowinf/blob/master/react-demo/examples/basic/index.html)
+
 - [react native 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/react-native.md)
 
 
