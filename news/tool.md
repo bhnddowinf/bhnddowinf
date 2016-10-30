@@ -31,3 +31,9 @@
 Optimize your images with a perfect balance in quality and file size.
 
 - https://tinypng.com/
+
+> Moment.js 
+
+> [Parse, validate, manipulate, and display dates in JavaScript.]
+
+- http://momentjs.com/
