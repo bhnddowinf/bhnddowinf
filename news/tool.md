@@ -93,3 +93,47 @@ Optimize your images with a perfect balance in quality and file size.
 - http://hammerjs.github.io/getting-started/
 
 - http://hammerjs.github.io/
+
+
+### jQuery 弹窗
+
+> IZIMODAL
+
+- http://izimodal.marcelodolce.com/#modal-default
+
+### jQuery 拖曳
+
+> Dragula
+
+- https://bevacqua.github.io/dragula/
+
+
+
+
+
+## 使用jquery的imagecropper插件做用户头像上传 兼容移动端
+
+    http://www.asheep.cn/skill/imagecropper.html
+
+## 前端本地客户端压缩图片，兼容IOS，Android，PC、自动按需加载文件
+
+    https://github.com/think2011/localResizeIMG
+
+    http://think2011.github.io/localResizeIMG/test/
+
+## mobile-iamge-upload
+
+    https://github.com/Iamlars/mobile-iamge-upload/blob/master/README.md
+    移动端图片上传学习示例
+    深深的依赖于jquery,lrz.js,cropper.js
+    功能简介
+    1，图片上传预览 （cropper.js）
+    2，图片角度自动纠正，压缩 （lrz.js）
+    3，图片裁剪(保存为base64格式) （cropper.js）
+
+## html5图片压缩，支持pc，mobile（ios/android）和multiple
+
+    http://mhbseal.com/demo/html5/html5ImgCompress/demo/index.html
+
+
+http://upload.leanapp.cn/
