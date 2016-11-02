@@ -5,11 +5,14 @@
 ## 好用的工具
 
 
+### 1.播放
+
 > [HTML5 FLV Player] (https://github.com/Bilibili/flv.js)
 
 - 来源：https://github.com/Bilibili
 
 
+### 2.交互动画
 
 > [paper.js] (http://paperjs.org/about/)
 
@@ -20,6 +23,8 @@
 
 
 
+### 3.OCR
+
 > [tesseract.js] (https://github.com/naptha/tesseract.js#tesseractjs)
 
 - Drop an English image on this page to OCR it!
@@ -28,21 +33,24 @@
 
 
 
+### 4.剪贴簿
 
 > [No Flash. No frameworks. Just 3kb gzipped]
 
 - https://clipboardjs.com/
 
 
+### 5.图片
 
 
-> Smart PNG and JPEG compression
+> Smart PNG and JPEG compression(压缩)
 Optimize your images with a perfect balance in quality and file size.
 
 - https://tinypng.com/
 
 
 
+### 6.日期格式化
 
 > Moment.js
 
@@ -51,7 +59,7 @@ Optimize your images with a perfect balance in quality and file size.
 - http://momentjs.com/
 
 
-
+### 7.文本高亮
 
 > highlight.js
 
@@ -62,14 +70,14 @@ Optimize your images with a perfect balance in quality and file size.
 - https://highlightjs.org/usage/
 
 
-
+### 8.文本 markdown
 
 > Live (Github-flavored) Markdown Editor
 
 - https://github.com/jbt/markdown-editor
 
 
-
+### 9.移动端 手势
 
 > Hammer.js
 
