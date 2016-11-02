@@ -50,7 +50,7 @@ Optimize your images with a perfect balance in quality and file size.
 
 
 
-### 6.日期格式化
+### 6.文本 日期
 
 > Moment.js
 
@@ -77,16 +77,7 @@ Optimize your images with a perfect balance in quality and file size.
 - https://github.com/jbt/markdown-editor
 
 
-### 9.移动端 手势
-
-> Hammer.js
-
-- http://hammerjs.github.io/getting-started/
-
-- http://hammerjs.github.io/
-
-
-
+### 9.文本 数值
 
 
 > Numeral.js
@@ -94,3 +85,11 @@ Optimize your images with a perfect balance in quality and file size.
 - A javascript library for formatting and manipulating numbers.
 
 - http://numeraljs.com/
+
+### 10.移动端 手势
+
+> Hammer.js
+
+- http://hammerjs.github.io/getting-started/
+
+- http://hammerjs.github.io/
