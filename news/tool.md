@@ -56,3 +56,10 @@ Optimize your images with a perfect balance in quality and file size.
 - http://hammerjs.github.io/getting-started/
 
 - http://hammerjs.github.io/
+
+
+> Numeral.js
+
+- A javascript library for formatting and manipulating numbers.
+
+- http://numeraljs.com/
