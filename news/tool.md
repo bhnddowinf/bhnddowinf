@@ -108,22 +108,31 @@ Optimize your images with a perfect balance in quality and file size.
 - https://bevacqua.github.io/dragula/
 
 
+### AJAx
 
+- https://github.com/github/fetch
+
+- https://github.com/mzabriskie/axios
+
+- https://github.com/naugtur/xhr
+
+- https://github.com/ded/reqwest
 
 
 ## 使用jquery的imagecropper插件做用户头像上传 兼容移动端
 
-    http://www.asheep.cn/skill/imagecropper.html
+-    http://www.asheep.cn/skill/imagecropper.html
 
 ## 前端本地客户端压缩图片，兼容IOS，Android，PC、自动按需加载文件
 
-    https://github.com/think2011/localResizeIMG
+-    https://github.com/think2011/localResizeIMG
 
-    http://think2011.github.io/localResizeIMG/test/
+-    http://think2011.github.io/localResizeIMG/test/
 
 ## mobile-iamge-upload
 
-    https://github.com/Iamlars/mobile-iamge-upload/blob/master/README.md
+-    https://github.com/Iamlars/mobile-iamge-upload/blob/master/README.md
+
     移动端图片上传学习示例
     深深的依赖于jquery,lrz.js,cropper.js
     功能简介
@@ -133,7 +142,99 @@ Optimize your images with a perfect balance in quality and file size.
 
 ## html5图片压缩，支持pc，mobile（ios/android）和multiple
 
-    http://mhbseal.com/demo/html5/html5ImgCompress/demo/index.html
+-   http://mhbseal.com/demo/html5/html5ImgCompress/demo/index.html
+
+## 多功能图片上传，支持截图黏贴，拖拽，文件上传
+
+-   http://upload.leanapp.cn/
 
 
-http://upload.leanapp.cn/
+## 这个项目收集移动端开发所需要的一些资源与小技巧
+
+-   https://github.com/jtyjty99999/mobileTech
+
+-   http://bennettfeely.com/clippy/
+
+##前端本地客户端压缩图片，兼容IOS，Android，PC、自动按需加载文件
+
+-   http://think2011.github.io/localResizeIMG/test/
+
+##3d 網頁簽名
+-   http://digital.ds.com.cn/DS_4S/#/sign
+
+
+## 【CSS进阶】试试酷炫的 3D 视角
+-   http://www.cnblogs.com/coco1s/p/5847080.html
+
+
+
+## bLazy.js – A lazyload image script
+-   http://dinbror.dk/blog/blazy/
+
+
+## video.js
+-   http://videojs.com/
+
+
+## loading-spinners-animated-with-css3.html
+-   http://www.cnblogs.com/lhb25/archive/2013/12/28/
+
+## CSS3 LOADING
+-   https://quizlet.com/28879591/css-360-flash-cards/
+
+## CSS 360 flash cards
+- http://imweb.io/topic/577e64a47c99347163ec0b10
+
+## 移动端重构实战系列1——基础知识
+
+- http://codepen.io/
+
+## 很好的動畫演示網站
+
+- https://github.com/h5bp/Effeckt.css
+
+## modals 交互的動畫庫
+
+- https://github.com/juliangarnier/anime
+
+
+## velocity JS demo
+
+- http://codepen.io/sol0mka/pen/kzyjJ
+
+
+- http://daniel-lundin.github.io/snabbt.js/index.html
+
+- https://www.woothemes.com/flexslider/
+
+- http://isux.tencent.com/css3/tools.html
+
+## 交互工具 (很好用)
+
+- http://www.w3cplus.com/css3/css-secrets/cutout-corners.html
+
+## CSS秘密花园：斜切角
+
+- https://daniel-lundin.github.io/snabbt.js/#demos
+
+- http://greensock.com/examples-showcases
+
+- http://www.createjs.com/tweenjs
+
+- http://bingojs.oschina.mopaas.com/test/box/box.html
+
+## 控制器(controller)：主要负责box组件的创建
+
+- box组件(component)：定义top属性与dom层top值绑定，参数Tween算法运动， 运动完后自动删除
+
+- http://idangero.us/swiper/#.V1Q4s_l97Dc
+
+- https://github.com/julianshapiro/velocity
+
+## Tween实例效果-测试 bingoJS 2.x 绑定性能
+
+- 场景：创建一组box并通过Tween算法设置box.top属性检验绑定性能
+
+- 说明：dome定义了一个控制器(controller)和一个box组件(component)
+
+- http://hiloteam.github.io/index.html
