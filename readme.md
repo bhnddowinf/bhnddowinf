@@ -48,6 +48,9 @@
 
 - [SVG 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/svg.md)
 
+- [Canvas 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/canvas.md)
+
+
 - [CSS3 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/css3.md)
 
 - [vr 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/vr.md)
