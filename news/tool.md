@@ -37,3 +37,22 @@ Optimize your images with a perfect balance in quality and file size.
 > [Parse, validate, manipulate, and display dates in JavaScript.]
 
 - http://momentjs.com/
+
+
+> highlight.js
+
+- Syntax highlighting for the Web
+
+- https://highlightjs.org/
+
+- https://highlightjs.org/usage/
+
+> Live (Github-flavored) Markdown Editor
+
+- https://github.com/jbt/markdown-editor
+
+> Hammer.js
+
+- http://hammerjs.github.io/getting-started/
+
+- http://hammerjs.github.io/
