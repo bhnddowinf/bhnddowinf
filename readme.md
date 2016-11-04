@@ -59,6 +59,7 @@
 
 - [design 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/design.md)
 
+- [weixin 整理中] (https://github.com/bhnddowinf/bhnddowinf/blob/master/news/weixin.md)
 
 
 
