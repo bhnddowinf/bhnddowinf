@@ -52,3 +52,19 @@ JavaScript.md
 
 - http://think2011.net/
 
+https://github.com/airen/DemoHouse 大漠整理两年多的 demo
+从互联网上各种平台上收集两年之久的Demo，今天放到github上了，有需要的可以猛击：https://github.com/airen/DemoHouse 大部分来自于CodeHouse、Codrops和CodePen。应该有几百个，如果你有好的示例，也欢迎提交PR
+
+yarn
+https://yarnpkg.com/en/docs/install 
+類似 npm 管理依賴
+
+js book 函數式指南
+https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details
+
+利用 generator 解决回调地狱
+https://zhuanlan.zhihu.com/p/22319621
+
+jsonp 的實現
+https://zhuanlan.zhihu.com/p/22338759
+

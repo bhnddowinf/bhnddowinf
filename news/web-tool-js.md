@@ -238,3 +238,38 @@ Optimize your images with a perfect balance in quality and file size.
 - 说明：dome定义了一个控制器(controller)和一个box组件(component)
 
 - http://hiloteam.github.io/index.html
+
+
+## bootstrap
+
+> Pingendo免費全視覺化Bootstrap開發工具，設計RWD網頁更直覺
+
+- http://pingendo.com/
+
+> Pinegrow Web Editor暗黑祕技!將網路上喜歡的版型直接搬回家
+
+- https://www.minwt.com/webdesign-dev/html/15658.html
+
+> Bootstrap 4 Cheat Sheet
+
+- 網站名稱：Bootstrap 4 Cheat Sheet 
+
+- 網站連結：https://hackerthemes.com/bootstrap-cheatsheet/
+
+# Mock.js
+
+Build Status 
+Mock.js 是一款模拟数据生成器，旨在帮助前端攻城师独立于后端进行开发，帮助编写单元测试。提供了以下模拟功能： 
+根据数据模板生成模拟数据 
+模拟 Ajax 请求，生成并返回模拟数据 
+基于 HTML 模板生成模拟数据 
+https://github.com/nuysoft/Mock/wiki
+
+
+#RxJS初体验
+http://www.w3ctech.com/topic/1298
+
+#Reactive Programming 簡介與教學(以 RxJS 為例)
+http://blog.techbridge.cc/2016/05/28/reactive-programming-intro-by-rxjs/
+
+
