@@ -1,0 +1,1339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"target",
+				"target='_blank"
+			],
+			[
+				"tart",
+				"target='_new"
+			],
+			[
+				"re",
+				"resolve"
+			],
+			[
+				"T",
+				"Today1"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"gcd",
+				"gcdURL"
+			],
+			[
+				"ch",
+				"chapterData"
+			],
+			[
+				"c",
+				"courseData"
+			],
+			[
+				"vi",
+				"videos"
+			],
+			[
+				"sale",
+				"saleone"
+			],
+			[
+				"comap",
+				"companys"
+			],
+			[
+				"number",
+				"numberone"
+			],
+			[
+				"b",
+				"bColor"
+			],
+			[
+				"P",
+				"Parent"
+			],
+			[
+				"userAll",
+				"userAll_ary〔variable〕"
+			],
+			[
+				"user",
+				"userAll_ary〔variable〕"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"d",
+				"disabled\tAttr"
+			],
+			[
+				"add",
+				"addthat_id"
+			],
+			[
+				"wo",
+				"workday_id"
+			],
+			[
+				"t",
+				"target\tAttr"
+			],
+			[
+				"workday",
+				"workday_id"
+			],
+			[
+				"co",
+				"components"
+			],
+			[
+				"My",
+				"MyComponentChild"
+			],
+			[
+				"M",
+				"MyComponent2"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"do",
+				"doSort"
+			],
+			[
+				"lin",
+				"line-through"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"on",
+				"onclick\tAttr"
+			],
+			[
+				"ex",
+				"example-3"
+			],
+			[
+				"wor",
+				"workday"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"addthat",
+				"addthat_id"
+			],
+			[
+				"wok",
+				"workday_id"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"addwork",
+				"addwork2010"
+			],
+			[
+				"field",
+				"fieldDept"
+			],
+			[
+				"inpu",
+				"inputText"
+			],
+			[
+				"p",
+				"prop"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"mt",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"cl",
+				"clearTimeout〔function〕"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"gr",
+				"groupData"
+			],
+			[
+				"g",
+				"groupData〔variable〕"
+			],
+			[
+				"po",
+				"popupPic〔variable〕"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"close",
+				"closeBtn"
+			],
+			[
+				"fad",
+				"fadeOut"
+			],
+			[
+				"win",
+				"winHeight〔variable〕"
+			],
+			[
+				"fa",
+				"fadeIn"
+			],
+			[
+				"ma",
+				"marginLeft"
+			],
+			[
+				"pic",
+				"picHeight〔variable〕"
+			],
+			[
+				"popu",
+				"popupPic〔variable〕"
+			],
+			[
+				"s",
+				"source"
+			],
+			[
+				"pop",
+				"popupWin"
+			],
+			[
+				"cu",
+				"currentObj"
+			],
+			[
+				"in",
+				"initPopup"
+			],
+			[
+				"gro",
+				"groupList"
+			],
+			[
+				"group",
+				"groupName"
+			],
+			[
+				"bg",
+				"bg\tbackground: #${1:000};"
+			],
+			[
+				"h",
+				"h\theight"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"li",
+				"lightbox"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"fs",
+				"fsm-a\tfont-smooth: auto;"
+			],
+			[
+				"bga",
+				"background-attachment"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"td",
+				"text-decoration"
+			],
+			[
+				"lh",
+				"line-height"
+			],
+			[
+				"_",
+				"_checkPosition"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"sc",
+				"scrollto"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"e",
+				"extend"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"toolbar",
+				"toolbar-btn"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tool",
+				"toolbar-size"
+			],
+			[
+				"too",
+				"toolbar-item"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"fi",
+				"fs:i\tfont-style:italic"
+			],
+			[
+				"isE",
+				"isEqual"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"def",
+				"define〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Administrator/Desktop/macbook laravel install1.md",
+			"settings":
+			{
+				"buffer_size": 3574,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/IDE/Sublime Text Build 3083 x64/Data/Packages/User/MarkdownPreview.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 197,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "mark",
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inp",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"add r",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"Forma",
+				"Format: Javascript"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inp",
+				"Package Control: Install Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"default.asp",
+			"import  urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			" ctrl+` "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/macbook laravel install1.md",
+		"/E/IDE/Sublime Text Build 3083 x64/Data/Packages/User/MarkdownPreview.sublime-settings",
+		"/E/IDE/Sublime Text Build 3083 x64/Data/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/E/github/bhnddowinf/news/web-vue2-js.md",
+		"/E/github/bhnddowinf/news/web-three-js.md",
+		"/E/github/bhnddowinf/readme.md",
+		"/E/github/bhnddowinf/news/web-type-script-js.md",
+		"/E/github/bhnddowinf/news/web-vr.md",
+		"/E/github/bhnddowinf/news/web-vue-js-demo.md",
+		"/E/github/bhnddowinf/news/web-vue-js-plugs.md",
+		"/E/github/bhnddowinf/news/web-vue-js-doc.md",
+		"/E/github/bhnddowinf/news/web-game.md",
+		"/E/github/bhnddowinf/news/soft-sketch.md",
+		"/E/github/bhnddowinf/news/soft-axure.md",
+		"/E/github/bhnddowinf/news/tool.md",
+		"/E/github/bhnddowinf/news/nodejs.md",
+		"/E/github/bhnddowinf/news/react-native.md",
+		"/E/github/bhnddowinf/news/AdobeAnimateCC.md",
+		"/E/github/bhnddowinf/news/angular.md",
+		"/E/github/bhnddowinf/news/cocos.md",
+		"/E/github/bhnddowinf/news/css3.md",
+		"/E/github/bhnddowinf/news/DataVisualization.md",
+		"/E/github/bhnddowinf/news/docker.md",
+		"/E/github/bhnddowinf/news/electron.md",
+		"/E/github/bhnddowinf/news/go.md",
+		"/E/github/bhnddowinf/news/JavaScript.md",
+		"/E/github/bhnddowinf/news/php.md",
+		"/D/[2015] soft/[Adobe] CC 2015 软件下载 Mac+Win/Adobe CC 2015 X-FORCE注册机/install.txt",
+		"/C/Users/Administrator/Desktop/adobe 2017/Adobe CC 通用PO解补丁/Adobe CC 通用破解补丁/Mac/使用方法.txt",
+		"/E/github/bhnddowinf/news/weixin.md",
+		"/E/github/bhnddowinf/news/react-demo.md",
+		"/E/github/bhnddowinf/news/canvas.md",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1478145304/mapped/cms_cn/tcstc/work_path/view.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1478138473/mapped/cms_cn/tcstc/work_path/index_G.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1478070339/mapped/serp/tcstc/resume/resume_index.asp",
+		"/C/Users/Administrator/Desktop/2.html",
+		"/E/github/bhnddowinf/news/vuejs2.md",
+		"/E/www/aliyun_ray/sftp-config.json",
+		"/E/www/aliyun_ray/tcstc/checklist/cQuote_isend.asp",
+		"/E/github/vuejs2-test/src/App.vue",
+		"/E/github/vuejs2-test/index.html",
+		"/E/github/vuejs2-test/src/main.js",
+		"/E/github/vuejs2-test/package.json",
+		"/C/Users/Administrator/Desktop/rxjsxvue-master/package.json",
+		"/E/www/aliyun_ray/tcstc/prove_expense/FUN_Link_Check.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477817484/mapped/ray/tcstc/thing1/FUN_Link_Check.asp",
+		"/E/www/aliyun_ray/dznews/check_form_for_vet_mode1.asp",
+		"/E/www/workday/index.asp",
+		"/E/IDE/Sublime Text Build 3083 x64/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/E/github/vuejs2-learn/readme.md",
+		"/E/AppServ/www/L/config/database.php",
+		"/E/AppServ/Apache24/conf/httpd.conf",
+		"/E/AppServ/php7/php.ini",
+		"/E/github/react/docs/docs/installation.md",
+		"/E/github/react/docs/docs/introducing-jsx.md",
+		"/C/Users/Administrator/Desktop/react.js",
+		"/E/github/vuejs2-learn/my-project/build/webpack.dev.conf.js",
+		"/E/github/vuejs2-learn/my-project/build/webpack.prod.conf.js",
+		"/E/github/vuejs2-learn/my-project/src/vuejs2-demo/treeview/item-template.vue",
+		"/E/github/vuejs2-learn/my-project/src/vuejs2-demo/treeview/app.vue",
+		"/E/github/vuejs2-learn/my-project/src/App.vue",
+		"/E/github/vuejs2-learn/my-project/src/vuejs2-demo/treeview/index.html",
+		"/E/github/vuejs2-learn/my-project/src/vuejs2-demo/treeview/app.js",
+		"/E/github/vuejs2-learn/my-project/build/webpack.base.conf.js",
+		"/E/github/bhnddowinf/news/react.md",
+		"/E/github/bhnddowinf/news/svg.md",
+		"/E/github/bhnddowinf/news/vr.md",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/src/spa/index.js",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/src/spa/home.vue",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/build/webpack.dev.conf.js",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/build/webpack.base.conf.js",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/build/webpack.prod.conf.js",
+		"/E/www/aliyun_cms_cn/sftp-config.json",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/package.json",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/view/spa/index.html",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/src/addwork/add.js",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/src/spa/index.vue",
+		"/E/github/vuejs2-learn/vue-router-learn.md",
+		"/E/github/vuejs2-learn/my-project/src/vue-router-demo/webpack.config.js",
+		"/E/github/vuejs2-learn/my-project/src/vue-router-demo/server.js",
+		"/E/github/vue-router/examples/server.js",
+		"/E/IDE/Sublime Text Build 3083 x64/sublime_delright.reg",
+		"/E/IDE/Sublime Text Build 3083 x64/sublime.py",
+		"/E/IDE/Sublime Text Build 3083 x64/sublime_addright.reg",
+		"/E/github/vue-router/examples/basic/app.js",
+		"/E/www/ginang/tcstc/quote/quote_print.asp",
+		"/C/Users/Administrator/Desktop/問题：vuex-router-sync 作用为何？.txt",
+		"/E/github/react-dva/README.md",
+		"/E/www/aliyun_ray/tcstc/quote/quote_index01.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477452191/mapped/ray/tcstc/PaymentForGoods/index.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477452381/mapped/ray/tcstc/PaymentForGoods/style/page.css",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477450602/mapped/ray/tcstc/quote/head.asp",
+		"/E/www/aliyun_ray/tcstc/cmoney/query/show_table.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477445855/mapped/ray/tcstc/cmoney/query/query_content1.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477445723/mapped/ray/tcstc/cmoney/query/query.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477445059/mapped/ray/tcstc/work_path/update.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477444671/mapped/ray/tcstc/work_path/seq_no_add.asp",
+		"/E/github/vuejs2-learn/vuex-learn.md",
+		"/E/github/vuejs2-learn/vuejs2-form.md",
+		"/E/github/vuejs2-first-test/src/shopping-cart/api/shop.js",
+		"/E/IDE/Sublime Text Build 3083 x64/Data/Packages/cmd/cmd.py",
+		"/E/IDE/Sublime Text Build 3083 x64/Data/Packages/Context.sublime-menu",
+		"/E/IDE/Sublime Text Build 3083 x64/Data/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477286106/mapped/cms_cn/tcstc/inc/name.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477286375/mapped/cms_cn/tcstc/prove_expense/FUN_QueryHead.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477286062/mapped/cms_cn/tcstc/prove_expense/index.asp",
+		"/C/users/admini~1/appdata/local/temp/sublime-sftp-browse-1477285777/mapped/cms_cn/tcstc/prove_expense/FUN_Link_Check.asp",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/view/addwork/add.html",
+		"/C/Users/Administrator/Desktop/vue2 表单整理.txt",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/src/addwork/form_add.vue",
+		"/E/www/aliyun_cms_cn/tcstc/vue2/src/addwork/mintui_03_Navbar.vue",
+		"/E/www/workday/vue/view_addthat.html",
+		"/E/www/workday/addthat/add.asp",
+		"/E/www/workday/addthat/del.asp",
+		"/E/www/workday/vue/view_just_v0.html",
+		"/E/www/workday/del.asp",
+		"/E/www/workday/json/03.asp",
+		"/E/github/vuejs2-first-test/build/webpack.base.conf.js",
+		"/E/github/vuejs2-first-test/build/utils.js",
+		"/E/github/vuejs2-first-test/src/shopping-cart/api/shop.json",
+		"/E/github/vuejs2-first-test/src/shopping-cart/components/App.vue",
+		"/E/github/vuejs2-learn/my-project/src/components/Hello.vue",
+		"/E/github/vuejs2-first-test/src/shopping-cart/store/actions.js",
+		"/E/github/vuejs2-first-test/src/shopping-cart/app.js",
+		"/E/github/vuejs2-learn/my-project/src/vuex-demo/shopping-cart/api/shop.js",
+		"/E/github/vuejs2-first-test/build/webpack.dev.conf.js",
+		"/E/github/vuejs2-first-test/package.json",
+		"/E/github/vuejs-t1/package.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    <br>",
+			"Wclass_oData",
+			"seq_no",
+			"tar",
+			"^\\n",
+			"markdown",
+			"Fun_paymentforgood",
+			"\n",
+			"debug1=true",
+			"uT tT aT lT 判斷",
+			"true",
+			"debug",
+			"瀏",
+			"port",
+			"D:\\\\Program Files\\\\Sublime Text 3\\\\sublime_text.exe",
+			"store.state.route",
+			"^set^",
+			"query()",
+			"^set^",
+			"clng",
+			"work_path_class_id",
+			"^set^",
+			"# ---------- ",
+			"^set^",
+			"##--",
+			"-----head 区-->",
+			"FUN_QueryHead.asp",
+			"view_single",
+			"selected",
+			"picked",
+			"checkedNames",
+			"view",
+			"target",
+			"其他项目",
+			"首页",
+			"\t",
+			"calcnt",
+			"js",
+			"comp_id",
+			"^set^",
+			"/serp/",
+			"active",
+			"nav ul li",
+			"0cf",
+			"header",
+			"\t",
+			"schedule",
+			"$}",
+			"form",
+			"交往",
+			"form",
+			"全部",
+			"asp",
+			"group by",
+			"paymentforgoods",
+			"payment",
+			"??0??0¡§????¨¨J??¨¬??0??1??0??7??¡ì",
+			"ary_gcd_level_name",
+			"之最後一筆",
+			"getName",
+			"fetchDataPost6",
+			"fetchDataPost5",
+			"fetchDataPost4",
+			"fetchDataPost3",
+			"fetchDataPost2",
+			"fetchDataPost1",
+			"        date: \"\",",
+			"console.log",
+			"^set^",
+			"fc11",
+			"fc12",
+			"#selectUnit",
+			"#S1",
+			"\\n\\n",
+			"http://www.tcstc.com.tw/cms/",
+			"\"",
+			"big5",
+			"950",
+			"SiteCms_cnTcstcPage_backupPage_backup",
+			"file1",
+			"page_backup",
+			"dbo",
+			"\t",
+			"一機三證",
+			"施工人員名冊",
+			"allow_date",
+			"w_date1",
+			"w_date",
+			"MsgBox ",
+			"delmenu",
+			"http://localhost/workday/",
+			"”",
+			"\"",
+			"文件上傳",
+			"</span>",
+			"<span class=\"row1\">",
+			"\"",
+			"蒸發量",
+			"509",
+			"aryAccumulatedIncome",
+			"^set^",
+			"asp",
+			"form",
+			"view_both_addthat",
+			"view_both_addthat.asp",
+			"vue",
+			"js",
+			"第二個文字框，按四下",
+			"複製至",
+			"二、將",
+			"    ",
+			"browser",
+			"\"indent_size\": 4",
+			"body",
+			"ctrl+shift+h",
+			"radio-vaue",
+			"url",
+			"http",
+			"chart",
+			"comments",
+			"hexo",
+			"order",
+			"www.tcstc.com.tw",
+			"../../tcstc",
+			"../tcstc",
+			" ? ",
+			" / ",
+			"server.urlencode"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"E:\\\\IDE\\\\Sublime Text Build 3083 x64\\\\sublime_text.exe",
+			"26",
+			"p",
+			"csng",
+			"work_path_memo",
+			"# ",
+			"dom",
+			"##",
+			"^set^",
+			"    ",
+			"order",
+			"thing1",
+			"/cms_cn/",
+			"    ",
+			"face",
+			"",
+			"GetManList_Name",
+			"fary_man_list_all",
+			"fary_gcd_result_pi",
+			"fary_gcd_level_name",
+			"fary_gcd_kind",
+			"fary_gcd",
+			"fary_gcd_dept",
+			"",
+			"J",
+			"fc12",
+			"fc11",
+			"#select3",
+			"http://123.57.20.183/serp/",
+			"'",
+			"utf-8",
+			"65001",
+			"  ",
+			"作業主管證",
+			"一機三證",
+			"allow_date1",
+			"w_date1",
+			"MsgBox",
+			"",
+			"'",
+			"",
+			"'",
+			"\"\"",
+			"營收",
+			"j",
+			"\"indent_size\": 2",
+			"123.57.20.183",
+			"http://123.57.20.183/serp/tcstc",
+			"../../tcstc",
+			"?",
+			"/",
+			"encodeURI",
+			"\"</a>\";",
+			"+",
+			":",
+			"\"indent_size\": 2",
+			"123.57.20.183",
+			"SiteSerp_tcstc_PaymentForGoods_PaymentForGoods_mdb",
+			"Siteserp_tcstc_PaymentForGoods_Tab2_Fun_tab_data_mdb",
+			"SiteSerp_tcstc_Database_data_mdb",
+			"SiteSerp_tcstc_company_database_comp_mdb",
+			"<",
+			"waitting",
+			"'",
+			"/",
+			"var_b",
+			"data_db",
+			"var_b",
+			"qb01",
+			"1.儀表/談吐",
+			"col-md-8",
+			"col-md-4",
+			"col-xs",
+			"col-log-6",
+			"col-log-8",
+			"col-log-4",
+			" value='<%=rsMain(\"date_interview\")%>' ",
+			"1em",
+			"siteRay_data_jk_joekoe_data",
+			"SiteSerp_tcstc_company_database_comp_mdb",
+			"[site^cms_cn^data_jk^joekoe_data]",
+			"",
+			"(螢)",
+			"",
+			"Fun_GetTcstc",
+			"t_tcstc_no",
+			"T",
+			"",
+			"colorWhite",
+			" = ",
+			"",
+			"5288",
+			"body",
+			"MESSAGE",
+			"body",
+			"2",
+			"1",
+			"rs1.",
+			"1",
+			"align=\"center\"",
+			"col-xs",
+			"6",
+			"1",
+			"tcstc_index5_view.asp",
+			"action",
+			"tcstc_index5_view.asp",
+			"ffffff",
+			"    ",
+			"报价单",
+			"",
+			"报价单 成交率统计",
+			"utf-8",
+			"65001",
+			"",
+			"423",
+			"fieldDept",
+			"    ",
+			"",
+			"    ",
+			"strLine",
+			"fileWrite",
+			"",
+			"SupplyBargainingToOrder",
+			"\\n\\n",
+			"",
+			"\\n",
+			"  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Administrator/Desktop/macbook laravel install1.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								963,
+								963
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"incomplete_sync": null,
+							"parser": "markdown",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/MultiMarkdown.sublime-syntax",
+							"target": "browser"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/IDE/Sublime Text Build 3083 x64/Data/Packages/User/MarkdownPreview.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										196,
+										197
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "soft-sketch.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"addthat/add.asp",
+				"addthat\\add.asp"
+			],
+			[
+				"addthat/del.asp",
+				"addthat\\del.asp"
+			],
+			[
+				"del.asp",
+				"del.asp"
+			],
+			[
+				"just_v",
+				"vue\\view_just_v0.html"
+			],
+			[
+				".b",
+				"tcstc\\vue2\\.babelrc"
+			],
+			[
+				"jsonasset2",
+				"tcstc\\json\\asset2_main.asp"
+			],
+			[
+				"jsonskind",
+				"tcstc\\json\\gcd_skind.asp"
+			],
+			[
+				"gcd_check_result_big5.js",
+				"tcstc\\vue\\gcd_check_result_big5.js"
+			],
+			[
+				"jsongcd_201",
+				"tcstc\\json\\gcd_2016.asp"
+			],
+			[
+				"addthatadd",
+				"addthat\\add.asp"
+			],
+			[
+				"fun_addthat",
+				"fun_addthat_class_add.asp"
+			],
+			[
+				"fun_addt",
+				"fun_addthat_class.asp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\IDE\\Sublime 專案\\cc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

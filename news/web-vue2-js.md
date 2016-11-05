@@ -96,6 +96,16 @@ vuejs2.md
 
 
 
+### 简介：尤大写的，如何对 vue 组件使用 ts 语法
+> ECMAScript / TypeScript decorator for class-style Vue components.
+> https://github.com/vuejs/vue-class-component
+
+
+### 装了这之后，你可以用下列插件
+> 再进一步 对 prop and watch 使用 ts 语法
+> https://github.com/kaorun343/vue-property-decorator
+
+
 ### temp
 
 ```js
