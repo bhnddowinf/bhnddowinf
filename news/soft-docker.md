@@ -9,10 +9,12 @@
 https://joshhu.gitbooks.io/docker_theory_install/content/ 
 
 # docker for windows 
-    https://docs.docker.com/docker-for-windows/ 
 
-    下載安裝 
+- https://docs.docker.com/docker-for-windows/ 
 
-    Note: Docker for Windows requires 64bit Windows 10 Pro, Enterprise and Education (1511 November update, Build 10586 or later) and Microsoft Hyper-V. Please see What to know before you install for a full list of prerequisites.
+- 下載安裝 
+
+- Note: Docker for Windows requires 64bit Windows 10 Pro, Enterprise and Education (1511 November update, Build 10586 or later) and Microsoft Hyper-V. Please see What to know before you install for a full list of prerequisites.
+
 
 
