@@ -44,11 +44,14 @@ http://nqdeng.github.io/7-days-nodejs/
 
 # Smashing Node.js: JavaScript Everywhere
 > http://as.wiley.com/WileyCDA/WileyTitle/productCd-1119962595.html
-> 
+
 
 # node.js 开机执行
+
 > https://github.com/foreverjs/forever
+
 > http://cire.pixnet.net/blog/post/36642482-%5Bnode.js%5D%E8%AE%93-nodejs-%E7%A8%8B%E5%BC%8F-%E6%B0%B8%E9%81%A0%E4%B8%8D%E5%81%9C%E6%AD%A2---forever
+
 > http://u1413745095-blog.logdown.com/posts/241538-nodejs-program-permanently-carry-out
 
 
