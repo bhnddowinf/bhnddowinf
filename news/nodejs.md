@@ -52,8 +52,7 @@ http://nqdeng.github.io/7-days-nodejs/
 
 - [[Node.js]讓 NodeJS 程式 永遠不停止 - forever] (http://cire.pixnet.net/blog/post/36642482-%5Bnode.js%5D%E8%AE%93-nodejs-%E7%A8%8B%E5%BC%8F-%E6%B0%B8%E9%81%A0%E4%B8%8D%E5%81%9C%E6%AD%A2---forever)
 
-
--[讓Node.js程式永久執行 - forever module] (http://u1413745095-blog.logdown.com/posts/241538-nodejs-program-permanently-carry-out)
+- [讓Node.js程式永久執行 - forever module] (http://u1413745095-blog.logdown.com/posts/241538-nodejs-program-permanently-carry-out)
 
 
 
