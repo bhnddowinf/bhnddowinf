@@ -7,6 +7,12 @@ vr.md
 
 ### 好文
 
+
+
+#深度解析！天猫双11宇宙 H5 的惊艳效果是如何实现的？
+http://www.digitaling.com/articles/31448.html
+
+
 > 使用pano2vr制作多场景热点切换的html5全景图应用
 
 - http://www.jslover.com/code/536.html

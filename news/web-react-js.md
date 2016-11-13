@@ -160,6 +160,8 @@
 - https://segmentfault.com/n/1330000004266763
 
 
+#RS 組件溝通
+http://www.alloyteam.com/2016/01/some-methods-of-reactjs-communication-between-components/
 
 
 #### 测试

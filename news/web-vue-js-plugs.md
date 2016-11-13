@@ -1,17 +1,20 @@
 
-ＶＵＥ２ rx.js
+# vue-rx
 https://github.com/vuejs/vue-rx
 
-bootstrap4 vue.js2
+# bootstrap4 vue.js2
 https://github.com/pi0/bootstrap-vue
 
-touch 波浪
+# vue-ZdatePicker
+https://github.com/zhowiny/vue-ZdatePicker
+
+# touch 波浪
 https://surmon-china.github.io/vue-touch-ripple/
 
-vue2-ajax-from
+# vue2-ajax-from
 https://github.com/lincenying/vue2-ajax-form
 
-Vue-Codemirror
+# Vue-Codemirror
 Codemirror component for Vue.js(1.x ~ 2.x)，本组件基于 Codemirror构建，支持Vue全版本使用，支持100+多种语言、分支语言、语法，支持多种代码高亮theme，并可以自行配置，可使用Vue-Codemirror快速轻易构建出多种丰富全面的web code editor，并以此基础多次开发WebID 
 https://github.com/surmon-china/vue-codemirror
 
@@ -20,19 +23,18 @@ github地址：https://github.com/wendaosanshou/vue-fullpage
 demo地址：http://vue.wendaosanshou.top/vue_fullpage_demo/ 
 跪求各位大大给点start啊。
 
-基于vue开发的material design ui库
+# 基于vue开发的material design ui库
 https://myronliu347.github.io/vue-carbon
 
-日期
-lightweight, powerful datetimepicker. zero dependencies https://chmln.github.io/flatpickr
+# 日期 flatpickr
+https://chmln.github.io/flatpickr
 
+# vue-upload
 https://github.com/jinzhe/vue-upload
 
-vue 上傳 金哲寫的
+# vue 上傳 金哲寫的
 https://github.com/vuejs/vue-class-component 
 vue-class-component
-
-ECMAScript / TypeScript decorator for class-style Vue components.
 
 移动端下拉刷新、上拉加载更多插件 备著
 

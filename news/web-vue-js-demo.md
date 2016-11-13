@@ -70,3 +70,25 @@ http://js.iydsj.com/login/index
 
 美服客服平台
 http://zhuanlan.zhihu.com/p/21596136?f3fb8ead20=c0b46e818d90debc28827da33e475f67
+
+# 使用vue/vuex/redux开发的卖座网
+https://github.com/William-WFC/maizuo/
+
+# vue-validator
+https://github.com/vuejs/vue-validator/tree/2.x/docs/zh-cn
+
+# daza.io
+    https://laravel-china.org/topics/3040
+    「 daza.io 」是打杂的拼音，也是对一种自嘲，其实个人感觉敢自称自己是打杂的人综合能力都是挺强的。
+    主页：http://daza.io
+    接口：http://api.daza.io
+    查看文档： http://api.daza.io/docs
+
+# 六月天小說網
+    http://lyt.alliread.com/
+
+# dwy-market
+https://github.com/GirlSmileToMe/dwy-market
+
+# 从零构建vue2 + vue-router + vuex 开发环境到入门，实现基本的登录退出功能
+https://github.com/lzxb/vue2-demo

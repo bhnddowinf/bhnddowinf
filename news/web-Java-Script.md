@@ -7,6 +7,11 @@ JavaScript.md
 - 世界变化太快，只能冷眼以对，慢慢拾取
 
 
+# 小志 /with-round-draw/ 
+
+> http://lab.tianyizone.com/with-round-draw/
+
+
 > [LeetCode题解] (https://www.gitbook.com/book/siddontang/leetcode-solution/details)
 
 > [技术学习必备网站和文章] (http://www.kancloud.cn/wujie520303/bookmark/221929)
@@ -67,4 +72,16 @@ https://zhuanlan.zhihu.com/p/22319621
 
 jsonp 的實現
 https://zhuanlan.zhihu.com/p/22338759
+
+#详解：怎样实现前端裁剪上传图片功能
+https://zhuanlan.zhihu.com/p/23340867
+
+#javascript 获取页面高度（多种浏览器）（转）
+http://www.cnblogs.com/Henllyee/archive/2008/04/20/1162517.html
+
+# 深入理解JavaScript系列
+http://www.cnblogs.com/TomXu/tag/JavaScript/
+
+
+
 

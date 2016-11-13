@@ -10,7 +10,13 @@ vuejs2.md
 > lcy
 
 - http://www.mmxiaowu.com/
+- 
+- https://lincenying.github.io/vue2-flex/
+- 
+- https://github.com/lincenying/vue2-flex
 
+> 葉小釵
+- http://www.cnblogs.com/yexiaochai/
 
 > WYseven 这里的例子在阅读官网文档写出来的，官网给的例子有点简单，所以在这个基础上写了完整的学习例子。
 

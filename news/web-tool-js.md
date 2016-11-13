@@ -272,4 +272,7 @@ http://www.w3ctech.com/topic/1298
 #Reactive Programming 簡介與教學(以 RxJS 為例)
 http://blog.techbridge.cc/2016/05/28/reactive-programming-intro-by-rxjs/
 
-
+# 打印 js
+> http://www.lodop.net/demo.html
+> http://www.c-lodop.com/demolist/PrintSample18.html
+> http://www.c-lodop.com/demolist/PrintSample4.html

@@ -10,6 +10,15 @@
 
 > [CSS深入理解vertical-align和line-height的基友关系] (http://www.zhangxinxu.com/wordpress/2015/08/css-deep-understand-vertical-align-and-line-height/)
 
+
+# 从网易与淘宝的font-size思考前端设计稿与工作流
+http://mp.weixin.qq.com/s?__biz=MzAwNjI5MTYyMw==&mid=2651493324&idx=1&sn=126efc9f0dd3a30169728a2f20527bab&chksm=80f19a04b7861312545429c4a77e18d8de3c0b07e2bc09b1ae54216806c37b33028c1f4ee803&scene=<4 id="wechat_redirect">
+</4>
+
+#JS—触摸事件、手势事件
+http://www.jianshu.com/p/832f36531df9
+
+
 - 鑫空间
 
 
@@ -92,4 +101,20 @@ http://nec.netease.com
 nec 更好的css 規範
 
 http://yincheng.site/using-html-css-instead-of-js?utm_source=tuicool&utm_medium=referral 
+
+
+
 Effective前端1：能使用html/css解决的问题就不要使用JS
+
+
+
+
+# 【原】css实现两端对齐的3种方法
+http://www.cnblogs.com/PeunZhang/p/3289493.html
+
+# 使用Flexible实现手淘H5页面的终端适配
+https://github.com/amfe/article/issues/17
+
+# cssicon.space
+http://cssicon.space/#/animate/close/to/audio
+

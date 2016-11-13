@@ -7,6 +7,9 @@
 #Vuejs .vue里怎么引入第三方js和css呢比如jquery的轮播插件 要引入js和css？
 http://www.zhihu.com/question/41517840
 
+#使用ES6的新特性Proxy来实现一个数据绑定实例
+https://segmentfault.com/a/1190000007443611 ``
+
 
 
 #  vuex2中文翻译
@@ -74,9 +77,12 @@ https://segmentfault.com/a/1190000005770042
 
 #分享一个利用Vue.js ,ajax 多图上传图片（可预览图片）
 
+
+
+#聊聊 Vue 组件命名那些事
 http://www.thinkphp.cn/topic/41737.html
 
-
+http://jingsam.github.io/2016/10/30/vue-components-naming.html
 
 ---
 
@@ -100,8 +106,8 @@ http://web.jobbole.com/87722/
 
 
 ---
-
-
+# vue-router 第二次进入页面不刷新
+https://segmentfault.com/q/1010000006876186/a-1020000006909032
 
 
 
@@ -114,14 +120,10 @@ https://segmentfault.com/a/1190000006695341
 
 
 
+# goodboy
+https://xyxiao001.github.io/tags
 
 
-
-# vue-2.0-boilerplate
->https://github.com/petervmeijgaard/vue-2.0-boilerplate
-
-#杭州 lcy (mmf 小屋（高水平）)
->http://www.mmxiaowu.com/#!/category/1
 
 
 
