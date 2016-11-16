@@ -276,3 +276,7 @@ http://blog.techbridge.cc/2016/05/28/reactive-programming-intro-by-rxjs/
 > http://www.lodop.net/demo.html
 > http://www.c-lodop.com/demolist/PrintSample18.html
 > http://www.c-lodop.com/demolist/PrintSample4.html
+
+
+# chart 兩萬個 star
+> https://github.com/chartjs/Chart.js
