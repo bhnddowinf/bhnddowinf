@@ -114,28 +114,42 @@ http://www.jianshu.com/p/832f36531df9
 
 #阿里无线资源
 
-https://github.com/search?utf8=%E2%9C%93&q=%E7%A7%BB%E5%8A%A8%E7%AB%AF&type=Repositories&ref=searchresults
+- https://github.com/search?utf8=%E2%9C%93&q=%E7%A7%BB%E5%8A%A8%E7%AB%AF&type=Repositories&ref=searchresults
 
 
 #CSS book sample chapter 
-http://www.sketchingwithcss.com/samplechapter/ 
+
+- http://www.sketchingwithcss.com/samplechapter/ 
 
 #flex tool 
-http://demo.agektmr.com/flexbox/ 
+
+- http://demo.agektmr.com/flexbox/ 
 
 #css-tricks 是个大站，这是专业讲解 flexbox 的指南 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
 
 # nec 更好的css 規範
-http://nec.netease.com 
+
+- http://nec.netease.com 
 
 
 # 【原】css实现两端对齐的3种方法
-http://www.cnblogs.com/PeunZhang/p/3289493.html
+
+- http://www.cnblogs.com/PeunZhang/p/3289493.html
 
 # 使用Flexible实现手淘H5页面的终端适配
-https://github.com/amfe/article/issues/17
+
+- https://github.com/amfe/article/issues/17
 
 # cssicon.space
-http://cssicon.space/#/animate/close/to/audio
 
+- http://cssicon.space/#/animate/close/to/audio
+
+# 可伸缩布局方案
+
+- https://github.com/amfe/lib-flexible
+
+# 移动端布局终极解决方案 --- 让移动端布局开发更加容易 
+
+- http://imochen.github.io/hotcss/
+- https://github.com/imochen/hotcss
