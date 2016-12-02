@@ -5,7 +5,7 @@
 
 # svelte.js 官网
 
->https://svelte.technology/
+> https://svelte.technology/
 
 > https://github.com/sveltejs/svelte
 
