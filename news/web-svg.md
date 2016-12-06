@@ -23,3 +23,6 @@
 > [带你轻松打开svg滤镜的大门] (https://isux.tencent.com/svg-filter.html)
 
 - 来源：练小习
+
+# loading svg demo
+http://codepen.io/maxwithu/pen/zoNyjr

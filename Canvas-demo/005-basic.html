@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <script type="application/javascript">
+  function draw() {
+    var canvas = document.getElementById('canvas');
+    if (canvas.getContext) {
+      var ctx = canvas.getContext('2d');
+
+      ctx.beginPath();
+      ctx.arc(75, 75, 50, 0, Math.PI * 2, true); // Outer circle
+      ctx.moveTo(110, 75);
+      ctx.arc(75, 75, 35, 0, Math.PI, false); // Mouth (clockwise)
+      ctx.moveTo(65, 65);
+      ctx.arc(60, 65, 5, 0, Math.PI * 2, true); // Left eye
+      ctx.moveTo(95, 65);
+      ctx.arc(90, 65, 5, 0, Math.PI * 2, true); // Right eye
+      ctx.stroke();
+    }
+  }
+  </script>
+</head>
+
+<body onload="draw();">
+  <canvas id="canvas" width="150" height="150"></canvas>
+
+  <pre>
+    移動畫筆
+
+moveTo()是一個很有用的函數，moveTo()不會畫任何圖形，但卻是上述路徑清單的一部分，這大概有點像是把筆從紙上一點提起來，然後放到另一個點。
+
+moveTo(x, y)
+移動畫筆到指定的(x, y)座標點
+當初始化畫布或是呼叫beginPath()，通常會想要使用moveTo()來指定起始點，我們可以用moveTo()畫不連結的路徑，看一下笑臉圖範例，圖中紅線即為使用到moveTo()的位置。
+
+你可以拿下面的程式碼，放進先前的draw()函數，自己試試看效果。
+
+  </pre>
+</body>
+
+</html>

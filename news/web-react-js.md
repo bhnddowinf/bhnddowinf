@@ -81,6 +81,8 @@
 
 - https://github.com/dvajs/dva-docs/blob/master/v1/zh-cn/getting-started.md
 
+- https://github.com/dvajs/dva-docs/blob/master/v1/zh-cn/tutorial/01-%E6%A6%82%E8%A6%81.md
+- 
 
 
 
@@ -184,3 +186,49 @@ http://www.alloyteam.com/2016/01/some-methods-of-reactjs-communication-between-c
 > Building a Simple Todo List App in React
 
 - https://www.kirupa.com/react/simple_todo_app_react.htm
+
+# awesome-react 中文版
+
+- 一份详细的react的资源，插件，文档，教程，库和使用实例清单。
+https://github.com/Pines-Cheng/awesome-react-cn
+
+# Awesome React Awesome Build Status
+
+- A collection of awesome things regarding React ecosystem.
+https://github.com/enaqx/awesome-react-cn
+
+
+# @郑州-minooo 管理的大作，欢迎大家star。
+- https://github.com/minooo/React-Study
+
+# RSuite 是一个基于 React.js 开发的 Web 组件库
+
+- 参考 Bootstrap 设计，提供其中常用组件，支持响应式布局。
+- 我们的目标就是让 WEB 开发更快捷，同时具有一定的灵活性和扩展性。
+- https://github.com/rsuite/rsuite
+
+
+# react redux react-router webpack isomorphic boilerplate/starter kit
+https://github.com/SteamerTeam/steamer-react
+
+
+# 分享关于 React 相关经验及发展动态 (深入 react 技术线 作者)
+https://zhuanlan.zhihu.com/purerender
+
+# React与Redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware
+https://lewis617.github.io/2016/01/19/r2-counter/ 
+
+# Drag-and-drop sortable representation of hierarchical data 
+- https://fritz-c.github.io/react-sorta…
+- https://github.com/fritz-c/react-sortable-tree
+
+# 恋绘·星祈 (惠灵顿-秋)
+- https://6koi.com/
+- https://github.com/stary-pray/bumo_react
+
+# A framework for building web apps with React Native compatible API. 
+- http://taobaofed.github.io/react-web/
+- https://github.com/taobaofed/react-web
+
+
+

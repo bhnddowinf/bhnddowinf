@@ -123,3 +123,13 @@ Vue.http.options.headers = {
  Vue.http.headers.common['Authorization'] = 'ANASFFASFASDFASD';
 
  ```
+
+
+# 3 分钟搞定 Vue 2.0 服务端渲染
+https://gold.xitu.io/post/57ff45567db2a20059758b7c
+
+# vue2 构建单页应用 最佳实战
+http://gold.xitu.io/post/583d1fe00ce463006baca2fa
+
+
+

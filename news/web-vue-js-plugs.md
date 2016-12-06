@@ -82,3 +82,13 @@ http://fulicat.com/lab/bookmarklet.html
 # A HTML5 video player component for Vue.js
 
 - https://hilongjw.github.io/vue-video/ocean.html
+
+# An html5 wysiwyg editor for vue
+https://github.com/PeakTai/vue-html5-editor
+
+# Scroller Component for Vue.js 
+https://github.com/wangdahoo/vue-scroller
+
+# vue calendar fullCalendar. no jquery required. Schedule events management 
+https://github.com/Wanderxx/vue-fullcalendar
+

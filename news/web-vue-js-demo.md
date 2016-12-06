@@ -96,3 +96,9 @@ https://github.com/GirlSmileToMe/dwy-market
 
 # 从零构建vue2 + vue-router + vuex 开发环境到入门，实现基本的登录退出功能
 https://github.com/lzxb/vue2-demo
+
+# 一步一步搭建一个vue管理系 (hwb2167sq)
+https://github.com/hwb2167sq/vue-explorer
+
+# A webapp what base Vue2.0 contains seaching and playing music
+https://github.com/pluto1114/vue-music163

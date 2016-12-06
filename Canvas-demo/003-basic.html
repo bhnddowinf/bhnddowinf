@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <script type="application/javascript">
+  function draw() {
+    var canvas = document.getElementById('canvas');
+    if (canvas.getContext) {
+      var ctx = canvas.getContext('2d');
+
+      ctx.fillRect(25, 25, 100, 100);
+      ctx.clearRect(45, 45, 60, 60);
+      ctx.strokeRect(50, 50, 50, 50);
+    }
+  }
+  </script>
+</head>
+
+<body onload="draw();">
+  <canvas id="canvas" width="150" height="150"></canvas>
+</body>
+
+</html>
+
+
+// 畫矩形
+// 不同於SVG，<canvas>只支援一種原始圖形，矩形。所有的圖形都必須由一或多個繪圖路徑構成，而我們正好有一些繪圖路徑函數可以讓我們畫出複雜的圖形。
+
+// 首先來看看矩形，共有三個矩形繪圖函數:
+
+// fillRect(x, y, width, height)
+// 畫出一個填滿的矩形。
+// strokeRect(x, y, width, height)
+// 畫出一個矩形的邊框
+// clearRect(x, y, width, height)
+// 清除指定矩形區域內的內容，使其變為全透明。
+// 這三個函數都接受一樣的參數: x, y代表從原點出發的座標位置，width, height代表矩形的寬高。

@@ -86,6 +86,17 @@ http://www.cnblogs.com/Henllyee/archive/2008/04/20/1162517.html
 # 深入理解JavaScript系列
 http://www.cnblogs.com/TomXu/tag/JavaScript/
 
+# 混摇 code，aa en code (日本)
+http://utf-8.jp/public/aaencode.html
+
+# Drag and drop so simple it hurts https://bevacqua.github.io/dragula/
+https://github.com/bevacqua/dragula
+
+
+# 30分钟掌握ES6/ES2015核心内容（上）
+https://segmentfault.com/a/1190000004365693
+https://segmentfault.com/a/1190000004368132
+
 
 
 

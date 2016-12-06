@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <script type="application/javascript">
+  function draw() {
+    var canvas = document.getElementById('canvas');
+    if (canvas.getContext) {
+      var ctx = canvas.getContext('2d');
+
+      ctx.fillRect(25, 25, 100, 100);
+      ctx.clearRect(45, 45, 60, 60);
+      ctx.strokeRect(50, 50, 50, 50);
+    }
+  }
+  </script>
+</head>
+
+<body onload="draw();">
+  <canvas id="canvas" width="150" height="150"></canvas>
+</body>
+
+</html>
+
+// 路徑繪製
+// 使用路徑 (path) 來畫圖形需要多一點步驟，一開始先產生路徑，然後用繪圖指令畫出路徑，然後再結束路徑，一旦路徑產生後便可以用畫筆或填滿方式來渲染生成，這裡是一些可用函數:
+
+// beginPath()
+//    產生一個新路徑，產生後再使用繪圖指令來設定路徑。
+// closePath()
+//    閉合路徑好讓新的繪圖指令來設定路徑。
+// 路徑 API
+//    路徑 API，這些 API 便是繪圖指令
+// stroke()
+//   畫出圖形的邊框。
+// fill()
+//    填滿路徑內容區域來產生圖形。
+// 第一步呼叫 beginPath() 產生一個路徑
+// 表面下，路徑會被存在一個次路徑 (sub-path) 清單
+// 例如直線、曲線等，這些次路徑集合起來就形成一塊圖形。
+// 每一次呼叫這個方法，次路徑清單就會被重設，然後我們便能夠畫另一個新圖形。

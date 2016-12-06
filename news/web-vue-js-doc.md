@@ -228,4 +228,15 @@ https://github.com/chunhei2008/vue_adminlte
 # vue.js+ajax怎么样实现滚动加载
 - https://segmentfault.com/q/1010000005162898
 
+# vue2 + vuex + vue-router + ssr (http://kiss2.me/)
+- http://kiss2.me/2016/12/02/vue2-vuex-vue-router-ssr/
 
+# 滴滴WebApp实践经验分享 (黄铁老师)
+- https://github.com/DDFE/DDFE-blog/issues/4
+- https://github.com/DDFE/DDFE-blog/issues/
+
+# vue-cli + webpack 多页面实例配置方法
+- http://lanchenglv.com/article/2016/0826/vue-cli_webpack_multi-page.html
+
+#[英] 教你在 Vue.js 中使用 jQuery 插件的正确姿势
+https://gold.xitu.io/entry/5832d5ea8ac247005a1514a0

@@ -18,6 +18,8 @@ http://mp.weixin.qq.com/s?__biz=MzAwNjI5MTYyMw==&mid=2651493324&idx=1&sn=126efc9
 #JS—触摸事件、手势事件
 http://www.jianshu.com/p/832f36531df9
 
+# 移动端适配之雪碧图(sprite)背景图片定位
+http://www.jianshu.com/p/d3b19968a4c2
 
 
 
@@ -153,3 +155,47 @@ http://www.jianshu.com/p/832f36531df9
 
 - http://imochen.github.io/hotcss/
 - https://github.com/imochen/hotcss
+
+
+# 纯 CSS 方式实现内容区域的更多展示效果
+-  2016-12-05 林小志 闲谈CSS那些事儿
+http://mp.weixin.qq.com/s?__biz=MzI1MTA2MDcyOQ==&mid=2649567236&idx=1&sn=5b9c17365f5b6eec6383c3c1b1b753b3&chksm=f1e15892c696d184c1399f35107fd80e0cf7ab7c6dca4786e16d5bcf18cca1db5c6228d3b13f#rd
+
+
+# 使用Flexible实现手淘H5页面的终端适配
+http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html
+
+
+# 去除inline-block元素间间距的N种方法
+http://www.zhangxinxu.com/wordpress/2012/04/inline-block-space-remove-%E5%8E%BB%E9%99%A4%E9%97%B4%E8%B7%9D/
+
+# CSS3 Patterns Gallery
+http://lea.verou.me/css3patterns/
+
+# CSS小工具集合 小志
+http://linxz.github.io/tianyizone/
+
+
+# 方块落下，组合成字 demo
+http://runjs.cn/code/fxuwrcsp
+
+# css to sass
+http://css2sass.herokuapp.com/
+
+# css工具大放送
+- http://enjoycss.com/
+- http://browserhacks.com/
+- http://linxz.github.io/tianyizone/
+- http://caniuse.com/#tables
+- https://www.browserstack.com/screenshots
+- http://www.colorzilla.com/gradient-editor/
+- http://apps.eky.hk/css-triangle-generator/zh-hant
+- https://coveloping.com/tools/css-shapes-generator
+- http://www.cutterman.cn/zh
+- https://jigsaw.w3.org/css-validator/
+- https://validator.w3.org/
+- https://daneden.github.io/animate.css/
+- http://cssdeck.com/
+- http://css3pie.com/
+
+

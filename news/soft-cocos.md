@@ -13,3 +13,6 @@
 # 官網 高清視頻 騰訊視頻
 
 - http://v.qq.com/x/page/z0181kimlrr.html 
+
+# coco2djs - 2048 demo
+http://ustbhuangyi.github.io/Cocos2djs-2048/index.html
