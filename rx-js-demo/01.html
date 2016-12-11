@@ -8,6 +8,9 @@
 
 <body>
   <script>
+  var reqData1 = url => new Promise((resolve, reject) => setTimeout(() => resolve(42), 1000));
+  var reqData2 = url => new Promise((resolve, reject) => setTimeout(() => resolve(52), 500));
+  var reqData3 = (url, params) => new Promise((resolve, reject) => setTimeout(() => resolve(62), 800));
   Promise.all([reqData1(api_1), reqData2(api_2)])
     .then((data1, data2) => {
       return reqData3(api_3, {
