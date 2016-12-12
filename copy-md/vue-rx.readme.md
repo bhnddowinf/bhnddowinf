@@ -1,5 +1,10 @@
 # 拷贝日期：2016-12-12
-# 说明：尤大改了，本人懒，看心情再说
+> 说明：尤大改了，本人懒，看心情再说
+> 不翻译：
+> subscriptions 订阅(名词)：这不翻，自已背下来吧，因为也是 api，不翻，你才看懂代码
+> subscribe 订阅(动词)：这不翻，自已背下来吧，因为也是 api，不翻，你才看懂代码
+> observables 被观察的对象，这不翻，自已背下来吧，因为也是 api，不翻，你才看懂代码
+
 
 
 # vue-rx
@@ -7,7 +12,14 @@
 Simple [RxJS](https://github.com/Reactive-Extensions/RxJS) binding for Vue.js. 
 - Vue.js的簡單RxJS綁定
 
-It also supports subscriptions for generic observables that implement the `.subscribe` and `.unsubscribe` (or `.dispose`) interface. For example, you can use it to subscribe to `most.js` or Falcor streams, but some features require RxJS to work.
+It also supports subscriptions for generic observables that implement the `.subscribe` and `.unsubscribe` (or `.dispose`) interface. 
+
+- `.subscribe` and `.unsubscribe` (or `.dispose`) 是原来的 rx.js observable 的 api
+- vue-rx 可以订阅那些被观察的对象。（不懂没关系…我继续讲）
+
+For example, you can use it to subscribe to `most.js` or Falcor streams, but some features require RxJS to work.
+
+- 范例中，你能 
 
 ### Installation
 
