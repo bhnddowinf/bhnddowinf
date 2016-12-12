@@ -158,7 +158,12 @@ The optional `options` object accepts the same options as `vm.$watch`.
 
 #### `$subscribeTo(observable, next, error, complete)`
 
-This is a prototype method added to instances. You can use it to subscribe to an observable, but let VueRx manage the dispose/unsubscribe.
+This is a prototype method added to instances. 
+> 这原型方法，新增到实例中
+
+You can use it to subscribe to an observable, but let VueRx manage the dispose/unsubscribe.
+
+> 你能 订阅一个被观察的对象，以让 vue-rx 管理 部署与取消
 
 ``` js
 var vm = new Vue({
@@ -174,7 +179,16 @@ var vm = new Vue({
 
 > This feature requires RxJS.
 
-This is a prototype method added to instances. Use it to create an observable from DOM events within the instances' element. This is similar to `Rx.Observable.fromEvent`, but usable inside the `subscriptions` function even before the DOM is actually rendered.
+This is a prototype method added to instances. 
+> 这原型方法，新增到实例中
+
+Use it to create an observable from DOM events within the instances' element. 
+
+> 从 dom 建立 observable 对象
+
+This is similar to `Rx.Observable.fromEvent`, but usable inside the `subscriptions` function even before the DOM is actually rendered.
+
+> 这模拟 `Rx.Observable.fromEvent`，但有一个要求，这函数要在 dom 渲染前使用。
 
 ``` js
 var vm = new Vue({
@@ -186,9 +200,19 @@ var vm = new Vue({
 })
 ```
 
-### Caveats
+### Caveats 警告
 
-You cannot use the `watch` option to watch subscriptions, because it is processed before the subscriptions are set up. But you can use `$watch` in the `created` hook instead.
+You cannot use the `watch` option to watch subscriptions, 
+
+> `watch` 不能使用 subscriptions
+
+because it is processed before the subscriptions are set up. 
+
+> 因为 `watch` 在 subscriptions 之前，处理
+
+But you can use `$watch` in the `created` hook instead.
+
+> 但你可以 使用 `$watch` 在 `created` 生命周期来代替
 
 ### Example
 
