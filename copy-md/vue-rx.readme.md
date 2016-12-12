@@ -13,18 +13,20 @@
 # vue-rx
 
 Simple [RxJS](https://github.com/Reactive-Extensions/RxJS) binding for Vue.js. 
-- Vue.js的簡單RxJS綁定
+
+> Vue.js的簡單RxJS綁定
 
 It also supports subscriptions for generic observables that implement the `.subscribe` and `.unsubscribe` (or `.dispose`) interface. 
 
-- `.subscribe` and `.unsubscribe` (or `.dispose`) 是原来的 rx.js observable 的 api
-- vue-rx 可以订阅那些被观察的对象。（不懂没关系…我继续讲）
+>  `.subscribe` and `.unsubscribe` (or `.dispose`) 是原来的 rx.js observable 的 api
+
+> vue-rx 可以订阅那些被观察的对象。（不懂没关系…我继续讲）
 
 For example, you can use it to subscribe to `most.js` or Falcor streams, but some features require RxJS to work.
 
-- 范例中，你能 
+> 范例中，你能订阅 `most.js` 或者Falcor streams，但要求 RxJS 运行
 
-### Installation
+### Installation 安装
 
 #### NPM + ES2015
 
@@ -41,9 +43,16 @@ import VueRx from 'vue-rx'
 Vue.use(VueRx, Rx)
 ```
 
-#### Tips for Reducing Bundle Size
+#### Tips for Reducing Bundle Size 提示：减小打包后的大小
 
-In most cases, you probably don't need the full build of Rx. You can reduce the amount of code included in your bundle by doing the following:
+In most cases, you probably don't need the full build of Rx. 
+
+> 在大多數情況下，你不需要完整版的rx
+
+You can reduce the amount of code included in your bundle by doing the following:
+
+> 按下列动作，来减少打包的东西
+
 
 ``` js
 import Vue from 'vue'
@@ -55,11 +64,16 @@ import { Subscription } from 'rxjs/Subscription' // Disposable if using RxJS4
 Vue.use(VueRx, { Observable, Subscription })
 ```
 
-#### Global Script
+#### Global Script 全局脚本
 
 Just make sure to include `vue-rx.js` after Vue.js and RxJS. It will be installed automatically.
 
-### Usage
+> 确认依序将 Vue.js, RxJS , `vue-rx.js` include , 它将自动安装
+
+### Usage 使用
+
+> 注：vue 会有一个新的 option `subscriptions` ，这里是订阅功能
+> 
 
 ``` js
 // provide Rx observables with the `subscriptions` option
@@ -78,6 +92,9 @@ new Vue({
 
 The `subscriptions` options can also take a function so that you can return unique observables for each component instance:
 
+> `subscriptions` options , 也是一个 function, 每个组件的实例， 可以 return RsJS 的 observables
+
+
 ``` js
 Vue.component('foo', {
   subscriptions: function () {
@@ -89,6 +106,8 @@ Vue.component('foo', {
 ```
 
 The observables are exposed as `vm.$observables`:
+
+> observables 另一种 api用法 `vm.$observables`
 
 ``` js
 var vm = new Vue({
@@ -102,9 +121,14 @@ vm.$observables.msg.subscribe(msg => console.log(msg))
 
 #### `$watchAsObservable(expOrFn, [options])`
 
-> This feature requires RxJS.
+> This feature requires RxJS.来自 RxJS
 
-This is a prototype method added to instances. You can use it to create an observable from a value watcher. The emitted value is in the format of `{ newValue, oldValue }`:
+This is a prototype method added to instances.
+> 这是 原型的方法，新增至 实例中。
+
+ You can use it to create an observable from a value watcher. The emitted value is in the format of `{ newValue, oldValue }`:
+
+> 你可以用它，从 watcher 建立一个 observable. 这个 发射的值，有制式的格式 `{ newValue, oldValue }`
 
 ``` js
 var vm = new Vue({
