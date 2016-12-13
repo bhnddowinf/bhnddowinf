@@ -54,3 +54,12 @@ react-native.md
 
 # 三步将 React Native 项目运行在 Web 浏览器上面
 - http://www.open-open.com/lib/view/open1457672222640.html
+
+# React Native with MobX — Getting Started
+https://medium.com/react-native-training/react-native-with-mobx-getting-started-ba7e18d8ff44#.lfxsjl3in
+
+# dvaReactNativeManager
+https://github.com/ultralabed/dvaReactNativeManager
+
+# ReactNative example for dva.
+https://github.com/sorrycc/dva-example-react-native
