@@ -40,6 +40,8 @@
 ## 问：有提供公用的组件吗？
 >  答：微信群，另外回答
 
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/10.jpg)
+
 
 
 
