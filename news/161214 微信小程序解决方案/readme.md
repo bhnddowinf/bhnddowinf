@@ -1,4 +1,7 @@
-# 微信小程序解决方案
+# 微信小程序解决方案 (第11届 d2 前端技术论埨)
+
+##  http://d2forum.alibaba-inc.com/#/index?_k=mizz3bv
+- 今年11月初，微信小程序开始公测。小程序是一种新的开放能力，开发者可以快速地开发一个小程序。小程序可以在微信内被便捷地获取和传播，同时具有出色的使用体验。那么在小程序的开发过程中有哪些挑战？ 《wafer》 微信小程序全栈解决方案，和您一起探索。
 
 
 - 小程序不是 h5 应用，封闭环境开发
@@ -41,6 +44,43 @@
 >  答：微信群，另外回答
 
 ![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/10.jpg)
+
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/11.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/12.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/13.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/14.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/15.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/16.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/17.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/18.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/19.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/20.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/21.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/22.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/23.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/24.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/25.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/26.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/27.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/28.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/29.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/30.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/31.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/32.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/33.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/34.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/35.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/36.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/37.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/38.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/39.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/40.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/41.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/42.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/43.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/44.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/45.jpg)
+![](https://github.com/bhnddowinf/bhnddowinf/blob/master/news/161214%20%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/46.jpg)
 
 
 
