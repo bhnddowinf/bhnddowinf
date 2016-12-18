@@ -2,9 +2,9 @@
 
 # 前言 #
 
-- 世界变化太快，只能冷眼以对，慢慢拾取 
+- 世界变化太快，只能冷眼以对，慢慢拾取
 
-[回首页](https://github.com/bhnddowinf/bhnddowinf/blob/master/readme.md)
+[回首页] (https://github.com/bhnddowinf/bhnddowinf/blob/master/readme.md)
 
 ### react 官网
 
@@ -69,7 +69,7 @@
 
 > 这个脚手架是目前最好的(破万)
 
-- https://github.com/mxstbr/react-boilerplate 
+- https://github.com/mxstbr/react-boilerplate
 
 > REACT 腳手架 ，这个库刚出来不到10天就6000星了
 
@@ -89,13 +89,13 @@
 
 
 
-### 图表 
+### 图表
 
 > React component for Chart.js
 
 - https://github.com/topdmc/react-chartjs2
 
-### 可视化 
+### 可视化
 
 > react-virtualized React components for efficiently rendering large lists and tabular dat
 
@@ -121,7 +121,7 @@
 
 ### 日期
 
-> An accessible, easily internationalizable, mobile-friendly datepicker library for the web 
+> An accessible, easily internationalizable, mobile-friendly datepicker library for the web
 
 - http://airbnb.io/react-dates
 
@@ -219,9 +219,9 @@ https://github.com/SteamerTeam/steamer-react
 https://zhuanlan.zhihu.com/purerender
 
 # React与Redux教程（一）connect、applyMiddleware、thunk、webpackHotMiddleware
-https://lewis617.github.io/2016/01/19/r2-counter/ 
+https://lewis617.github.io/2016/01/19/r2-counter/
 
-# Drag-and-drop sortable representation of hierarchical data 
+# Drag-and-drop sortable representation of hierarchical data
 - https://fritz-c.github.io/react-sorta…
 - https://github.com/fritz-c/react-sortable-tree
 
@@ -229,7 +229,7 @@ https://lewis617.github.io/2016/01/19/r2-counter/
 - https://6koi.com/
 - https://github.com/stary-pray/bumo_react
 
-# A framework for building web apps with React Native compatible API. 
+# A framework for building web apps with React Native compatible API.
 - http://taobaofed.github.io/react-web/
 - https://github.com/taobaofed/react-web
 

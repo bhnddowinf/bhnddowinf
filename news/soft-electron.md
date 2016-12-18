@@ -10,3 +10,6 @@
 
 - http://mp.weixin.qq.com/s?__biz=MzA4MTM5ODM3MA==&mid=2649868233&idx=1&sn=14886c4697b926a57b2811b51c86da0a&scene=23&srcid=07314H39hZ8OI3MUbwPuEf4t#rd
 
+
+# electron 中文文檔
+https://wizardforcel.gitbooks.io/electron-doc/content/faq/electron-faq.html
