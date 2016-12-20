@@ -10,3 +10,9 @@
 # ifind
 - command+shift+g
 
+# ifind
+- 拷贝 档案的位址：option+command+c
+- 复制、移动档案：Command + C，Command + Option + V
+- 移动到指定位址：finder下 shift+command+g ，然后copy地址
+- 拷贝 档案的位址：option+command+c
+
