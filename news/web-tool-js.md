@@ -252,17 +252,17 @@ Optimize your images with a perfect balance in quality and file size.
 
 > Bootstrap 4 Cheat Sheet
 
-- 網站名稱：Bootstrap 4 Cheat Sheet 
+- 網站名稱：Bootstrap 4 Cheat Sheet
 
 - 網站連結：https://hackerthemes.com/bootstrap-cheatsheet/
 
 # Mock.js
 
-- Build Status 
-- Mock.js 是一款模拟数据生成器，旨在帮助前端攻城师独立于后端进行开发，帮助编写单- 元测试。提供了以下模拟功能： - 
-- 根据数据模板生成模拟数据 - 
-- 模拟 Ajax 请求，生成并返回模拟数据 - 
-- 基于 HTML 模板生成模拟数据 
+- Build Status
+- Mock.js 是一款模拟数据生成器，旨在帮助前端攻城师独立于后端进行开发，帮助编写单- 元测试。提供了以下模拟功能： -
+- 根据数据模板生成模拟数据 -
+- 模拟 Ajax 请求，生成并返回模拟数据 -
+- 基于 HTML 模板生成模拟数据
 - https://github.com/nuysoft/Mock/wiki
 
 
@@ -280,3 +280,16 @@ http://blog.techbridge.cc/2016/05/28/reactive-programming-intro-by-rxjs/
 
 # chart 兩萬個 star
 > https://github.com/chartjs/Chart.js
+
+## A PHP Blogging Platform. Simple and Powerful. http://typecho.org
+
+> 上海小秦 推荐的 markdown blog for php
+
+> https://github.com/typecho/typecho
+
+## Running static file server anywhere / 随启随用的静态文件服务器
+
+> 幻 精灵 推荐的
+
+> https://github.com/JacksonTian/anywhere
+

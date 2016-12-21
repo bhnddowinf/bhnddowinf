@@ -64,6 +64,9 @@
 - https://wuyuchang.github.io/react/#/
 
 
+> Reducer 最佳实践，Redux 开发最重要的部分 - 简书
+
+- http://www.jianshu.com/p/938f8121ba0f?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=qq
 
 ### 脚手架
 

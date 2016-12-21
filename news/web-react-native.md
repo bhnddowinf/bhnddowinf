@@ -3,7 +3,7 @@ react-native.md
 
 # 前言 #
 
-- 世界变化太快，只能冷眼以对，慢慢拾取 
+- 世界变化太快，只能冷眼以对，慢慢拾取
 
 ### 好文
 
@@ -63,3 +63,8 @@ https://github.com/ultralabed/dvaReactNativeManager
 
 # ReactNative example for dva.
 https://github.com/sorrycc/dva-example-react-native
+
+
+
+# 天地之灵的 react native starter kit
+https://github.com/reactnativecn/react-native-starter-kit

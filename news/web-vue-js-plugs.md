@@ -15,14 +15,14 @@ https://surmon-china.github.io/vue-touch-ripple/
 https://github.com/lincenying/vue2-ajax-form
 
 # Vue-Codemirror
-- Codemirror component for Vue.js(1.x ~ 2.x)，本组件基于 Codemirror构建，支持Vue全版本使用，支持100+多种语言、分支语言、语法，支持多种代码高亮theme，并可以自行配置，可使用Vue-Codemirror快速轻易构建出多种丰富全面的web code editor，并以此基础多次开发WebID 
+- Codemirror component for Vue.js(1.x ~ 2.x)，本组件基于 Codemirror构建，支持Vue全版本使用，支持100+多种语言、分支语言、语法，支持多种代码高亮theme，并可以自行配置，可使用Vue-Codemirror快速轻易构建出多种丰富全面的web code editor，并以此基础多次开发WebID
 - https://github.com/surmon-china/vue-codemirror
 
 #vue-fullpage，效果类似于zepto.fullpage。
 
-- github地址：https://github.com/wendaosanshou/vue-fullpage 
+- github地址：https://github.com/wendaosanshou/vue-fullpage
 
-- demo地址：http://vue.wendaosanshou.top/vue_fullpage_demo/ 
+- demo地址：http://vue.wendaosanshou.top/vue_fullpage_demo/
 
 # 基于vue开发的material design ui库
 
@@ -35,7 +35,7 @@ https://github.com/lincenying/vue2-ajax-form
 - https://github.com/jinzhe/vue-upload
 
 # vue 上傳 金哲寫的 vue-class-component
-- https://github.com/vuejs/vue-class-component 
+- https://github.com/vuejs/vue-class-component
 
 
 #移动端下拉刷新、上拉加载更多插件 备著
@@ -86,9 +86,22 @@ http://fulicat.com/lab/bookmarklet.html
 # An html5 wysiwyg editor for vue
 https://github.com/PeakTai/vue-html5-editor
 
-# Scroller Component for Vue.js 
+# Scroller Component for Vue.js
 https://github.com/wangdahoo/vue-scroller
 
-# vue calendar fullCalendar. no jquery required. Schedule events management 
+# vue calendar fullCalendar. no jquery required. Schedule events management
 https://github.com/Wanderxx/vue-fullcalendar
+
+
+# vue-quill-editor
+
+https://surmon-china.github.io/vue-quill-editor/
+
+
+# vuwe UI
+
+> https://jrainlau.github.io/vuwe/#/
+
+> 基于WEUI，写了一个针对VUE2.0的组件库
+
 

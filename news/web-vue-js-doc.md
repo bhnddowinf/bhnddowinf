@@ -22,7 +22,7 @@
 # vue1 升级 vue2 指南
 
 - http://vuefe.cn/guide/migration-vue-router.html
- 
+
 - http://vuefe.cn/guide/migration.html
 
 - https://github.com/yelingfeng/vuex-tutorial/blob/master/tutorial/03/INFO.md
@@ -36,10 +36,10 @@
 - 这里，我就基于我的 vue-spa-template 来演示一下 migration helper 的用法。
 - http://blog.ijason.cc/2016/10/01/hey-new-vue/
 
- 
+
 #mmf-blog vue2.0 jsx语法, leancloud api版 (vue2, vue-router, vuex, leancloud-storage)
 https://github.com/lincenying/mmf-blog-vue2-jsx-lc
- 
+
 #如何用Vue.js来搭建一个简易的APP
 https://www.gitbook.com/book/sally-xiao/book/details
 
@@ -62,7 +62,7 @@ https://github.com/lincenying/vue2-multiple-entry
 https://segmentfault.com/a/1190000006695341
 
 
-#给不会用webpack推荐个工具,  
+#给不会用webpack推荐个工具,
 https://cookingjs.github.io/zh-cn/intro.html
 应该也是eleme的作品...
 
@@ -192,13 +192,13 @@ https://segmentfault.com/a/1190000006695341
 - https://segmentfault.com/a/1190000005844155
 
 
-# vuex firebase demo 
+# vuex firebase demo
 
 - http://slmean.herokuapp.com/vuex/index.html#
 
 - https://github.com/yuluhuang/my-project-vue
- 
-#vuex 中文文檔 
+
+#vuex 中文文檔
 
 - https://github.com/vuejs/vuex/issues/176
 
@@ -208,14 +208,14 @@ https://segmentfault.com/a/1190000006695341
 
 # 1. Vue.js——vue-router 60分钟快速入门
 - http://www.cnblogs.com/keepfool/p/5657065.html
- 
+
 # vue.js + adminlte
 https://github.com/chunhei2008/vue_adminlte
 
 # Vue-Cleave - 在Vue中使用CleaveJS格式化你的输入内容
 - https://segmentfault.com/a/1190000005984648
 
-# An UI Framework build with Vue.js for mobile webapp 
+# An UI Framework build with Vue.js for mobile webapp
 
 - http://getvum.com/
 
@@ -242,4 +242,12 @@ https://github.com/chunhei2008/vue_adminlte
 #[英] 教你在 Vue.js 中使用 jQuery 插件的正确姿势
 https://gold.xitu.io/entry/5832d5ea8ac247005a1514a0
 
+
+
+
+# 360奇舞团前端工程师钟恒在SDCC2016上，有关《使用Vue.js 2.0开发高交互Web应用》的演讲视频出来了哈：
+
+http://csdn-livevideo.oss-cn-beijing.aliyuncs.com/CSDN_Live/269/2016/20161118-ZHH.mp4
+
+http://download.csdn.net/meeting/speech_preview/145
 
