@@ -4,6 +4,9 @@
 
 ## 好文
 
+# 由弹出层引发对滚动原理的讨论-  蠻專業的討論
+https://segmentfault.com/a/1190000003849952
+
 > [CSS 元素垂直居中的 6种方法] (http://blog.csdn.net/wolinxuebin/article/details/7615098)
 
 #  wolinxuebin的专栏
@@ -198,4 +201,8 @@ http://css2sass.herokuapp.com/
 - http://cssdeck.com/
 - http://css3pie.com/
 
+# 前端工程師手冊 css常見布局
+https://leohxj.gitbooks.io/front-end-database/content/html-and-css-basic/css-layout.html
 
+# 部落格 成功志 - css 專區
+http://www.ok12.net/sort/css

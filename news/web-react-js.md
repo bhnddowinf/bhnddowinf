@@ -6,6 +6,14 @@
 
 [回首页] (https://github.com/bhnddowinf/bhnddowinf/blob/master/readme.md)
 
+
+# 知乎 react 学习指南
+https://zhuanlan.zhihu.com/leanreact
+
+# 知乎 分享关于 React 相关经验及发展动态
+https://zhuanlan.zhihu.com/purerender
+
+
 ### react 官网
 
 > 官网的链结

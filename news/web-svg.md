@@ -26,3 +26,8 @@
 
 # loading svg demo
 http://codepen.io/maxwithu/pen/zoNyjr
+
+# 【Web动画】SVG 实现复杂线条动画
+http://www.cnblogs.com/coco1s/p/6230165.html
+
+http://www.cnblogs.com/coco1s/category/807452.html

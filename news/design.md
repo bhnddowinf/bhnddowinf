@@ -7,3 +7,7 @@
 # awesome-design-cn
 
 https://github.com/jobbole/awesome-design-cn
+
+# 中國講 ui 的網站
+http://www.ui.cn/
+

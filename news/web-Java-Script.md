@@ -6,6 +6,8 @@ JavaScript.md
 
 - 世界变化太快，只能冷眼以对，慢慢拾取
 
+# 阮一鋒 js 標準教程 (alpha)
+http://javascript.ruanyifeng.com/#toc7
 
 # 小志 /with-round-draw/ 
 
