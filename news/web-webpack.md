@@ -8,6 +8,13 @@
 
 https://github.com/kraaas/webpack-tutorial-collection
 
-# webpack 2.0 官網
+# webpack 2.0 官網介紹
 https://webpack.js.org/get-started/why-webpack/
+
+https://webpack.js.org/concepts/
+
+# webpack.js 官網
+https://webpack.js.org/
+
+
 

@@ -68,3 +68,10 @@ https://github.com/sorrycc/dva-example-react-native
 
 # 天地之灵的 react native starter kit
 https://github.com/reactnativecn/react-native-starter-kit
+
+
+# react native 官網的起手教學
+https://facebook.github.io/react-native/docs/getting-started.html#content
+
+# react-native-webpack-starter-kit (jabdas)
+https://github.com/jhabdas/react-native-webpack-starter-kit
