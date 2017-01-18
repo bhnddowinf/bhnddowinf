@@ -75,3 +75,6 @@ https://facebook.github.io/react-native/docs/getting-started.html#content
 
 # react-native-webpack-starter-kit (jabdas)
 https://github.com/jhabdas/react-native-webpack-starter-kit
+
+# Awesome navigation for your React Native app.
+https://github.com/t4t5/react-native-router
