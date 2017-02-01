@@ -25,8 +25,6 @@ react-native.md
 - https://www.youtube.com/playlist?list=PLC_rYRxEnwQGLQqrHR0aho33U6DCeJamC
 
 
-
-
 # 30 Days of React Native
 
 - https://github.com/fangwei716/30-days-of-react-native
@@ -78,3 +76,9 @@ https://github.com/jhabdas/react-native-webpack-starter-kit
 
 # Awesome navigation for your React Native app.
 https://github.com/t4t5/react-native-router
+
+# React Native资源集合 2016
+http://www.rntools.co/article/57beb7c8c144b61128162006
+
+# React Native 高质量学习资料汇总
+http://www.jianshu.com/p/454f2e6f28e9
