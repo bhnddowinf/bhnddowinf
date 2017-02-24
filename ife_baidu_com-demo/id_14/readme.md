@@ -33,3 +33,5 @@
 <li><a href="http://www.w3cplus.com/"> w3cplus</a></li>
 <li><a href="http://www.alloyteam.com/">AlloyTeam</a></li>
 </ul>
+
+[小tip: 使用CSS将图片转换成模糊(毛玻璃)效果] (http://www.zhangxinxu.com/wordpress/2013/11/css-svg-image-blur/)
