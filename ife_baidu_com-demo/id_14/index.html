@@ -1,20 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>ife</title>
   <style>
-.filter_blur {
-    -webkit-filter: blur(10px); /* Chrome, Opera */
-       -moz-filter: blur(10px);
-        -ms-filter: blur(10px);
-            filter: blur(10px);
-}
+  .filter_blur1 {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    filter: none;
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='0');
+  }
 
+  .filter_blur1:focus,
+  .filter_blur1:hover {
+    -webkit-filter: blur(3px);
+    /* Chrome, Opera */
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+  }
+
+  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .masked {
+      background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-background-size: 200% 100%;
+      -webkit-animation: masked-animation 4s infinite linear;
+    }
+  }
+
+  @-webkit-keyframes masked-animation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+  }
   </style>
 </head>
-<body>
 
-<img src="me.jpeg" alt="" class="filter_blur">
+<body>
+  <h1>要求</h1>
+  <img src="https://ww3.sinaimg.cn/large/006tNbRwly1fcr5jmrmujg30cj06xqv5.gif" alt="">
+  <h1>作业</h1>
+  <div class="warpper">
+    <img src="me.jpeg" alt="" class="filter_blur1" width="560" height="230">
+    <div class="masked">
+      <h4>台湾小凡 欢迎您!</h4>
+      <h5>哈哈</h5>
+    </div>
+  </div>
 </body>
+
 </html>
