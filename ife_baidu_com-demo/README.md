@@ -12,7 +12,7 @@
 
 3.[分区：百度糯米前端技术学院](http://ife.baidu.com/college/detail/id/8)
 
-4.任务:有趣的鼠标悬浮模糊效果
+4.任务:有趣的鼠标悬浮模糊效果 id_14
 
 - [官网任务-说明] (http://ife.baidu.com/course/detail/id/14)
 
@@ -21,14 +21,14 @@
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_14/index.html)
 
 
-5.任务：动态数据绑定（一）
+5.任务：动态数据绑定（一）id_15
 
 - [官网任务-说明] (http://ife.baidu.com/course/detail/id/15)
 
 - [台湾小凡-说明] (https://github.com/bhnddowinf/ife_baidu_com-demo/blob/master/id_15/readme.md)
 
 
-6.任务：动态数据绑定(二)
+6.任务：动态数据绑定(二) id_20
 
 - [官网任务-说明] (http://ife.baidu.com/course/detail/id/20)
 
