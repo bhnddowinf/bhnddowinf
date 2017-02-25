@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>ife</title>
   <style>
-@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+  @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
     .masked {
       background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #ffffff);
       -webkit-text-fill-color: transparent;
@@ -13,24 +13,20 @@
       -webkit-background-size: 200% 100%;
       -webkit-animation: masked-animation 4s infinite linear;
       /* 字加白边 开始*/
-      text-shadow: 2px 0px 0px #fff,
-　　　　　　　　　-2px 0px 0px #fff,
-　　　　　　　　　0px 2px 0px #000,
-　　　　　　　　　0px -2px 0px #000;
+      /* text-shadow: 2px 0px 0px #fff, -2px 0px 0px #fff, 0px 2px 0px #000, 0px -2px 0px #000; */
       /* 字加白边 结束*/
-      font-size:30px;
-  }
-}
-@-webkit-keyframes masked-animation {
-  0% {
-    background-position: 0 0;
+      font-size: 26px;
+    }
   }
 
-  100% {
-    background-position: -100% 0;
+  @-webkit-keyframes masked-animation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -100% 0;
+    }
   }
-}
-
   </style>
   <style>
   /* Common style */
@@ -57,7 +53,6 @@
 
   .grid figure:focus img,
   .grid figure:hover img {
-
     -webkit-filter: blur(100px);
     /* Chrome, Opera */
     -moz-filter: blur(100px);
@@ -118,12 +113,16 @@
   .grid figure h2,
   .grid figure p {
     margin: 0;
+    margin-left: 20px;
   }
 
   .grid figure p {
     letter-spacing: 1px;
     /* font-size: 68.5%; */
   }
+
+  </style>
+  <style>
   /* Individual effects */
   /*---------------*/
   /***** Lily *****/
@@ -139,6 +138,41 @@
     -webkit-transform: translate3d(-40px, 0, 0);
     transform: translate3d(-40px, 0, 0);
   }
+
+ figure.effect-lily figcaption::before,
+  figure.effect-lily figcaption::after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+  }
+
+  figure.effect-lily figcaption::before {
+    top: 50px;
+    right: 100px;
+    bottom: 100px;
+    left: 30px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+
+  figure.effect-lily figcaption::after {
+    top: 50px;
+    right: 100px;
+    bottom: 100px;
+    left: 30px;
+    border-right:3px solid #fff;
+    border-left: 3px solid #fff;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+  }
+
+
 
   figure.effect-lily figcaption {
     text-align: left;
@@ -183,6 +217,21 @@
     transform: translate3d(0, 0, 0);
   }
 
+
+  figure.effect-lily figcaption::before,
+  figure.effect-lily figcaption::after{
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+  }
+
+
+
+  figure.effect-lily:hover figcaption::before,
+  figure.effect-lily:hover figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
   figure.effect-lily:hover p {
     -webkit-transition-delay: 0.05s;
     transition-delay: 0.05s;
@@ -190,12 +239,12 @@
     transition-duration: 0.35s;
   }
   </style>
+
 </head>
 
 <body>
-  <h1>要求</h1>
-  <img src="https://ww3.sinaimg.cn/large/006tNbRwly1fcr5jmrmujg30cj06xqv5.gif" alt="">
-  <h1>作业</h1>
+
+  <h1>学生成品</h1>
   <div class="grid">
     <figure class="effect-lily">
       <img src="me.jpeg" alt="img12" />
@@ -203,13 +252,17 @@
         <div>
           <h2 class="masked"> <span></span></h2>
           <p class="masked">
-vue.js 台湾 小凡  欢迎您 <br>
-          QQ群:364912432</p>
+            vue.js 台湾 小凡 欢迎您
+            <br> QQ群:364912432
+          </p>
         </div>
         <a href="https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/README.md">台湾小凡 github</a>
       </figcaption>
     </figure>
   </div>
+
+  <h1>项目要求</h1>
+  <img src="https://ww3.sinaimg.cn/large/006tNbRwly1fcr5jmrmujg30cj06xqv5.gif" alt="">
 </body>
 
 </html>
