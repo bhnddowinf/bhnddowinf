@@ -5,21 +5,6 @@
   <meta charset="UTF-8">
   <title>ife</title>
   <style>
-  .filter_blur1 {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    filter: none;
-    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='0');
-  }
-
-  .filter_blur1:focus,
-  .filter_blur1:hover {
-    -webkit-filter: blur(3px);
-    /* Chrome, Opera */
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-  }
 
   @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
     .masked {
@@ -61,6 +46,21 @@
     background: #3085a3;
     text-align: center;
     cursor: pointer;
+    /* 模糊开始 */
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    filter: none;
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='0');
+    /* 模糊结束 */
+  }
+
+  .grid figure:focus img,.grid figure:hover img {
+    -webkit-filter: blur(3px);
+    /* Chrome, Opera */
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+
   }
 
   .grid figure img {
@@ -194,25 +194,17 @@
   <h1>要求</h1>
   <img src="https://ww3.sinaimg.cn/large/006tNbRwly1fcr5jmrmujg30cj06xqv5.gif" alt="">
   <h1>作业</h1>
-  <div class="warpper">
-    <img src="me.jpeg" alt="" class="filter_blur1" width="560" height="230">
-    <div class="masked">
-      <h4>台湾小凡 欢迎您!</h4>
-      <h5>哈哈</h5>
-    </div>
-  </div>
   <div class="grid">
     <figure class="effect-lily">
       <img src="me.jpeg" alt="img12" />
       <figcaption>
-        <div>
-          <h2>Nice <span>Lily</span></h2>
-          <p>Lily likes to play with crayons and pencils</p>
+        <div  >
+          <h2>台湾 <span>小凡</span></h2>
+          <p  class="masked"> 欢迎您</p>
         </div>
-        <a href="#">View more</a>
+        <a href="https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/README.md">台湾小凡 github</a>
       </figcaption>
     </figure>
-
   </div>
 </body>
 

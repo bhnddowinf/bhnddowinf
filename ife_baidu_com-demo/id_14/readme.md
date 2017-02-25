@@ -56,3 +56,9 @@
 
 
 [纯CSS实现帅气的SVG路径描边动画效果](http://www.zhangxinxu.com/wordpress/2014/04/animateion-line-drawing-svg-path-%E5%8A%A8%E7%94%BB-%E8%B7%AF%E5%BE%84/)
+
+[svg border animation demo] (http://codepen.io/Zeaklous/pen/kyGqm/)
+
+[How SVG Line Animation Works] (https://css-tricks.com/svg-line-animation-works/)
+
+[Animated SVG, circle stroke hover] (http://stackoverflow.com/questions/36844333/animated-svg-circle-stroke-hover)
