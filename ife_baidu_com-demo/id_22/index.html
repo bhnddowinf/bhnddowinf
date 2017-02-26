@@ -1,122 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>ID_21</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>id_22</title>
 </head>
-
 <body>
-  <script>
-  //实现一个事件
-  function Event() {
-    this.events = {};
-  }
-
-  Event.prototype.on = function(attr, callback) {
-    if (this.events[attr]) {
-      this.events[attr].push(callback);
-    } else {
-      this.events[attr] = [callback];
-    }
-  }
-
-  Event.prototype.off = function(attr) {
-    for (let key in this.events) {
-      if (this.events.hasOwnProperty(key) && key === attr) {
-        delete this.events[key];
-      }
-    }
-  }
-
-  Event.prototype.emit = function(attr, ...arg) {
-    this.events[attr] && this.events[attr].forEach(function(item) {
-      item(...arg);
-    })
-  }
-
-  function Observer(data) {
-    //暂不考虑数组
-    this.data = data;
-    this.makeObserver(data);
-    this.eventsBus = new Event();
-  }
-
-  Observer.prototype.setterAndGetter = function(key, val) {
-    let _this = this;
-    Object.defineProperty(this.data, key, {
-      enumerable: true,
-      configurable: true,
-      get: function() {
-        console.log('你访问了' + key);
-        return val;
-      },
-      set: function(newVal) {
-        console.log('你设置了' + key);
-        console.log('新的' + key + '=' + newVal);
-        //触发$watch函数
-        _this.eventsBus.emit(key, val, newVal);
-        val = newVal;
-        //如果newval是对象的话
-        if (typeof newVal === 'object') {
-          new Observer(val);
-        }
-      }
-    })
-  }
-
-  Observer.prototype.makeObserver = function(obj) {
-    let val;
-    for (let key in obj) {
-      if (obj.hasOwnProperty(key)) {
-        val = obj[key];
-        //深度遍历
-        if (typeof val === 'object') {
-          new Observer(val);
-        }
-      }
-      this.setterAndGetter(key, val);
-    }
-  }
-
-  Observer.prototype.$watch = function(attr, callback) {
-    this.eventsBus.on(attr, callback);
-  }
-
-  // let app = new Observer({
-  //   name: 'liujianhuan',
-  //   age: 25,
-  //   company: 'Qihoo 360',
-  //   address: 'Chaoyang, Beijing'
-  // })
-
-  // app.$watch('age', function(oldVal, newVal) {
-  //   console.log(`我的年龄变了，原来是: ${oldVal}岁，现在是：${newVal}岁了`)
-  // })
-
-  // app.$watch('age', function(oldVal, newVal) {
-  //   console.log(`我的年龄真的变了诶，竟然年轻了${oldVal - newVal}岁`)
-  // })
-  //app.data.age = 20;
-
-
-  let app2 = new Observer({
-    name: {
-      firstName: 'shaofeng',
-      lastName: 'liang'
-    },
-    age: 25
-  });
-
-  app2.$watch('name', function(newName) {
-    console.log('我的姓名发生了变化，可能是姓氏变了，也可能是名字变了。')
-  });
-
-  app2.data.name.firstName = 'hahaha';
-  // 输出：我的姓名发生了变化，可能是姓氏变了，也可能是名字变了。
-  app2.data.name.lastName = 'blablabla';
-  // 输出：我的姓名发生了变化，可能是姓氏变了，也可能是名字变了。
-  </script>
+  <!-- 页面中原本的 html 模板片段 -->
+  <div id="app">
+      <p>姓名：{{user.name}}</p>
+      <p>年龄：{{user.age}}</p>
+      <p>测试：{{user.name}}{{user.name}}{{user.name}}{{user.age}}<br>
+      </p>
+  </div>
 </body>
-
+<script>
+  /*
+      很大程度上借鉴了别人的思想，自己确实如果自己做很困难。
+      看不懂的地方进行了一定自己能明白的修改。
+      参考博客:https://github.com/qieguo2016/Vueuv/blob/master/README.md
+  */
+  //构造函数接收一个对象
+  function Vue(object){
+    this.data = object.data || {};
+    this.el = object.el;
+    new Compiler(this.el,this.data);
+  }
+  //构造函数，实现模版
+  function Compiler(el,data){
+    this.$el = document.querySelector(el);
+    this.data = data;
+    if(this.$el){
+      this.$fragment = this.nodeToFragment(this.$el);
+      this.compile(this.$fragment,this.data);
+      this.$el.appendChild(this.$fragment);
+    }
+  }
+  Compiler.prototype = {
+    nodeToFragment: function(node){
+      let fragment = document.createDocumentFragment(); //创建一个文档片段
+      let child;
+      //遍历节点
+      while(child = node.firstChild){
+          if(this.isIgnorable(child)){
+              node.removeChild(child);
+          }else{
+              fragment.appendChild(child);
+          }
+      }
+      return fragment;
+    },
+    //判断注释节点以及空格换行等
+    isIgnorable: function(node){
+        let regIgnorable = /^[\t\n\r]+/;
+        return (node.nodeType == 8) || ((node.nodeType == 3) && (regIgnorable.test(node.textContent)));
+    },
+    //遍历传入节点的子节点，如果是元素节点则继续遍历，文本节点则处理
+    compile: function(node,data){
+      let that = this
+      Array.from(node.childNodes).forEach((child) => {
+          if (child.nodeType === 1) {
+              that.compileElementNode(child,that.data);
+          }
+          if (child.nodeType === 3) {
+              that.compileTextNode(child,that.data);
+          }
+      })
+    },
+    // 文本节点处理
+    compileTextNode: function(node,data){
+        let text = node.textContent.trim();
+        let exp = parseTextExp(text,data);
+        node.textContent = exp;
+    },
+    //元素节点继续遍历直到文本节点
+    compileElementNode: function(node,data){
+        this.compile(node,data);
+    }
+  }
+  //data一直传递到此函数，在次函数中将匹配的模版替换(和别人比改成了笨办法把，但是自己理解的比较清除)
+  function parseTextExp(text,data) {
+      let regText = /\{\{(.+?)\}\}/g;
+      let pieces = text.split(regText);
+      let matches = text.match(regText);
+      let result = [];
+      pieces.forEach(function (piece) {
+          if(matches && matches.indexOf('{{' + piece + '}}') > -1){ //包含模版的项
+            let properties = piece.split('.');
+            let datas = data;
+            properties.forEach(function(value){
+              datas = datas[value];
+            });
+            result.push(datas);
+          }else if(piece){ //正常项
+            result.push(piece);
+          }
+      });
+      return result.join('');
+  }
+  let app = new Vue({
+    el: '#app',
+    data: {
+      user: {
+        name: 'youngwind',
+        age: 25
+      }
+    }
+  });
+</script>
 </html>
