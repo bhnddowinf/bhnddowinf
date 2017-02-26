@@ -77,3 +77,8 @@
 [用 Vue 来观察属性变化] (https://gold.xitu.io/entry/582d56daa22b9d006b6c83b0)
 
 [ob.js 来自 vue.js，是一个小巧、高效，用于监测 javascript 对象、数组、类 变化的库] (https://github.com/cnlon/ob.js/blob/master/README.zh.md)
+
+[【闲谈Vue1.0】- 2.instance - Vue实例（1）] (http://axemea.github.io/javascript/2016/11/30/%E9%97%B2%E8%B0%88Vue1-2-instance-%E5%AE%9E%E4%BE%8B-1.html)
+
+[动态数据绑定之监听对象变化- 作者刘建环课程动态数据绑定（二）] (http://ife.baidu.com/note/detail/id/302)
+
