@@ -49,3 +49,5 @@ ok，我们从最简单的开始。给定任意一个对象，如何监听其属
 
 #在线学习参考资料
 [vue早期源码学习系列之一：如何监听一个对象的变化] (https://github.com/youngwind/blog/issues/84)
+
+[Object.observe() mdn 英文 ] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/observe)
