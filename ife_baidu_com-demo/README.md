@@ -38,7 +38,13 @@
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_20/index.html)
 
 
+7.任务：动态数据绑定(三) id_21
 
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/21)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_21/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_21/index.html)
 
 
 # 3.暂时想想…
