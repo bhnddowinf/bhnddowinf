@@ -72,3 +72,8 @@
 2.更多设计模式相关的资料强烈推荐曾探所著《JavaScript设计模式与开发实践》
 	
 	https://book.douban.com/subject/26382780/
+
+
+[用 Vue 来观察属性变化] (https://gold.xitu.io/entry/582d56daa22b9d006b6c83b0)
+
+[ob.js 来自 vue.js，是一个小巧、高效，用于监测 javascript 对象、数组、类 变化的库] (https://github.com/cnlon/ob.js/blob/master/README.zh.md)
