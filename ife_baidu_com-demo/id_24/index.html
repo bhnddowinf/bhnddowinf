@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>id_24</title>
+</head>
+
+<body>
+  <!-- 页面中原本的 html 模板片段 -->
+    <div id="app">
+      <p>姓名：{{user.name}}</p>
+      <p>年龄：{{user.age}}</p>
+      <p>城市：{{city}}</p>
+      <p>工作：{{major}}</p>
+    </div>
+</body>
+<script>
+// 数据绑定5 最后一题
+// 渲染模板
+function Vue(data) {
+  this.el = data.el
+  this.data = data.data
+  // 绑定数据
+  this.observer(this.data)
+  // 渲染模板
+  this.getMode()
+  this.render()
+}
+
+Vue.prototype.observer = function (obj) {
+  // 设置值
+  let i, v
+  for (i in obj) {
+    if (obj.hasOwnProperty(i)) {
+      v = obj[i]
+
+      // 如果是对象 则重新设置
+      if (typeof v === 'object') {
+        v = this.observer(v)
+      }
+
+      // 绑定对象get set
+      this.bindVal(obj, i, v)
+    }
+  }
+  return obj
+}
+
+Vue.prototype.bindVal = function (obj, i, v) {
+
+  let that = this
+  Object.defineProperty(obj, i, {
+    // 是否可以被循环枚举出来
+    enumerable: true,
+    // 是否可配置
+    configurable: true,
+    get: function () {
+      return v
+    },
+    set: function (newVal) {
+      console.log('我要重新渲染了..')
+      console.log('修改的是' + i, '新值为:' + newVal, ' 旧值为:' + v)
+      if (typeof newVal === 'object') {
+        console.log('newVal is object')
+        newVal = this.observer(newVal)
+      }
+      if (newVal !== v) {
+        console.log('新值跟旧值不相同');
+        v = newVal
+      }
+      that.render()
+    }
+  })
+}
+
+// 获取需要渲染的模板
+Vue.prototype.getMode = function () {
+  this.dom = document.querySelector(this.el)
+  this.template = this.dom.innerHTML
+}
+
+// 渲染函数
+Vue.prototype.render = function () {
+  var html = this.template
+  var pattern = /\{\{(.*?)\}\}/g
+  var that = this
+  html.match(pattern).forEach(function (val) {
+    var s = val.substr(2, val.length - 4)
+    var arrS = s.split('.')
+    var r = that.data
+    arrS.forEach(function (v) {
+      r = r[v]
+    })
+    html = html.replace(val, r)
+  })
+  this.dom.innerHTML = html
+}
+
+let app = new Vue({
+  el: '#app',
+  data: {
+    user: {
+      name: '简单版的数据绑定',
+      age: 25
+    },
+    city: '天门',
+    major: 'computer'
+  }
+});
+
+setTimeout(() => app.data.user.name = '姓名改了', 3000)
+setTimeout(() => app.data.user.age = 30, 4000)
+setTimeout(() => app.data.city = 'world', 5000)
+setTimeout(() => app.data.major = '主修', 6000)
+
+
+//console.log(app)
+</script>
+
+</html>

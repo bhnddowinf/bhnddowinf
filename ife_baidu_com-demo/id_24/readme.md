@@ -51,3 +51,5 @@ vue早期源码学习系列之四：如何实现动态数据绑定
 [梁少峰的 blog] (https://github.com/youngwind/blog)
 
 [动态数据绑定（五] (https://github.com/youngwind/blog/issues/87)
+
+[BUPT-HJM good student](https://github.com/BUPT-HJM/study-js/blob/master/study-vue/baidu-ife-2017/dataBind-5.html)
