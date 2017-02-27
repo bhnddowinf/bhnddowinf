@@ -2,115 +2,56 @@
 
 <head>
   <script language='javascript'>
-  /*******以下内容可以修改***************/
-
-  var mname = new Array(
-
-    "首 页",
-
-    "修 改",
-
-    "下 载",
-
-    "删 除",
-
-    "新 建",
-
-    "刷 新"
-
-  );
-
-  //mname是菜单对应的名称，数组的个数必须与下面murl对应
-
-  var murl = new Array(
-
-    "window.open('http://www.cn5.cn','_blank','');",
-
-    "alert('修改');",
-
-    "alert('download');",
-
-    "alert('delete');",
-
-    "alert('new');",
-
-    "alert('refresh');"
-
-  );
-
-  //murl是菜单对应的操作，可以是任意javascript代码但是要注意不要在里面输入\"，只能用'
-
-  //如果要实现跳转可以这样window.location='url';
-
-  var ph = 18,
-    mwidth = 50; //每条选项的高度,菜单的总宽度
-
-  var bgc = "#eee",
-    txc = "black"; //菜单没有选中的背景色和文字色
-
-  var cbgc = "darkblue",
-    ctxc = "white"; //菜单选中的选项背景色和文字色
-
-  var mover = "this.style.background='" + cbgc + "';this.style.color='" + ctxc + "';"
-
-  var mout = "this.style.background='" + bgc + "';this.style.color='" + txc + "';"
-
-  document.oncontextmenu = function()
-
-  {
-
-    mlay.style.display = "";
-
-    mlay.style.pixelTop = event.clientY;
-
-    mlay.style.pixelLeft = event.clientX;
-
-    return false;
-
-  }
-
-  function showoff()
-
-  {
-
-    mlay.style.display = "none";
-
-  }
-
-  function fresh()
-
-  {
-
-    mlay.style.background = bgc;
-
-    mlay.style.color = txc;
-
-    mlay.style.width = mwidth;
-
-    mlay.style.height = mname.length * ph;
-
-    var h = "<table width=100% height=" + mname.length * ph + "px cellpadding=0 cellspacing=0 border=0>";
-
-    var i = 0;
-
-    for (i = 0; i < mname.length; i++)
-
-    {
-
-      h += "<tr align=center height=" + ph + " onclick=\"" + murl[i] + "\" onMouseover=\"" + mover + "\" onMouseout=\"" + mout + "\"><td style='font-size:9pt;'>" + mname[i] + "</td></tr>";
-
+  window.onload = function() {
+      rightmenu('p1', 'd1');
     }
-
-    h += "</table>";
-
-    mlay.innerHTML = h;
-
+    /****
+     *　　　　　封装右键菜单函数：
+     *　　　　elementID 要自定义右键菜单的 元素的id
+     *　　　　menuID　　　 要显示的右键菜单DIv的 id
+     */
+  function rightmenu(elementID, menuID) {　　
+    var menu = document.getElementById(menuID); //获取菜单对象
+    　　
+    var element = document.getElementById(elementID); //获取点击拥有自定义右键的 元素
+    　　
+    element.onmousedown = function(aevent) { //设置该元素的 按下鼠标右键右键的 处理函数
+      　　　　
+      if (window.event) aevent = window.event; //解决兼容性
+      　　　　
+      if (aevent.button == 2) { //当事件属性button的值为2时，表用户按下了右键
+        　　　　　　
+        document.oncontextmenu = function(aevent) {　　　　
+          if (window.event) {　　　　
+            aevent = window.event;　　　　　　　　
+            aevent.returnValue = false; //对IE 中断 默认点击右键事件处理函数
+            　　　　　　
+          } else {　　　　　　　　
+            aevent.preventDefault(); //对标准DOM 中断 默认点击右键事件处理函数
+            　　　　　　
+          };　　　　
+        };　　　　
+        menu.style.CSSText = 'display:block;top:' + aevent.clientY + 'px;' + 'left:' + aevent.clientX + 'px;'　　　　 //将菜单相对 鼠标定位
+          　　　　
+      }　　
+    }　　
+    menu.onmouseout = function() { //设置 鼠标移出菜单时 隐藏菜单
+      　　　　
+      setTimeout(function() {
+        menu.style.display = "none";
+      }, 400);　　
+    }
   }
   </script>
 </head>
 
-<body onClick="showoff();" onload="fresh();">
-  <div id="mlay" style="position:absolute;display:none;cursor:default;" onClick="return false;"></div>
+<body>
+  <p id="p1">Uncle Cat is a fat white cat !</p>
+  <div id="d1">
+    <a>剪切</a>
+    <a>复制</a>
+    <a>粘贴</a>
+  </div>
 </body>
 
 </html>
