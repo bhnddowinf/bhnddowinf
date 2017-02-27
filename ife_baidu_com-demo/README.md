@@ -65,6 +65,32 @@
 
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_24/index.html)
 
+
+10.任务：自定义checkbox， radio样式 id_23
+
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/23)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_23/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_23/index.html)
+
+
+11.任务：自定义网页右键菜单 id_26
+
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/26)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_26/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_26/index.html)
+
+12.任务：使用CSS实现折叠面板 id_27
+
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/27)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_27/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_27/index.html)
+
 # 3.暂时想想…
 
 
