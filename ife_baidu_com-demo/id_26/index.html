@@ -1,56 +1,124 @@
 <html>
 
 <head>
-  <script language='javascript'>
-  window.onload = function() {
-      rightmenu('p1', 'd1');
+  <script language="JavaScript">
+  function showMenu() {
+    popMenu(itemMenu, 100, "111");
+    event.returnValue = false;
+    event.cancelBubble = true;
+    return false;
+  }
+  /**
+
+  *显示弹出菜单
+
+  *menuDiv:右键菜单的内容
+
+  *width:行显示的宽度
+
+  *rowControlString:行控制字符串，0表示不显示，1表示显示，如“101”，则表示第1、3行显示，第2行不显示
+
+  */
+  function popMenu(menuDiv, width, rowControlString)
+
+  {
+    //创建弹出菜单
+    var pop = window.createPopup();
+    //设置弹出菜单的内容
+    pop.document.body.innerHTML = menuDiv.innerHTML;
+
+    var rowObjs = pop.document.body.all[0].rows;
+    //获得弹出菜单的行数
+    var rowCount = rowObjs.length;
+    //循环设置每行的属性
+    for (var i = 0; i < rowObjs.length; i++) {
+      //如果设置该行不显示，则行数减一
+      var hide = rowControlString.charAt(i) != '1';
+      if (hide) {
+        rowCount--;
+      }
+      //设置是否显示该行
+      rowObjs[i].style.display = (hide) ? "none" : "";
+      //设置鼠标滑入该行时的效果
+      rowObjs[i].cells[0].onmouseover = function() {
+          this.style.background = "#818181";
+          this.style.color = "white";
+        }
+        //设置鼠标滑出该行时的效果
+      rowObjs[i].cells[0].onmouseout = function() {
+
+        this.style.background = "#cccccc";
+
+        this.style.color = "black";
+
+      }
     }
-    /****
-     *　　　　　封装右键菜单函数：
-     *　　　　elementID 要自定义右键菜单的 元素的id
-     *　　　　menuID　　　 要显示的右键菜单DIv的 id
-     */
-  function rightmenu(elementID, menuID) {　　
-    var menu = document.getElementById(menuID); //获取菜单对象
-    　　
-    var element = document.getElementById(elementID); //获取点击拥有自定义右键的 元素
-    　　
-    element.onmousedown = function(aevent) { //设置该元素的 按下鼠标右键右键的 处理函数
-      　　　　
-      if (window.event) aevent = window.event; //解决兼容性
-      　　　　
-      if (aevent.button == 2) { //当事件属性button的值为2时，表用户按下了右键
-        　　　　　　
-        document.oncontextmenu = function(aevent) {　　　　
-          if (window.event) {　　　　
-            aevent = window.event;　　　　　　　　
-            aevent.returnValue = false; //对IE 中断 默认点击右键事件处理函数
-            　　　　　　
-          } else {　　　　　　　　
-            aevent.preventDefault(); //对标准DOM 中断 默认点击右键事件处理函数
-            　　　　　　
-          };　　　　
-        };　　　　
-        menu.style.CSSText = 'display:block;top:' + aevent.clientY + 'px;' + 'left:' + aevent.clientX + 'px;'　　　　 //将菜单相对 鼠标定位
-          　　　　
-      }　　
-    }　　
-    menu.onmouseout = function() { //设置 鼠标移出菜单时 隐藏菜单
-      　　　　
-      setTimeout(function() {
-        menu.style.display = "none";
-      }, 400);　　
-    }
+    //屏蔽菜单的菜单
+    pop.document.oncontextmenu = function() {
+        return false;
+      }
+      //选择右键菜单的一项后，菜单隐藏
+
+    pop.document.onclick = function() {
+        pop.hide();
+      }
+      //显示菜单
+    pop.show(event.clientX - 1, event.clientY, width, rowCount * 25, document.body);
+    return true;
+  }
+
+  function create() {
+    alert("create");
+  }
+
+  function update() {
+    alert("update");
+  }
+
+  function del() {
+
+    alert("delete");
+
   }
   </script>
 </head>
 
 <body>
-  <p id="p1">Uncle Cat is a fat white cat !</p>
-  <div id="d1">
-    <a>剪切</a>
-    <a>复制</a>
-    <a>粘贴</a>
+  <div id="itemMenu" style="display:none">
+    <table border="1" width="100%" height="100%" bgcolor="#cccccc" style="border:thin" cellspacing="0">
+      <tr>
+        <td style="cursor:default;border:outset 1;" align="center" onclick="parent.create()">
+          creat row
+        </td>
+      </tr>
+      <tr>
+        <td style="cursor:default;border:outset 1;" align="center" onclick="parent.update();">
+          modify row
+        </td>
+      </tr>
+      <tr>
+        <td style="cursor:default;border:outset 1;" align="center" onclick="parent.del();">
+          delete row
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div dojoType="ContentPane" label="My Widgets" id="main" oncontextmenu="javascript:showMenu();">
+    <div id="xml" oncontextmenu="javascript:showMenu();">
+      <div id="grp1" class="module">
+        accepts xml box
+      </div>
+    </div>
+    <div id="database" oncontextmenu="javascript:showMenu();">
+      <div id="grp3" class="module">
+        accepts DataBase box
+      </div>
+    </div>
+    <div id="rss" oncontextmenu="javascript:showMenu();">
+      <div id="grp2" class="module">
+        accepts RSS box
+      </div>
+    </div>
   </div>
 </body>
 

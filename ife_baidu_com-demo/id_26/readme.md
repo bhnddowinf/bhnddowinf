@@ -23,3 +23,6 @@ http://www.runoob.com/jsref/event-oncontextmenu.html
 event那些事 收集整理的事件相关资料
 
 http://xchb.work/2016/07/25/event%E9%82%A3%E4%BA%9B%E4%BA%8B/
+
+
+[HTML中自定义右键菜单功能] (http://www.cnblogs.com/penny/archive/2008/09/11/1288928.html)
