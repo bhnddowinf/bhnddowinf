@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,body{
+        height: 100%;
+      }
+      #loadingbox{
+        width: 100px;
+        height: 100px;
+        /*border: 2px solid;*/
+        position: absolute;
+        left: calc(50% - 50px);
+        top: calc(50% - 50px);
+        transform: scale(0.8);
+      }
+      #loadingboxin{
+        width: 50px;
+        height: 50px;
+        background-color: #d5d5d5;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        opacity: 0.9;
+        top: calc(50% - 25px);
+        left: calc(50% - 25px);
+      }
+      #loadingboxin>.left,#loadingboxin>.right{
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+      }
+      #loadingboxin>.left{
+        left: 0;
+      }
+      #loadingboxin>.right{
+        left: 50%;
+      }
+      #loadingboxin>.left div,#loadingboxin>.right div{
+        width: 100%;
+        height: 100%;
+        background-color: lightcoral;
+      }
+      #loadingboxin>.left div{
+        transform-origin: right center;
+        animation: left1 2s infinite linear;
+      }
+      #loadingboxin>.right div{
+        transform-origin: left center;
+        animation: right1 2s infinite linear;
+      }
+      @keyframes left1{
+        0%{transform: rotate(0deg);}
+        25%{transform: rotate(180deg);}
+        50%{transform: rotate(180deg);}
+        75%{transform: rotate(360deg);}
+        100%{transform: rotate(360deg);}
+      }
+      @keyframes right1{
+        0%{transform: rotate(0deg);}
+        25%{transform: rotate(0deg);}
+        50%{transform: rotate(180deg);}
+        75%{transform: rotate(180deg);}
+        100%{transform: rotate(360deg);}
+      }
+      #looper{
+        width: 80px;
+        height: 80px;
+        border: 2px solid lightcoral;
+        border-radius: 50%;
+        position: absolute;
+      }
+      #loadingboxout{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        left: calc(50% - 40px);
+        top: calc(50% - 40px);
+        overflow: hidden;
+      }
+      #cover{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        background-color: white;
+        transform-origin: bottom right;
+        animation: rotate 1s infinite linear;
+      }
+      @keyframes rotate{
+        from{transform: rotate(0);}
+        to{transform: rotate(360deg);}
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loadingbox">
+      <div id="loadingboxout">
+        <div id="looper"></div>
+        <div id="cover"></div>
+      </div>
+      <div id="loadingboxin">
+        <div class='left'><div></div></div>
+        <div class="right"><div></div></div>
+      </div>
+    </div>
+  </body>
+</html>
