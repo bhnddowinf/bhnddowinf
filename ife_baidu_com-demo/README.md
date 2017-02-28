@@ -155,9 +155,16 @@
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_53/index.html)
 
 
+ 
+
+3-16 仿豆瓣音乐播放器 id_83
 
 
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/83)
 
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_83/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_83/index.html)
 
 
 # 3.暂时想想…
