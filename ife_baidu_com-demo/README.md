@@ -106,6 +106,17 @@
 
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_29/index.html)
 
+
+
+3-11.任务：正则表达式之简易markdown文件解析器 id_30
+
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/30)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_30/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_30/index.html)
+
+
 # 3.暂时想想…
 
 
