@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #72b16a;
+}
+.wrapper{
+}
+.container{
+    width: 400px;
+    height: 300px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    backface-visibility:hidden;
+    perspective: 1600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.container .picture{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    transition:all 1.5s;
+}
+.container .picture:nth-child(1){
+    background: url("../image/bear-1.jpg") no-repeat center center;
+    background-size: cover;
+    transform: rotateY(0deg) translateZ(370px);
+}
+.container .picture:nth-child(2){
+    background: url("../image/bear-2.jpg") no-repeat center center;
+    background-size: cover;
+    transform: rotateY(60deg) translateZ(370px);
+}
+.container .picture:nth-child(3){
+    background: url("../image/bear-3.jpg") no-repeat center center;
+    background-size: cover;
+    transform: rotateY(120deg) translateZ(370px);
+}
+.container .picture:nth-child(4){
+    background: url("../image/bear-4.jpg") no-repeat center center;
+    background-size: cover;
+    transform: rotateY(180deg) translateZ(370px);
+}
+.container .picture:nth-child(5){
+    background: url("../image/bear-5.jpg") no-repeat center center;
+    background-size: cover;
+    transform: rotateY(240deg) translateZ(370px);
+}
+.container .picture:nth-child(6){
+    background: url("../image/bear-6.jpg") no-repeat center center;
+    background-size: cover;
+    transform: rotateY(300deg) translateZ(370px);
+}
