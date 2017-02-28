@@ -135,6 +135,8 @@
 
 3-14.封装DOM动画类库（一） id_52
 
+这题…很烂，2个月交出一个成熟又兼容又要自已写的动画库 = = 。
+
 - [官网任务-说明] (http://ife.baidu.com/course/detail/id/52)
 
 - [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_52/readme.md)
@@ -143,6 +145,8 @@
 
 
 3-15 封装DOM动画类库（二） id_53
+
+这题…很烂，2个月交出一个成熟又兼容又要自已写的动画库 = = 。
 
 - [官网任务-说明] (http://ife.baidu.com/course/detail/id/53)
 
