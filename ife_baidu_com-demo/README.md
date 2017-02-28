@@ -71,6 +71,7 @@
 
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_24/index.html)
 
+- [台湾小凡-demo2] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_24/index2.html)
 
 3-7.任务：自定义checkbox， radio样式 id_23
 
