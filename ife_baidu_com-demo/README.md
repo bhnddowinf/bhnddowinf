@@ -124,6 +124,15 @@
 
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_36/index.html)
 
+3-13.任务：CSS3实现3D 轮播图 id_51
+
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/51)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_51/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_51/index.html)
+
+
 # 3.暂时想想…
 
 
