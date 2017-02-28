@@ -133,6 +133,29 @@
 - [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_51/index.html)
 
 
+3-14.封装DOM动画类库（一） id_52
+
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/52)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_52/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_52/index.html)
+
+
+3-15 封装DOM动画类库（二） id_53
+
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/53)
+
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_53/readme.md)
+
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_53/index.html)
+
+
+
+
+
+
+
 # 3.暂时想想…
 
 
