@@ -1,125 +1,147 @@
 <html>
 
 <head>
-  <script language="JavaScript">
-  function showMenu() {
-    popMenu(itemMenu, 100, "111");
-    event.returnValue = false;
-    event.cancelBubble = true;
-    return false;
-  }
-  /**
-
-  *显示弹出菜单
-
-  *menuDiv:右键菜单的内容
-
-  *width:行显示的宽度
-
-  *rowControlString:行控制字符串，0表示不显示，1表示显示，如“101”，则表示第1、3行显示，第2行不显示
-
-  */
-  function popMenu(menuDiv, width, rowControlString)
-
-  {
-    //创建弹出菜单
-    var pop = window.createPopup();
-    //设置弹出菜单的内容
-    pop.document.body.innerHTML = menuDiv.innerHTML;
-
-    var rowObjs = pop.document.body.all[0].rows;
-    //获得弹出菜单的行数
-    var rowCount = rowObjs.length;
-    //循环设置每行的属性
-    for (var i = 0; i < rowObjs.length; i++) {
-      //如果设置该行不显示，则行数减一
-      var hide = rowControlString.charAt(i) != '1';
-      if (hide) {
-        rowCount--;
-      }
-      //设置是否显示该行
-      rowObjs[i].style.display = (hide) ? "none" : "";
-      //设置鼠标滑入该行时的效果
-      rowObjs[i].cells[0].onmouseover = function() {
-          this.style.background = "#818181";
-          this.style.color = "white";
-        }
-        //设置鼠标滑出该行时的效果
-      rowObjs[i].cells[0].onmouseout = function() {
-
-        this.style.background = "#cccccc";
-
-        this.style.color = "black";
-
-      }
-    }
-    //屏蔽菜单的菜单
-    pop.document.oncontextmenu = function() {
-        return false;
-      }
-      //选择右键菜单的一项后，菜单隐藏
-
-    pop.document.onclick = function() {
-        pop.hide();
-      }
-      //显示菜单
-    pop.show(event.clientX - 1, event.clientY, width, rowCount * 25, document.body);
-    return true;
+  <style>
+  body {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  function create() {
-    alert("create");
+  .box {
+    display: flex;
+    justify-content: space-between;
   }
 
-  function update() {
-    alert("update");
+  .box > div {
+    border: 1px solid #aaa;
+    padding: 100px;
   }
 
-  function del() {
-
-    alert("delete");
-
+  .menu {
+    width: 200px;
+    height: 60px;
+    background-color: aliceblue;
+    position: absolute;
+    border: 1px solid #aaa;
+    display: none;
   }
-  </script>
+
+  span {
+    display: block;
+    padding: 2px 0px 2px 30px;
+  }
+  </style>
 </head>
 
 <body>
-  <div id="itemMenu" style="display:none">
-    <table border="1" width="100%" height="100%" bgcolor="#cccccc" style="border:thin" cellspacing="0">
-      <tr>
-        <td style="cursor:default;border:outset 1;" align="center" onclick="parent.create()">
-          creat row
-        </td>
-      </tr>
-      <tr>
-        <td style="cursor:default;border:outset 1;" align="center" onclick="parent.update();">
-          modify row
-        </td>
-      </tr>
-      <tr>
-        <td style="cursor:default;border:outset 1;" align="center" onclick="parent.del();">
-          delete row
-        </td>
-      </tr>
-    </table>
+  <span class="box">
+    <div>
+        点击查看自定义菜单
+    </div>
+    <div>
+        点击查看自定义菜单
+    </div>
+    <div>
+        点击查看自定义菜单
+    </div>
+</span>
+  <span class="box">
+    <div>
+        点击查看自定义菜单
+    </div>
+    <div>
+        点击查看自定义菜单
+    </div>
+    <div>
+        点击查看自定义菜单
+    </div>
+</span>
+  <span class="box">
+    <div>
+        点击查看自定义菜单
+    </div>
+    <div>
+        点击查看自定义菜单
+    </div>
+    <div>
+        点击查看自定义菜单
+    </div>
+</span>
+  <div class="menu">
+    <span>点击我1</span>
+    <span>点击我2</span>
   </div>
-  <div dojoType="ContentPane" label="My Widgets" id="main" oncontextmenu="javascript:showMenu();">
-    <div id="xml" oncontextmenu="javascript:showMenu();">
-      <div id="grp1" class="module">
-        accepts xml box
-      </div>
-    </div>
-    <div id="database" oncontextmenu="javascript:showMenu();">
-      <div id="grp3" class="module">
-        accepts DataBase box
-      </div>
-    </div>
-    <div id="rss" oncontextmenu="javascript:showMenu();">
-      <div id="grp2" class="module">
-        accepts RSS box
-      </div>
-    </div>
-  </div>
+  <script>
+  /**
+   * Created by Mengman on 2017/2/26.
+   */
+
+  function addEvent(ele, type, handle) {
+    if (ele.addEventListener) {
+      ele.addEventListener(type, handle, false);
+    } else if (ele.attachEvent) {
+      ele.attachEvent("on" + type, handle);
+    } else {
+      ele['on' + type] = handle;
+    }
+  }
+
+  var body = document.getElementsByTagName("body")[0];
+  var menu = document.getElementsByClassName("menu")[0];
+  addEvent(body, "contextmenu", function(event) { //右键事件
+    menu.style.display = "none";
+    var target = event.target || event.srcElement;
+    if (target.tagName.toLowerCase() == "div") {
+      event.preventDefault(); //阻止默认菜单出现
+      var windowHeight = window.innerHeight;
+      var windowWidth = window.innerWidth;
+      showMenu(event, windowHeight, windowWidth);
+    }
+    if (target.parentNode.className == "menu") {
+      event.preventDefault();
+      alert(target.innerHTML);
+    }
+  });
+
+  addEvent(body, "click", function(event) { //左键事件
+    var target = event.target || event.srcElement;
+    if (target.parentNode.className == "menu") { //点击菜单弹出对话框
+      alert(target.innerHTML);
+    }
+    menu.style.display = "none"; //点击其他地方菜单消失
+  });
+
+  /**
+   * 展示菜单
+   * */
+  function showMenu(event, windowHeight, windowWidth) {
+    var mousepositionX = event.clientX,
+      mousePositionY = event.clientY;
+    menu.style.display = "inline"; //显示菜单
+    if (windowWidth - mousepositionX <= 200 && mousepositionX > 200) { //右边空间不够左边够的时候
+      if (windowHeight - mousePositionY > 60) { //下方有足够空间
+        menu.style.top = event.pageY + "px"; //使用pageY防止页面滚动时出现问题
+        menu.style.left = event.pageX - 200 + "px";
+        return;
+      }
+      if (mousePositionY > 60) { //下方空间不够，但上方空间够
+        menu.style.top = event.pageY - 60 + "px";
+        menu.style.left = event.pageX - 200 + "px";
+        return;
+      }
+    }
+    if (windowWidth - mousepositionX > 200 && windowHeight - mousePositionY <= 60) { //左边空间够但下方空间不够
+      menu.style.top = event.pageY - 60 + "px";
+      menu.style.left = event.pageX + "px";
+      return;
+    }
+    menu.style.top = event.pageY + "px"; //其他情况，统一放在右下角
+    menu.style.left = event.pageX + "px";
+    return true;
+  }
+  </script>
 </body>
 
 </html>
