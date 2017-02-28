@@ -118,11 +118,11 @@
 
 3-12.任务：CSS3饼状loading效果 id_36
 
-- [官网任务-说明] (http://ife.baidu.com/course/detail/id/30)
+- [官网任务-说明] (http://ife.baidu.com/course/detail/id/36)
 
-- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_30/readme.md)
+- [台湾小凡-说明] (https://github.com/bhnddowinf/bhnddowinf/blob/master/ife_baidu_com-demo/id_36/readme.md)
 
-- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_30/index.html)
+- [台湾小凡-demo] (https://bhnddowinf.github.io/bhnddowinf/ife_baidu_com-demo/id_36/index.html)
 
 # 3.暂时想想…
 
