@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  span {
+    display: inline-block;
+    width: 150px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .aqi-sev {
+    background: #7e0023;
+  }
+
+  .aqi-bad {
+    background: #99004c;
+  }
+
+  .aqi-mid {
+    background: #f00;
+  }
+
+  .aqi-light {
+    background: #ff7e00;
+  }
+
+  .aqi-fine {
+    background: #ff0;
+  }
+
+  .aqi-good {
+    background: #00e400;
+  }
+
+  button {
+    outline: none;
+    margin-bottom: 10px;
+  }
+
+  .btn1 {
+    background: #7e0023;
+    color: #fff;
+  }
+
+  .btn2 {
+    background: #99004c;
+    color: #fff;
+  }
+
+  .btn3 {
+    background: #f00;
+    color: #fff;
+  }
+
+  .btn4 {
+    background: #ff7e00;
+  }
+
+  .btn5 {
+    background: #ff0;
+  }
+
+  .btn6 {
+    background: #00e400;
+  }
+
+  #bj {
+    width: 550px;
+    height: 150px;
+    float: left;
+  }
+
+  #gz {
+    width: 650px;
+    height: 150px;
+    float: right;
+  }
+
+  #vs {
+    float: left;
+    font-size: 60px;
+    line-height: 150px;
+    height: 150px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="bj">
+    <h2>北京2014年Q1空气质量</h2>
+    <button class="btn1">严重污染</button>
+    <button class="btn2">重度污染</button>
+    <button class="btn3">中度污染</button>
+    <button class="btn4">轻度污染</button>
+    <button class="btn5">良</button>
+    <button class="btn6">优</button>
+    <ul id="chart-wrap"></ul>
+  </div>
+  <div id="vs">VS</div>
+  <div id="gz">
+    <h2>广州2014年Q1空气质量</h2>
+    <button class="btn1">严重污染</button>
+    <button class="btn2">重度污染</button>
+    <button class="btn3">中度污染</button>
+    <button class="btn4">轻度污染</button>
+    <button class="btn5">良</button>
+    <button class="btn6">优</button>
+    <ul id="chart-wrap2"></ul>
+    <script>
+    var aqiSourceData = [
+      [86, 117, 80, 153, 119, 184, 143, 29, 43, 87, 143, 42, 110, 109, 148, 381, 211, 104, 177, 37, 51, 153, 169, 185, 40, 77, 128, 61, 155, 93, 184],
+      [179, 105, 40, 50, 116, 158, 124, 102, 29, 35, 133, 150, 241, 311, 424, 339, 137, 95, 89, 208, 308, 313, 262, 309, 402, 330, 31, 106],
+      [57, 175, 267, 88, 38, 38, 36, 63, 191, 126, 108, 207, 36, 58, 62, 128, 151, 181, 86, 75, 37, 54, 82, 166, 241, 322, 294, 169, 72, 63, 172]
+      //以上是北京的数据
+    ];
+    var aqiSourceData2 = [
+      [122, 146, 179, 169, 153, 205, 133, 122, 66, 91, 133, 121, 60, 64, 91, 130, 145, 94, 135, 137, 101, 69, 79, 89, 97, 103, 123, 110, 134, 111, 158],
+      [71, 66, 68, 73, 50, 41, 45, 32, 13, 41, 60, 71, 47, 65, 68, 89, 147, 59, 23, 38, 86, 94, 88, 76, 66, 84, 63, 62],
+      [63, 41, 64, 70, 39, 39, 85, 35, 50, 29, 49, 62, 167, 67, 75, 87, 121, 161, 101, 90, 103, 68, 74, 112, 84, 90, 68, 53, 61, 54, 42]
+    ];
+    //以上是广州的数据
+    function count(src) {
+      var countData = {
+        "aqiSev": 0,
+        "aqiBad": 0,
+        "aqiMid": 0,
+        "aqiLight": 0,
+        "aqiFine": 0,
+        "aqiGood": 0
+      }
+      for (var i = 0, len = src.length; i < len; i++) {
+        if (src[i] <= 50) {
+          countData.aqiGood++;
+        } else if (src[i] <= 100) {
+          countData.aqiFine++;
+        } else if (src[i] <= 150) {
+          countData.aqiLight++;
+        } else if (src[i] <= 200) {
+          countData.aqiMid++;
+        } else if (src[i] <= 250) {
+          countData.aqiBad++;
+        } else {
+          countData.aqiSev++;
+        }
+      }
+      return countData;
+    }
+
+    function renderChart(month, data) {
+      var renderHTML = '';
+      renderHTML += "<li>" + month + "月:";
+      renderHTML += '<span class="aqi-sev" style="width:' + data.aqiSev * 10 + 'px"></span>'
+      renderHTML += '<span class="aqi-bad" style="width:' + data.aqiBad * 10 + 'px"></span>'
+      renderHTML += '<span class="aqi-mid" style="width:' + data.aqiLight * 10 + 'px"></span>'
+      renderHTML += '<span class="aqi-light" style="width:' + data.aqiFine * 10 + 'px"></span>'
+      renderHTML += '<span class="aqi-fine" style="width:' + data.aqiFine * 10 + 'px"></span>'
+      renderHTML += '<span class="aqi-good" style="width:' + data.aqiGood * 10 + 'px"></span>'
+      renderHTML += '</li>'
+      return renderHTML
+    }
+
+    function generator() {
+      var chartHTML = "";
+      var chartHTML_2 = "";
+      var sum0 = 0,
+        sum1 = 0,
+        sum2 = 0,
+        sum3 = 0,
+        sum4 = 0,
+        sum5 = 0;
+      var sum6 = 0,
+        sum7 = 0,
+        sum8 = 0,
+        sum9 = 0,
+        sum10 = 0,
+        sum11 = 0;
+      for (var i = 0, len = aqiSourceData.length; i < len; i++) {
+        var monthText = i + 1;
+        var monthData = count(aqiSourceData[i]);
+        chartHTML += renderChart(monthText, monthData);
+        sum0 += monthData.aqiSev;
+        sum1 += monthData.aqiBad;
+        sum2 += monthData.aqiMid;
+        sum3 += monthData.aqiLight;
+        sum4 += monthData.aqiFine;
+        sum5 += monthData.aqiGood;
+      }
+      var aBtn = document.getElementsByTagName("button");
+      if (aBtn[0]) {
+        aBtn[0].onclick = function() {
+          alert("总共" + sum0 + "天");
+        }
+      }
+      if (aBtn[1]) {
+        aBtn[1].onclick = function() {
+          alert("总共" + sum1 + "天");
+        }
+      }
+      if (aBtn[2]) {
+        aBtn[2].onclick = function() {
+          alert("总共" + sum2 + "天");
+        }
+      }
+      if (aBtn[3]) {
+        aBtn[3].onclick = function() {
+          alert("总共" + sum3 + "天");
+        }
+      }
+      if (aBtn[4]) {
+        aBtn[4].onclick = function() {
+          alert("总共" + sum4 + "天");
+        }
+      }
+      if (aBtn[5]) {
+        aBtn[5].onclick = function() {
+          alert("总共" + sum5 + "天");
+        }
+      }
+      var oUl = document.getElementById('chart-wrap');
+      oUl.innerHTML = chartHTML;
+
+      for (var i = 0, len = aqiSourceData2.length; i < len; i++) {
+        var monthText = i + 1;
+        var monthData = count(aqiSourceData2[i]);
+        chartHTML_2 += renderChart(monthText, monthData);
+        sum6 += monthData.aqiSev;
+        sum7 += monthData.aqiBad;
+        sum8 += monthData.aqiMid;
+        sum9 += monthData.aqiLight;
+        sum10 += monthData.aqiFine;
+        sum11 += monthData.aqiGood;
+
+      }
+      var oDiv = document.getElementById('gz');
+      var aBtn2 = oDiv.getElementsByTagName('button');
+      if (aBtn2[0]) {
+        aBtn2[0].onclick = function() {
+          alert("总共" + sum6 + "天");
+        }
+      }
+      if (aBtn2[1]) {
+        aBtn2[1].onclick = function() {
+          alert("总共" + sum7 + "天");
+        }
+      }
+      if (aBtn2[2]) {
+        aBtn2[2].onclick = function() {
+          alert("总共" + sum8 + "天");
+        }
+      }
+      if (aBtn2[3]) {
+        aBtn2[3].onclick = function() {
+          alert("总共" + sum9 + "天");
+        }
+      }
+      if (aBtn2[4]) {
+        aBtn2[4].onclick = function() {
+          alert("总共" + sum10 + "天");
+        }
+      }
+      if (aBtn2[5]) {
+        aBtn2[5].onclick = function() {
+          alert("总共" + sum11 + "天");
+        }
+      }
+      var oUl2 = document.getElementById('chart-wrap2');
+      oUl2.innerHTML = chartHTML_2;
+    }
+    generator();
+    </script>
+  </div>
+</body>
+
+</html>
