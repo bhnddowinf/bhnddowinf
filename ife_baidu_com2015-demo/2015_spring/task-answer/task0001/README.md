@@ -1,39 +1,3 @@
-
-
-#大家普遍的问题
-
-1.缩进
-.CSS命名不够好，不来回看代码有时候会不知道这个命名是什么意思
-3.很多学YUI命名了一些.font-12, .mt-10这样的东西，我个人不建议（仁者见仁智者见智的问题）
-4.存在一些为了实现样式而做的很多无谓嵌套
-5.很多同学估计没有几个页面一起统筹规划，而是做一点来一点，会发现一开始遇到一个左右布局就来个.left, .right，然后到后面遇到不太一样的左右布局就变成.xxx-left, .xxx-right
-6.没有关注SEO，比如logo就应该有明确的logo的名字，比如banner不叫banner而起了些别的名字。当然出现最多的问题是在about.html页面，很多同学是为了实现样式而在写HTML结构，左边各种标题放在一个dom，右边各种内容放在一个dom。万一我哪天需求一改，不是左右布局，这样实现的人就得崩溃了
-7.存在一小部分，满眼div的代码
-
-# 什么样的html结构和命名好呢？
-
-抛开团队合作这个因素在裸看代码的情况下，不看具体html的文字内容情况下，就能非常清晰、不需要多思考，就能很明白你整个网站的结构是怎样，每块内容是讲什么，内容的优先级、重要程度是什么
-
-#CSS
-
-    CSS命名：http://www.zhihu.com/question/21935157
-    CSS布局新手神站：http://zh.learnlayout.com/
-    CSS处理圆角：http://www.poluoluo.com/jzxy/200905/62364.html
-    说说flexbox https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties
-    这是中文版http://www.w3cplus.com/css3/a-visual-guide-to-css3-flexbox-properties.html
-    一些新的 text-decoration 的属性，波浪线、下划线等等，叼叼的
-    https://css-tricks.com/more-control-over-text-decoration/
-    大放异彩的伪元素可以做什么 http://www.w3cplus.com/css3/pseudo-element-roundup.html
-    margin系列详解 http://www.ituring.com.cn/minibook/1024
-
-# HTML
-
-    html头部<html lang="zh"> 还是 <html lang="zh-cn">?http://www.zhihu.com/question/20797118
-
-
-
--------------------
-
 # HTML、CSS基础
 
 **任务编号**：`TASK 0001`
@@ -242,7 +206,9 @@
 
 ### 7.1 任务描述
 
-在您自己的Github中建立一个新的仓库，比如命名为`task0001`，在该目录下创建以下四个html文件：
+fork本项目，在`task/task0001/work/`目录中创建一个以自己`Github`账号名称命名的目录，切记！！创建一个以自己`Github`账号名称命名的目录！
+
+在以你的`Github`名称命名的目录下创建以下四个html文件：
 
 - `index.html`：对应`task0001_1`及`task0001_1_marked`设计稿
 - `blog.html`：对应`task0001_2`及`task0001_2_marked`设计稿
@@ -272,7 +238,7 @@
 - 完成编码后，删掉它们，不留一丝痕迹；
 - 开始重(Chong)构(Xie)，让自己的代码要比第一次有提升，尽可能地让第一次遇到问题和疑惑不再存在；
 - 在blog.html页面中真的写上2-3篇这次学习上的技术总结收获；
-- 初级班同学请在[这里](https://github.com/baidu-ife/ife/issues/764)，按要求回复您的task0001的Github地址。
+- `Pull Request`你的代码，等待Review。
 
 ### 7.2 期望达成
 
