@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/manage.css">
+</head>
+<body>
+<div class="container">
+    <div class="right-container">
+        <div class="col-right">
+            <a href="./image-upload/index.html" id="import"><i class="icon-upload-cloud"></i>导入图片</a>
+            <ul class="img-list"></ul>
+            <i class="icon-up-open-big"></i>
+            <div id="footer">已经到底啦~ <i class="icon-emo-happy"></i></div>
+            <div id="shadow">
+                <i class="icon-cancel"></i>
+            </div>
+            <div class="overlay">
+                <span class="resize-handle resize-handle-nw"></span>
+                <span class="resize-handle resize-handle-ne"></span>                
+                <span class="resize-handle resize-handle-se"></span>
+                <span class="resize-handle resize-handle-sw"></span>         
+            </div>  
+        </div>
+    </div>
+    <div class="col-left">
+        <div class="nav">
+            <h3 class="nav-title">照 片 管 理 器</h3>
+            <div id="newAlbum"><i class="icon-plus-1"></i>新建相册</div>
+            <div class="nav-menu-container">
+                <div class="nav-label"></div>
+                <ul id="nav-menu">
+                    <li class="active" id="allimage" draggable="true">
+                        全部
+                    </li>
+                    <li id="cartoon" draggable="true">
+                        动漫
+                    </li>
+                    <li id="photography" draggable="true">
+                        摄影
+                    </li>
+                    <li id="scenery" draggable="true">
+                        风景
+                    </li>
+                    <li id="importImg" draggable="true">
+                        最新导入
+                    </li>
+                    <li id="show" draggable="true" >
+                        <a href="./show.html">
+                            展示页面
+                            <i class="icon-link"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-edit">
+            <h3 class="nav-title">照 片 管 理 器</h3>
+            <div class="saveImage"><i class="icon-download-cloud"></i>保存图片</div>
+            <div class="title">旋转</div>
+            <div id="rotate">
+                <i class="icon-ccw-1"></i>
+                <i class="icon-cw"></i>
+                <i class="icon-resize-horizontal"></i>
+                <i class="icon-resize-vertical"></i>
+            </div>
+            <div class="title">裁剪</div>
+            <div id="cut">
+                <div class="cut-title">高度</div>
+                <div class="cut-title">宽度</div>
+                <input class="text-height" min="100" type="number" value="200">
+                <i class="icon-cancel-1"></i>
+                <input class="text-width" min="100" type="number" value="200">
+                <div class="crop">裁剪<i class="icon-crop"></i></div>
+            </div>
+            <div class="title">滤镜</div>
+            <ul id="filter">
+                <li class="reverse"> 反色 </li>
+                <li class="gray"> 灰度 </li>
+                <li class="old"> 怀旧 </li>
+                <li class="cold"> 冰冻 </li>
+            </ul>
+            <div class="title">缩放</div>
+            <div id="scale">
+                <span class="percent">100%</span>
+                <span class="size"></span>
+                <div class="range">
+                    <i class="icon-minus"></i>
+                    <input type="range" class="scale-range" value="50">
+                    <i class="icon-plus"></i>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/manage.js"></script>
+</body>
+</html>

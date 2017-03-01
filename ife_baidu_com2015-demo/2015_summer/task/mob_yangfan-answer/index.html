@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+<div id="wrapper">
+    <div class="header-hold">
+        <header>
+            <div class="main-title">
+                <i class="icon-menu"></i>
+                <span>记账本</span>
+                <i class="icon-pencil"></i>
+            </div>
+            <ul class="menu">
+                <li class="accounts-list active">账目列表</li>
+                <li class="accounts-chart">账目图表</li>
+            </ul>
+            <div class="release-title">
+                <i class="icon-cancel"></i>
+                <span>记一笔</span>
+                <div class="release">发布</div> 
+            </div>
+        </header>
+    </div>
+    
+    <div id="content">
+        <ul class="bill-list">
+            <li>
+                <div class="list-item">
+                    <div class="diet">
+                        <i class="icon-money"></i>
+                        <div>暂无数据</div>
+                    </div>
+                    <span class="money income-num">+0.00</span>
+                    <div class="date">2015/8/25</div>
+                </div>
+                <div class="edit-item"></div>
+            </li>
+        </ul>
+    
+        <ul class="release-list">
+            <li>
+                <div class="income">
+                    <i class="icon-money"></i>
+                    <div>收入</div>
+                </div>
+            </li>
+            <li>
+                <div class="clothes">
+                    <i class="icon-user"></i>
+                    <div>衣服</div>
+                </div>
+                <div class="diet">
+                    <i class="icon-coffee"></i>
+                    <div>饮食</div>
+                </div>
+                <div class="accommodation">
+                    <i class="icon-home"></i>
+                    <div>住宿</div>
+                </div>
+                <div class="traffic">
+                    <i class="icon-flight"></i>
+                    <div>交通</div>
+                </div>
+            </li>
+            <li>
+                <div class="shopping">
+                    <i class="icon-basket"></i>
+                    <div>购物</div>
+                </div>
+                <div class="others">
+                    <i class="icon-dollar"></i>
+                    <div>其他</div>
+                </div>
+            </li>
+        </ul>
+        <div class="chart-list">
+            <ul class="total-list">
+                <li class="totla-income">
+                    <div>总收入</div>
+                    <div class="all-income">￥0.00</div>
+                </li>
+                <li class="total-spending">
+                    <div>总支出</div>
+                    <div class="all-spending">￥0.00</div>
+                </li>
+                <li class="total-remaining">
+                    <div>总结余</div>
+                    <div class="all-remaining">￥0.00</div>
+                </li>
+            </ul>
+            <div class="pie-chart">
+                <div class="col-left">
+                    <div class="pie-title">支出占比饼图</div>
+                    <ul class="spending-list">
+                        <li><span class="clothes-color"></span>衣服</li>
+                        <li><span class="traffic-color"></span>交通</li>
+                        <li><span class="diet-color"></span>饮食</li>
+                        <li><span class="shopping-color"></span>购物</li>
+                        <li><span class="accommodation-color"></span>住宿</li>
+                        <li><span class="others-color"></span>其他</li>          
+                    </ul>
+                </div>
+                <div class="col-right">
+                    <div class="mychart" style="height: 12rem;" data-optionkey="mypie">
+                    </div>
+                </div>
+            </div>
+            <div class="line-chart">
+                <div class="line-title">月收入/支出 折线图</div>
+                <div class="mychart" style="height: 15rem;" data-optionkey="myline">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="input"></div>
+    </footer>
+</div>
+<script type="text/javascript" src="./js/zepto.min.js"></script>
+<script type="text/javascript" src="./js/dist/echarts.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
