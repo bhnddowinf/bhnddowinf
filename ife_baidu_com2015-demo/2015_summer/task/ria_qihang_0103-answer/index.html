@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title>notebook</title>
+	<link rel="stylesheet" type="text/css" href="./assert/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mode.css">
+</head>
+<body class="view-mode">
+<section class='sidebar'>
+	<div>
+		<ul>
+			<li id='sidebar-create'>
+				<i class="fa fa-plus-circle fa-fw"></i>
+				<p>新建笔记</p>
+				<ul id='note-type'>
+					<li id='text-note'><i class='fa fa-pencil fa-fw'></i>文字笔记</li>
+					<li id='canvas-note'><i class='fa fa-paint-brush fa-fw'></i>绘图笔记</li>
+				</ul> 
+			</li>
+			<li id='sidebar-note'><i class="fa fa-file-text fa-fw"></i><p>查看笔记</p></li>
+			<li id='note-book'><i class="fa fa-book fa-fw"></i><p>查看笔记本</p></li>
+		</ul>
+	</div>
+</section>
+<section class='main'>
+<section id='note-list' class='note-list'>
+	<header>
+		<h1 id='note-list-title'>笔记</h1>
+		<p><span id='note-count'>0</span>条笔记</p>
+	</header>
+	<div class="list">
+		<ul id='note-list-target-ul'>
+		</ul>
+		<ul id='note-list-templete' style='display: none;'>
+			<li>
+				<p></p>
+				<div>
+					<ul>
+						<li class=' op-delete-note'><i class="fa fa-trash-o"></i></li>
+					</ul>	
+				</div>
+			</li>	
+		</ul>
+	</div>
+	<div id='delete-note-popup' class="popup">
+		<div class='wrap'>
+			<p><i class="fa fa-trash-o fa-2x"></i></p>
+			<p>删除笔记</p>
+			<p id='delete-note-name'>ss</p>
+			<div id='delete-note-op'>
+					<span id='delete-note-delete' class='delete-btn'>删除</span>
+					<span id='delete-note-cancel' class='cancel-btn'>取消</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id='notebook-list' class='note-list notebook'>
+	<header>
+		<h1>笔记本</h1>
+		<p id='new-notebook'><i class="sid-icon fa fa-plus fa-fw"></i>新建笔记本</p>
+	</header>
+	<div class="list">
+		<ul id='notebook-list-target-ul'>
+		</ul>
+		<ul id='notebook-list-templete' style='display: none;'>
+			<li>
+				<p>欢迎使用</p>
+				<div>
+					<ul>
+						<li><i class="fa fa-trash-o del"></i></li>
+						<li><i class="fa fa-pencil edt"></i></li>
+					</ul>	
+				</div>
+			</li>	
+		</ul>
+	</div>
+	<div id='delete-notebook-popup' class="popup">
+		<div class='wrap'>
+			<p><i class="fa fa-trash-o fa-2x"></i></p>
+			<p>删除笔记本（删除后笔记本内笔记将归入未分类）</p>
+			<p id='delete-notebook-name'>ss</p>
+			<div id='delete-notebook-op'>
+					<span id='delete-notebook-delete' class='delete-btn'>删除</span>
+					<span id='delete-notebook-cancel' class='cancel-btn'>取消</span>
+			</div>
+		</div>
+	</div>
+
+	<div id='new-notebook-popup' class="popup">
+		<div class="wrap">
+			<p><i class="fa fa-book fa-2x"></i></p>
+			<p>创建笔记本</p>
+			<input  type='text' id='input-notebook-name' name='notebook-name' placeholder='给笔记本取个名字吧' autofocus required></input>
+			<div>
+				<span id='newnotebook-cancel' class='btn gray'>取消</span>
+				<span id='newnotebook-confirm' class='disable btn green'>确定</span>
+			</div>
+		</div>
+	</div>
+
+	<div id='rename-notebook-popup' class="popup">
+		<div class="wrap">
+			<p><i class="fa fa-book fa-2x"></i></p>
+			<p>重命名笔记本</p>
+			<input  type='text' id='input-rename-notebook-name' placeholder='输入新名字' autofocus required></input>
+			<div>
+				<span id='renamenotebook-cancal' class='btn gray'>取消</span>
+				<span id='renamenotebook-confirm' class='btn green'>确定</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class='note-content'>
+	<header>
+		<ul>
+			<li id='save'><i class="fa fa-check"></i>完成</li>
+			<li id='full-screen'><i class="fa fa-expand"></i>全屏</li>
+			<li id='exit'><i class="fa  fa-compress fa-fw"></i>退出全屏</li>
+			<li id='edit'><i class="fa fa-pencil"></i>编辑</li>
+		</ul>
+		<ul id='select-category-ul'>
+			<li id='select-category'><i class="fa fa-book"></i><span  id='category'>未分类</span><i class="fa fa-angle-down"></i>
+			<div  id='drop-down' class="none">
+				<p>请选择分类</p>
+				<ul id='category-select-list'>
+				</ul>
+				<ul id='category-list-templete' style="display: none;">
+				<li><p></p><i class="fa fa-check-circle"></i></li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+		<p id='over-title' class="over-title"></p>
+	</header>
+	<div id='view'>
+		<header>
+			<h1 id="title"></h1>
+		</header>
+		<div class="content" id='content'>
+		</div>
+	</div>
+	<div id='write'>
+		<div class="input-area">
+			<input  type='text' id='input-title' name='title-input' placeholder='请输入标题' required >
+			</input>
+			<textarea id='text-area' name='content-input' placeholder='请输入正文'></textarea>
+			<div class='draw-area' id='draw-area'>
+				<div class='draw-tools-bar'>
+					<ul>
+						<li><i class='fa fa-minus fa-fw'></i>线粗
+							<div id='selece-panWidth' class='select-pan-style'>
+								<i data-size='1' class='line line-1x'></i>
+								<i data-size='2' class='line line-2x'></i>
+								<i data-size='3' class='line line-3x'></i>
+								<i data-size='4' class='line line-4x'></i>
+							</div>
+						</li>
+						<li><i class='fa fa-eraser fa-fw'></i>橡皮
+							<div id='select-eraser' class='select-pan-style'>
+								<i data-size='1' class='rect rect-1x'></i>
+								<i data-size='2' class='rect rect-2x'></i>
+								<i data-size='3' class='rect rect-3x'></i>
+								<i data-size='4' class='rect rect-4x'></i>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<canvas id='palette'></canvas>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script src="js/lib/marked.min.js"></script>
+<script src="js/draw.js"></script>
+<script src="js/note.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/util.js"></script>
+<script src="js/event.js"></script>
+</body>
+</html>
