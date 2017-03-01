@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="css/rps.css">
+		<script src="js/rps.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<h1 id='title'>Rock-paper-scissors</h1>
+	<h1>Win times:<span id="times">0</span></h1>
+	<div id="playground">
+		<div id="player">
+			<h2>Choose one:</h2>
+			<img src="img/paper.jpg" alt="paper" class="choose" onclick="choose('paper');">
+			<img src="img/scissor.jpg" alt="scissor" class="choose" onclick="choose('scissor');">
+			<img src="img/rock.jpg" alt="rock" class="choose" onclick="choose('rock');">
+		</div>
+		<div id="enemy">
+			<h2>Enemy:</h2>
+			<img src="img/paper.jpg">
+		</div>
+		<div id="result">
+			You:<img src="img/rock.jpg" id="yourChoise">
+			Enemy:<img src="img/rock.jpg" id="enemyChoise">
+			<h1 id='outcome'>Outcome:Tie</h1>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jdstb</title>
+	<style>
+		#main{
+			width:700px;
+			height:200px;
+			margin:auto;
+			padding-top:100px;
+			float:left;
+		}
+		#show{
+			width:500px;
+			margin:auto;
+		}
+		#log{
+			float:left;
+			margin:100px;
+			width:400px;
+			height:400px;
+		}
+		.box{
+			margin:25px;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<button class="box" id="shear"></button>
+		<button class="box" id="stone"></button>
+		<button class="box" id="cloth"></button>
+		<div id="show">
+			<img id="choice" class="box">
+			<img id="random" class="box">
+		</div>
+		<div>
+			
+		</div>
+	</div>
+	<div id="log">
+		<p> 统计:
+			胜利<span id="win">0</span>次;
+			平局<span id="tie">0</span>次;
+			失败<span id="los">0</span>次.
+		</p>
+		<p>游戏日志:</p>
+		<p>点击图片即可游戏!!</p>
+	</div>
+	<script type="text/javascript" src="js/finger-guess.js"></script>
+</body>
+</html>
