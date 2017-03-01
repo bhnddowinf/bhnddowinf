@@ -1,0 +1,83 @@
+body{
+	width: 30%;
+	margin:auto;
+	#background-color: blue; 
+	background-image: url(../images/ccc.jpg);
+	color: #fff;
+}
+
+section.info{
+	margin-top: 50px;
+}
+
+section.info .photo-wrap{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.photo-wrap img{
+	display: block;
+	width: 100px;
+	margin:auto;
+	border-radius: 50%; 
+	border:2px solid #999;
+}
+
+.base-info{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.base-info p:first-of-type{
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+.base-info p:last-of-type{
+	font-size: 0.9em;
+}
+
+
+.list {
+	margin-top: 80px;
+}
+
+
+header h1{
+	font-size: 1.4em;
+	padding: 10px 20px;
+}
+
+.list ul{
+	border-bottom: 1px solid #122642;	
+	border-top: 1px solid #122642;
+}
+
+.list ul li{
+	list-style: none;
+	padding: 10px 0;
+	margin:0 20px;
+	border-bottom: 1px solid #122642;
+}
+.list ul li:hover{
+	margin-left: 40px;
+}
+
+.list ul li:last-of-type{
+	border-bottom: 0;	
+}
+
+.list i{
+	padding-right: 20px;
+}
+
+.list a{
+	color: #fff;
+}
+
+.list a:hover{
+	color: #f11;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+}

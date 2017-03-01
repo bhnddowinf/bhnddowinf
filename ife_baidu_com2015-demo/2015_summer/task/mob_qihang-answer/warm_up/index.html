@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Nua</title>
+	<link rel='stylesheet' href='css/Nua_style.css'>
+	<script src="http://192.168.56.1:8081/target/target-script-min.js#anonymous"></script>
+</head>
+<body>
+	<div id='header'>
+	<a name='top'>	
+		<div class='logo'>
+			<img src='img/logo.png' alt='logo' width='110px' height='30px'>
+		</div>
+		<div class='nav'>
+			<ul>
+				<li><a href='Nua_index.html'>首页</a></li>
+				<li><a href='Nua_blog.html' target='_blank'>文章</a></li>
+				<li><a href='Nua_task.html' target='_blank'>作品</a></li>
+			</ul>
+		</div>
+	</a>
+	</div>
+	<div class='lunbo'>
+		<ul id="imgs">
+			<li><img src="img/bg5.jpg" alt="5"></li>
+			<li><img src="img/bg1.jpg" alt="1"></li>
+			<li><img src="img/bg2.jpg" alt="2"></li>
+			<li><img src="img/bg3.jpg" alt="3"></li>
+			<li><img src="img/bg4.jpg" alt="4"></li>
+			<li><img src="img/bg5.jpg" alt="5"></li>
+			<li><img src="img/bg1.jpg" alt="6"></li>
+		</ul>
+		<ul id="nums">
+			<li index="0" class="light" onclick="clickDot(this)"></li>
+			<li index="1" onclick="clickDot(this)"></li>
+			<li index="2" onclick="clickDot(this)"></li>
+			<li index="3" onclick="clickDot(this)"></li>
+			<li index="4" onclick="clickDot(this)"></li>
+		</ul>
+		<div id="prev" onclick="movePrev()"></div>
+		<div id="next" onclick="moveNext()"></div>
+	</div>
+
+	<div id='container'>
+		<div id='list_left'>
+			<ul>
+				<li id="list1" onclick="getContent(this)" class="active"><a>团队介绍</a></li>
+				<li id ="list2" onclick="getContent(this)"><a>成员介绍</a></li>
+				<li id ="list3" onclick="getContent(this)"><a>任务介绍</a></li>
+			</ul>	
+		</div>
+		<div id='content'>
+			<div id='content1' style='height: 95%'>
+				<h2>【Nua✧】团队介绍</h2>
+				<p>【Nua✧】没有特别的含义，但是它是一种永远可爱快乐的生活态度。</p>
+				<p>我们5位都是前端小白，正在一步一步学习的过程中。希望能在百度前端技术学院的大家庭中与志同道合的各位一同走进前端的世界，一起探讨进步。</p>
+				<p>我们本次加入的班级是移动启航班，希望在暑期的时间内学会简单的移动端页面的设计。具体的任务是：1 移动小名片；2 漂亮宣传手册。当然我们很期待能够完成更大的挑战，也就是完成移动扬帆班级的任务：移动高级记账簿。</p>
+				<p>【Nua✧】队中每一位小伙伴们都将以我们轻松、快乐、可爱的心态学习前端，设计出舒心的页面。</p>
+			</div>
+			<div id='content2' style='height: 0px'>
+				<h2>Nua成员介绍</h2>
+					<ul id="name_header">
+						<li id="name1" onclick="getContent(this)" class="active">njzyfr</li>
+						<li id="name2" onclick="getContent(this)">Melanie-BUPT</li>
+						<li id="name3" onclick="getContent(this)">igongqin</li>
+						<li id="name4" onclick="getContent(this)">Luojiamin</li>
+						<li id="name5" onclick="getContent(this)">wlei-in-bupt</li>
+					</ul>
+					<div id="member1" style='height: 300px'>
+						<img src="img/kenan.jpg" alt="njzyfr" width="100px" height="100px">
+						<div class="blank"></div>
+						<div class="mem_intro">
+							<p>
+							研究生一枚。走进前端的世界是一个美丽的意外。从最开始的认为上手容易到渐渐的觉得网页的设计是一件有趣的事情，并且认识到好的页面设计十分重要更加喜欢自己做的事情。我觉得好的页面设计能够带来阅读了解的欲望，这样不仅能够给用户提供更舒服的阅读体验，也增加了设计者需要的入口流量。
+							</p>
+							<p>
+							现在已经自学前端两个多月，了解HTML，CSS，JavaScript的基础内容。越学习越觉得要了解的东西太多太多，哈哈，跳进了一个大坑。但是正在自得其乐，努力前行中。
+							</p>
+						</div>
+					</div>
+					<div id="member2" style='height: 0px'>
+						<img src="img/kenan.jpg" alt="Melanie-BUPT" width="100px" height="100px">
+						<div class="blank"></div>
+						<div class="mem_intro">
+							<p>
+							hahhhhhh
+							</p>
+							<p>
+							现在已经自学前端两个多月，了解HTML，CSS，JavaScript的基础内容。越学习越觉得要了解的东西太多太多，哈哈，跳进了一个大坑。但是正在自得其乐，努力前行中。
+							</p>
+						</div>
+					</div>
+					<div id="member3" style='height: 0px'>
+						iii
+					</div>
+					<div id="member4" style='height: 0px'>
+						lll
+					</div>
+					<div id="member5" style='height: 0px'>
+						www
+					</div>	
+			</div>
+			<div id="content3">
+				<h2>任务介绍</h2>
+				<h3>学习任务一：移动小名片</h3>
+				<p>实现一个可以用移动设备浏览器打开的个人介绍页面</p>	
+				<h3>学习任务二：漂亮宣传手册</h3>	
+				<p>在任务一基础上，实现一个多页的个人（或其他）宣传页面，支持手指滑动翻页，有漂亮的动画效果</p>	
+				<h3>学习任务三：移动记账簿</h3>
+				<p>实现一个在移动设备浏览器上使用的简单的记账簿，可以实现简单的增加账目，查看账目的功能</p>
+			</div>
+		</div>
+	</div>
+	<div id='footer'>
+		<p class= 'left_copy'>© 2015 NuaTeam</p>
+		<p class='right_contact'>
+			<a href="https://github.com/NuaTeam" target='_blank'>联系我们</a>
+		</p>
+	</div>
+	<div id='gotopbtn'>
+		<a href='#top'><img src="img/top.png" alt="top"></a>
+	</div>
+	<script src="js/nua.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/lunbo.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding-left: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+p {
+	text-align: justify;
+	/*text-justify: inter-word;*/
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.page {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#page1{
+	background: url(../img/section1.jpg) 50% 0 no-repeat;
+	background-size: cover;
+}
+.head {
+	margin: 0.75rem auto 0.25rem;
+	width: 7.2rem;
+	height: 7.2rem;
+}
+.head img {
+	width: 7.2rem;
+	height: 7.2rem;
+}
+.brief_info  {
+	margin: 1rem auto 1rem 1rem;
+}
+.brief_info p {
+	 font-size: 0.9rem;
+	 font-weight: bold;
+}
+.photo {
+	margin: 0 auto;
+	width: 14rem;
+	height: 8rem;
+}
+.photo img {
+	width: 14rem;
+	height: 8rem;
+	border-radius: 1rem;
+}
+.detail_info {
+	margin: 0.75rem 1rem auto;
+}
+.detail_info p {
+	font-size: 0.8rem;
+	text-indent: 2em;
+}

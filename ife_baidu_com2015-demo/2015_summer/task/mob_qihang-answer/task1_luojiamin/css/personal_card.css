@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Microsoft YaHei', 'SimHei', 'STHeiti', sans-serif;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+}
+.main{
+	padding: 0.25rem;
+	/* position: relative;
+	top: 1rem; */
+	background-color: #008b8b;
+	z-index: -2;
+}
+.content1{
+	text-align: center;
+	margin-top: 1.1rem;
+}
+.content1 img,.content5 img{
+	display: block;
+}
+.img1{
+	margin: 0 auto;
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 2.5rem;
+	border: 0.25rem solid #eee;
+	margin-bottom: 1rem;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+#tabfirst{
+	text-align: center;
+}
+#tabfirst li{
+	font-size: 0.9rem;
+	float: left;
+	background-color: #868686;
+	color: #ffffff;
+	padding: 0.33rem;
+	margin-right: 0.3rem;
+	border-bottom: 0.2rem solid #fff;
+	cursor: pointer;
+}
+
+#tabfirst .tabin{
+	background-color: #6e6e6e;
+	border-bottom: 0.2rem solid #ff00ff;
+}
+.contentfirst{
+	clear: both;
+	color: #000;
+	background-color: #008b8b;
+	width: 7rem;
+	height: 9rem;
+	padding: 0.3rem 0px;
+	display: none; 
+}
+.content{
+	display: block;
+}
+#con3{
+	text-align: center; 
+	margin: 0 auto;
+	width: 15rem;
+	height: 15rem;
+	margin-bottom: 2rem;
+	margin-left: 0.8rem;
+}
+#con3 img{
+	width: 13.9rem;
+	max-height: 13rem;
+}
+#con3 p{
+	text-indent: 2em;
+	padding: 0.1rem;
+	font-size: 0.7rem;
+	width: 14rem;
+	text-align: left;
+}
+
+
+
+.content5{
+	text-align: center;
+}
+.img3{
+	margin: 0 auto;
+	width: 10rem;
+	border-radius: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.div1{
+	margin: 0 auto;
+	width: 2.5rem;
+	height: 1rem;
+	background-color: #fff;
+	border: 0.3rem solid #eee;
+	border-radius: 0.5rem;
+	font-size: 0.6rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	line-height: 1rem;/*垂直居中*/
+	position: relative;
+	left: -2rem;
+}
+.text-line{
+	width: 0.2rem;
+	height: 8rem;
+	position: absolute;
+	top: 7rem;
+	margin-left: -2rem;
+	background-color: #eee;
+	left: 50%;
+}
+
+.rightcontent li{
+	margin-bottom: 1.8rem;
+	font-weight: bold;
+}
+.rightcontent{
+	position: absolute;
+	left: 53%;
+	width: 9rem;
+	top: 6.7rem;
+	font-size: 0.7rem;
+}
+.content4{
+	margin-top: 3rem;
+}
+.p1{
+	margin-top:1rem;
+	font-size:1rem;
+	font-weight:bold;
+	padding:0.2rem;
+}
+.p2{
+	text-indent:2em;
+	font-size: 0.8rem;
+	margin-top:0.1rem;
+	padding:0.5rem;
+	line-height: 1.5;
+}
+.content6{
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 1.5;
+	font-weight: bold;
+	color: #7fff00;
+}
+.content6 p{
+	margin-top: 0.5rem;
+	margin-bottom: 0.3rem;
+}
+.content6 a{
+	padding: 1rem;
+	text-decoration: none;
+}

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: "Microsoft Yahei";
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #6cc;
+    width: 30%;
+    margin: auto;
+}
+
+body > header,
+body > article,
+body > footer,
+article > section {
+    width: 100%;
+    margin: 2em auto;
+}
+
+header img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    border-radius: 80px;
+}
+
+#self-info p {
+    text-indent: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#content p {
+    text-indent: 2em;
+    margin: 10px 0;
+}
+
+footer.copyright {
+    margin: 2em auto 0;
+    position: relative;
+    height: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+footer.copyright p {
+    line-height: 40px;
+}

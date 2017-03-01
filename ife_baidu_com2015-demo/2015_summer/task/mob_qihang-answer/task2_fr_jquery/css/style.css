@@ -1,0 +1,296 @@
+@font-face {
+	font-family: "STXingkai";
+	src: url('../fonts/华文行楷.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "STXingkai";
+	font-style: italic;
+	font-size: 38px;
+	color: #9cf;
+}
+html {
+	height: 100%;
+}
+body {
+	width: 35%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+#bg {
+	width: 100%;
+	height: 100%;
+	z-index：-1;	
+} 
+#container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.logo {
+	position: absolute;
+	top: 8%;
+	left: 8%;
+	width: 84%;
+	height: 32%;
+}
+.cover_title {
+	position: absolute;
+	bottom: 20%;
+/*	color: #ff66fe;
+	font-size: 35px;*/
+}
+
+/*雪花*/
+#snowflake {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.snowRoll {
+    position: absolute;
+    opacity: 0;
+    -webkit-animation-name: mysnow;
+    -webkit-animation-duration: 20s;
+    -moz-animation-name: mysnow;
+    -moz-animation-duration: 20s;
+    height: 80px;
+}
+
+@-webkit-keyframes mysnow {
+    0% {
+        bottom: 100%;
+    }
+    50% {
+        -webkit-transform: rotate(1080deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg) translate3d(50px, 50px, 50px);
+    }
+}
+
+@-moz-keyframes mysnow {
+    0% {
+        bottom: 100%;
+    }
+    50% {
+        -moz-transform: rotate(1080deg);
+    }
+    100% {
+        -moz-transform: rotate(0deg) translate3d(50px, 50px, 50px);
+    }
+}
+
+.bai1 {
+	position: absolute;
+	top: 8%;
+	left: 4%;
+	width: 60%;
+	height: 35%;
+}
+.bai2 {
+	position: absolute;
+	top: 30%;
+	right: 4%;
+	width: 60%;
+	height: 35%;
+}
+.section2_name, .section3_name, .section4_name {
+	position: absolute;
+	top: 8%;
+	right: 5%;
+	width: 50px;
+	height: 400px;
+/*	writing-mode: tb-rl;*/
+	font-size: 40px;
+	color: #9cf;
+}
+.section2_content, .section3_content, .section4_content {
+	position: absolute;
+	bottom: 10%;
+	white-space: pre-wrap;
+	color: #9cf;	
+}
+.dongfang1 {
+	position: absolute;
+	top: 8%;
+	left: 12%;
+	width: 62%;
+	height: 33%;
+	opacity: 0.7;	
+}
+.dongfang2 {
+	position: absolute;
+	top: 32%;
+	left: 34%;
+	width: 62%;
+	height: 33%;
+	opacity: 0.8;
+}
+.section3_name {
+	top: 18%;
+}
+.sha1 {
+	position: absolute;
+	top: 8%;
+	left: 10%;
+	width: 60%;
+	height: 33%;
+	opacity: 0.9;
+/*	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);*/
+}
+.sha2 {
+	position: absolute;
+	top: 33%;
+	right: 10%;
+	width: 60%;
+	height: 33%;
+	opacity: 0.8;	
+/*	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);*/
+}
+.zi {
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	width: 190px;
+	height: 190px;
+}
+.tang {
+	position: absolute;
+	top: 24%;
+	right: 2%;
+	width: 190px;
+	height: 190px;
+}
+.shan{
+	position: absolute;
+	top: 46%;
+	left: 2%;
+	width: 190px;
+	height: 190px;
+}
+.ni {
+	position: absolute;
+	top: 68%;
+	right: 4%;
+	width: 190px;
+	height: 190px;
+}
+.section5_content_zi {
+	position: absolute;
+	top: 15%;
+	right: 4%;
+/*	font-size: 30px;*/
+}
+.section5_content_tang {
+	position: absolute;
+	top: 36%;
+	left: 4%;
+/*	font-size: 30px;*/
+}
+.section5_content_shan {
+	position: absolute;
+	top: 60%;
+	right: 2%;
+/*	font-size: 30px;*/
+}
+.section5_content_ni {
+	position: absolute;
+	top: 80%;
+	left: 4%;
+/*	font-size: 30px;*/
+}
+.section6_content1 {
+	position: absolute;
+	top: 15%;
+	white-space: pre-wrap;
+}
+.section6_content2 {
+	position: absolute;
+	top: 42%;
+	white-space: pre-wrap;
+}
+.section6_content3 {
+	position: absolute;
+	top: 72%;
+	white-space: pre-wrap;
+}
+
+#up_icon {
+	background: url(../img/up1.png), no-repeat;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	height: 32px;
+    width: 32px;
+	opacity: 0.7;
+	z-index: 2;
+}
+.up {
+	-webkit-animation-name: up;
+    -webkit-animation-duration: 10s;
+    -webkit-anination-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: up;
+    -moz-animation-duration: 10s;
+    -moz-anination-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+}
+@-webkit-keyframes up {
+    0%, 100% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translate3d(0, -5px, 0);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translate3d(0, 5px, 0);
+    }
+}
+@media screen and (max-width: 375px) {
+	.section6_content1,
+	.section6_content2, 
+	.section6_content3,
+	.section5_content_zi,
+	.section5_content_tang,
+	.section5_content_shan,
+	.section5_content_ni {
+		font-size: 30px;
+	}
+	.zi, 
+	.tang, 
+	.shan, 
+	.ni {
+		width: 145px;
+		height: 145px;
+	}	
+}
+@media screen and (max-width: 900px) {
+	body {
+		width: 100%;
+	}
+}
