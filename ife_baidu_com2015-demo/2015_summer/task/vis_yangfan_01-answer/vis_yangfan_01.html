@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>vis_yangfan_01</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <style type="text/css">
+    .container{
+        width: 1000px;
+        height: 750px;
+        margin: 0 auto;
+        padding: 30px 100px;
+        background-color: #edf1f1;
+        border-top: 20px solid #c3c3c3;
+    }
+    h5,li{
+        font: 16px/1.5 "微软雅黑" bolder;
+        color: #666;
+    }
+    .map{
+        margin-bottom: 30px;
+    }
+    #pie{
+        width: 300px;
+        float: left;
+        padding-top: 10px;
+        margin-right: 20px;
+        position: relative;
+    }
+    #line_bar{
+    	width: 675px;
+    	float: left;
+        padding-top: 10px;
+        margin-top: -39px;
+        margin-left: 325px;
+        position: relative;
+    }
+    #pie>div{
+    	width: 300px;
+        position: absolute;
+        left: 0;
+        top: 39px;
+        z-index: 1;
+    }
+    #line_bar>div{
+    	width: 670px;
+        position: absolute;
+        left: 0;
+        top: 39px;
+        z-index: 1;
+    }
+    ul{
+        height: 28px;
+    }
+    li{
+        float: left;
+        margin-right: 10px;
+        display: block;
+        padding-bottom: 3px;
+        cursor: pointer;
+    }
+    .active_li{
+        border-bottom: 2px solid #0fa1f4;
+    }
+    #pie .active_div{
+    	width: 300px;
+        z-index: 99;
+        position: absolute;
+    }
+    #line_bar .active_div{
+    	width: 670px;
+        z-index: 99;
+        position: absolute;
+    }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <div class="map">
+        <h5>中国主要城市空气质量地图图表</h5>
+        <div id="map_main" style="height:400px"></div>
+    </div>
+
+    <div id="pie">
+      <ul>
+        <li class="active_li">环形图</li>
+        <li>饼状图</li>
+      </ul>
+
+      <div id="pie_1_main" style="height:250px" class="active_div"></div>
+      <div id="pie_2_main" style="height:250px"></div>
+    </div>
+
+    <div id="line_bar">
+      <ul>
+        <li class="active_li">折线图</li>
+        <li>柱状图</li>
+      </ul>
+
+      <div id="line_main" style="height:250px" class="active_div"></div>
+      <div id="bar_main" style="height:250px"></div>
+    </div>
+</div>
+
+<script src="js/lib/jquery.min.js"></script>
+
+<!-- ECharts单文件引入 -->
+<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+<script src="js/config.js"></script>
+<script src="js/map.js"></script>
+<script src="js/pie_1.js"></script>
+<script src="js/pie_2.js"></script>
+<script src="js/line.js"></script>
+<script src="js/bar.js"></script>
+<script type="text/javascript">
+    var Pie = document.getElementById('pie');
+    var LineBar = document.getElementById('line_bar');
+    var Pie_Li = Pie.getElementsByTagName('li');
+    var LineBar_Li = LineBar.getElementsByTagName('li');
+    var Pie_Div = Pie.getElementsByTagName('div');
+    var LineBar_Div = LineBar.getElementsByTagName('div');
+
+    function Tab(oLi,oDiv){
+        for(var i = 0,len = oLi.length; i < len; i++){
+            oLi[i].index = i;
+            oLi[i].onclick = function(){
+                for(var i = 0,len = Pie_Li.length; i < len; i++){
+                    oLi[i].className = " ";
+                    oDiv[i].className = " ";
+                }
+                this.className = "active_li";
+                oDiv[this.index].className = "active_div";
+            }
+        }
+    }
+
+    Tab(Pie_Li,Pie_Div);
+    Tab(LineBar_Li,LineBar_Div);
+</script>
+
+    
+</body>

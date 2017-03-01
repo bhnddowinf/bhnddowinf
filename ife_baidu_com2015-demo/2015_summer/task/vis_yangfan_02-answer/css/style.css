@@ -1,0 +1,279 @@
+body{
+    background-color: #c9daea;
+    font-family: "微软雅黑";
+}
+.header{
+    background-color: #3c5977;
+}
+.header .head{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 70px;
+    background-color: #3c5977;
+}
+.header .head ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header .head li{
+    float: left;
+    margin: 0 1px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-color: #4a6b8c;
+}
+.header .head li a{
+    display: block;
+}
+.header .head li img{
+    width: 30px;
+    height: 22px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+.header .head .active,.header .head li:hover{
+    background-color: #618bb5;
+}
+
+/*封装不同的布局类*/
+
+/*layout1*/
+.layout1{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.layout1 .BeiJing{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1200px;
+    height: 350px;
+    background-color: #fff;
+}
+.layout1 .ShangHai,.layout1 .GuangZhou{
+    display: none;
+}
+
+/*layout2*/
+.layout2{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.layout2 .BeiJing{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1200px;
+    height: 350px;
+    background-color: #fff;
+}
+.layout2 .ShangHai{
+    position: absolute;
+    left: 0;
+    top: 360px;
+    width: 1200px;
+    height: 350px;
+    background-color: #5ff51d;
+}
+.layout2 .GuangZhou{
+    display: none;
+}
+
+/*layout3*/
+.layout3{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.layout3 .BeiJing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 595px;
+    height: 610px;
+    background-color: #fff;
+}
+.layout3 .ShangHai{
+    position: absolute;
+    top: 0;
+    left: 605px;
+    width: 595px;
+    height: 300px;
+    background-color: #5ff51d;
+}
+.layout3 .GuangZhou{
+    position: absolute;
+    top: 310px;
+    left: 605px;
+    width: 595px;
+    height: 300px;
+    background-color: #f58d1d;
+}
+
+/*layout4*/
+.layout4{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.layout4 .BeiJing{
+    position: absolute;
+    top: 0;
+    left: 605px;
+    width: 595px;
+    height: 610px;
+    background-color: #fff;
+}
+.layout4 .ShangHai{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 595px;
+    height: 300px;
+    background-color: #5ff51d;
+}
+.layout4 .GuangZhou{
+    position: absolute;
+    top: 310px;
+    left: 0;
+    width: 595px;
+    height: 300px;
+    background-color: #f58d1d;
+}
+
+/*layout5*/
+.layout5{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.layout5 .BeiJing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 595px;
+    height: 610px;
+    background-color: #fff;
+}
+.layout5 .ShangHai{
+    position: absolute;
+    top: 0;
+    left: 605px;
+    width: 595px;
+    height: 610px;
+    background-color: #5ff51d;
+}
+.layout5 .GuangZhou{
+    display: none;
+}
+
+/*layout6*/
+.layout6{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.layout6 .BeiJing{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1200px;
+    height: 350px;
+    background-color: #fff;
+}
+.layout6 .ShangHai{
+    position: absolute;
+    left: 0;
+    top: 360px;
+    width: 595px;
+    height: 300px;
+    background-color: #5ff51d;
+}
+.layout6 .GuangZhou{
+    position: absolute;
+    left: 605px;
+    top: 360px;
+    width: 595px;
+    height: 300px;
+    background-color: #f58d1d;
+}
+
+.top{
+    height: 26px;
+    border-bottom: 1px solid #dbe2ec;
+    background-color: #f7f8fd;
+    padding-left:20px;
+}
+.top #address,.top #chart,.top #grain,.top #axis{
+    float: left;
+    width: 220px;
+    height: 26px;
+    line-height: 26px;
+}
+.top #axis{
+    width: 355px;
+}
+.top  .span_commen{
+    float: left;
+    font-size: 12px;
+    color: #adadad;
+    margin-right: 15px;
+}
+.top ul{
+    float: left;
+    height: 26px;
+    font-size: 12px;
+    color: #666666;
+}
+.top li{
+    float: left;
+    padding-left: 15px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+}
+.top .active_address,.top .active_chart,.top .active_grain,.top .active_axis,.top li:hover{
+    border-bottom: 3px solid #7cbeee;
+}
+.top #address .bj{
+    background-image: url("../img/bj.jpg");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+}
+.top #address .sh{
+    background-image: url("../img/sh.jpg");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+}
+.top #address .gz{
+    background-image: url("../img/gz.jpg");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+}
+.top #chart li{
+    padding:0;
+}
+.top #grain li{
+    padding:0 1px;
+}
+.top #axis li{
+    padding:0;
+}
+#line_main1,#line_main2,#line_main3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1200px;
+    height: 300px;
+}
+.active_main{
+    z-index: 2;
+}

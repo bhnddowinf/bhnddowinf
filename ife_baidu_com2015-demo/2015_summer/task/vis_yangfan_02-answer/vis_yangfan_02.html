@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>vis_yangfan_02</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div class="header">
+    <div class="head">
+        <ul id="nav">
+            <li class="active">
+                <img src="img/img1.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/img2.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/img3.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/img4.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/img5.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/img6.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="layout" class="layout1">
+     <div class="BeiJing">
+         <div class="top">
+            <div id="address">
+                <span class="span_commen">地区</span>
+                <ul>
+                    <li class="bj active_address">北京</li>
+                    <li class="sh">上海</li>
+                    <li class="gz">广州</li>
+                </ul>
+            </div>
+            <div id="chart">
+                <span class="span_commen">图表</span>
+                <ul>
+                    <li class="bar active_chart">柱状图</li>
+                    <li class="line">折线图</li>
+                </ul>
+            </div>
+         </div>
+         <div class="top">
+             <div id="grain">
+                <span class="span_commen">粒度</span>
+                <ul>
+                    <li class="week active_grain">周粒度</li>
+                    <li class="month">月粒度</li>
+                    <li class="year">年粒度</li>
+                </ul>
+            </div>
+            <div id="axis">
+                <span class="span_commen">纵坐标值</span>
+                <ul>
+                    <li class="max active_axis">AQI峰值</li>
+                    <li class="average">AQI平均值</li>
+                    <li class="min">AQI&lt;100的天数</li>
+                </ul>
+            </div>
+         </div>
+         <div id="line_main">
+             
+         </div>
+     </div>
+     <div class="ShangHai">
+         
+     </div>
+     <div class="GuangZhou">
+         
+     </div>
+</div>
+
+
+<!-- ECharts单文件引入 -->
+<script type="text/javascript">
+    (function(){
+        var nav = document.getElementById('nav');
+        var layout = document.getElementById('layout');
+        // console.log(nav.innerHTML + layout.innerHTML);
+        var li = nav.getElementsByTagName('li');
+        for(var i = 0;i < li.length;i++){
+            li[i].index = i;
+            li[i].onclick = function(){
+                for(var i = 0;i < li.length;i++){
+                    li[i].className = " ";
+                    layout.className = " ";
+                }
+                this.className = "active";
+                layout.className = String("layout" + (this.index+1));
+            }
+        }
+    })();
+
+    (function(){
+        var line_main = document.getElementById('line_main');
+        var BJ = document.getElementsByClassName('BeiJing')[0];
+        line_main.style.width = BJ.style.width;
+        line_main.style.height = "300px";
+    })();
+</script>
+<script src="js/build/dist/echarts.js"></script>
+<script src="js/config.js"></script>
+<script src="js/line.js"></script>
+</body>
+</html>
