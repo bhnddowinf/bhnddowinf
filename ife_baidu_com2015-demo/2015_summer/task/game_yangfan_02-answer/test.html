@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打飞机</title>
+    <meta charset="UTF-8" name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body onload="init();">
+<canvas id="testCanvas" width="960" height="400"></canvas>
+
+<script src="js/create.js"></script>
+
+<script>
+   var stage, w, h, loader;
+    var sky, grant, ground, hill, hill2;
+
+    function init() {
+        stage = new createjs.Stage("testCanvas");
+
+        // grab canvas width and height for later calculations:
+        w = stage.canvas.width;
+        h = stage.canvas.height;
+
+        manifest = [
+            {src: "spritesheet_grant.png", id: "grant"},
+            {src: "sky.png", id: "sky"},
+            {src: "ground.png", id: "ground"},
+            {src: "hill1.png", id: "hill"},
+            {src: "hill2.png", id: "hill2"}
+        ];
+        for(var i = 0, len = 7; i < len; i++) {
+            manifest.push({
+                src: 'boom' + (i + 1) + '.png',
+                id: 'boom' + (i + 1)
+            });
+        }
+        loader = new createjs.LoadQueue(false);
+        loader.addEventListener("complete", handleComplete);
+        loader.loadManifest(manifest, true, "./testImg/");
+    }
+
+    function handleComplete() {
+
+        sky = new createjs.Shape();
+        sky.graphics.beginBitmapFill(loader.getResult("sky")).drawRect(0, 0, w, h);
+
+        var groundImg = loader.getResult("ground");
+        ground = new createjs.Shape();
+        ground.graphics.beginBitmapFill(groundImg).drawRect(0, 0, w + groundImg.width, groundImg.height);
+        ground.tileW = groundImg.width;
+        ground.y = h - groundImg.height;
+
+        hill = new createjs.Bitmap(loader.getResult("hill"));
+        hill.setTransform(Math.random() * w, h - hill.image.height * 4 - groundImg.height, 4, 4);
+        hill.alpha = 0.5;
+
+        hill2 = new createjs.Bitmap(loader.getResult("hill2"));
+        hill2.setTransform(Math.random() * w, h - hill2.image.height * 3 - groundImg.height, 3, 3);
+
+        var spriteSheet = new createjs.SpriteSheet({
+                framerate: 30,
+                "images": [loader.getResult("boom1"),loader.getResult("boom2"),loader.getResult("boom3"),loader.getResult("boom4"),loader.getResult("boom5"),loader.getResult("boom6"),loader.getResult("boom7")],
+                "frames": {"regX": 0, "height": 322, "width": 512},
+                // define two animations, run (loops, 1.5x speed) and jump (returns to run):
+                "animations": {
+                    "run": [0, 6, null, 0.6],
+                    "jump": [26, 63, "run"]
+                }
+            });
+        grant = new createjs.Sprite(spriteSheet);
+        grant.y = 35;
+
+        grant.on('animationend', function (obj) {
+            debugger;
+        })
+
+        stage.addChild(sky, hill, hill2, ground, grant);
+        stage.addEventListener("stagemousedown", handleJumpStart);
+
+        createjs.Ticker.timingMode = createjs.Ticker.RAF;
+        createjs.Ticker.addEventListener("tick", tick);
+    }
+
+    function handleJumpStart() {
+        grant.gotoAndPlay("run");
+    }
+
+    function tick(event) {
+        var deltaS = event.delta / 1000;
+        var position = grant.x + 150 * deltaS;
+
+        var grantW = grant.getBounds().width * grant.scaleX;
+        // grant.x = (position >= w + grantW) ? -grantW : position;
+
+        ground.x = (ground.x - deltaS * 150) % ground.tileW;
+        hill.x = (hill.x - deltaS * 30);
+        if (hill.x + hill.image.width * hill.scaleX <= 0) {
+            hill.x = w;
+        }
+        hill2.x = (hill2.x - deltaS * 45);
+        if (hill2.x + hill2.image.width * hill2.scaleX <= 0) {
+            hill2.x = w;
+        }
+
+        stage.update(event);
+    }
+</script>
+</body>
+</html>
