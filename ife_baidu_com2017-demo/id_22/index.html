@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>id_22</title>
+</head>
+<body>
+  <!-- 页面中原本的 html 模板片段 -->
+  <div id="app">
+      <p>姓名：{{user.name}}</p>
+      <p>年龄：{{user.age}}</p>
+  </div>
+</body>
+<script>
+  /*
+      很大程度上借鉴了别人的思想，自己确实如果自己做很困难。
+      看不懂的地方进行了一定自己能明白的修改。
+      参考博客:https://github.com/qieguo2016/Vueuv/blob/master/README.md
+  */
+  //构造函数接收一个对象
+  function Vue(object){
+    this.data = object.data || {};
+    this.el = object.el;
+    new Compiler(this.el,this.data);
+  }
+  //构造函数，实现模版
+  function Compiler(el,data){
+    this.$el = document.querySelector(el);
+    this.data = data;
+    if(this.$el){
+      this.$fragment = this.nodeToFragment(this.$el);
+      this.compile(this.$fragment,this.data);
+      this.$el.appendChild(this.$fragment);
+    }
+  }
+  Compiler.prototype = {
+    nodeToFragment: function(node){
+      let fragment = document.createDocumentFragment(); //创建一个文档片段
+      let child;
+      //遍历节点
+      while(child = node.firstChild){
+          if(this.isIgnorable(child)){
+              node.removeChild(child);
+          }else{
+              fragment.appendChild(child);
+          }
+      }
+      return fragment;
+    },
+    //判断注释节点以及空格换行等
+    isIgnorable: function(node){
+        let regIgnorable = /^[\t\n\r]+/;
+        return (node.nodeType == 8) || ((node.nodeType == 3) && (regIgnorable.test(node.textContent)));
+    },
+    //遍历传入节点的子节点，如果是元素节点则继续遍历，文本节点则处理
+    compile: function(node,data){
+      let that = this
+      Array.from(node.childNodes).forEach((child) => {
+          if (child.nodeType === 1) {
+              that.compileElementNode(child,that.data);
+          }
+          if (child.nodeType === 3) {
+              that.compileTextNode(child,that.data);
+          }
+      })
+    },
+    // 文本节点处理
+    compileTextNode: function(node,data){
+        let text = node.textContent.trim();
+        let exp = parseTextExp(text,data);
+        node.textContent = exp;
+    },
+    //元素节点继续遍历直到文本节点
+    compileElementNode: function(node,data){
+        this.compile(node,data);
+    }
+  }
+  //data一直传递到此函数，在次函数中将匹配的模版替换(和别人比改成了笨办法把，但是自己理解的比较清除)
+  function parseTextExp(text,data) {
+      let regText = /\{\{(.+?)\}\}/g;
+      let pieces = text.split(regText);
+      let matches = text.match(regText);
+      let result = [];
+      pieces.forEach(function (piece) {
+          if(matches && matches.indexOf('{{' + piece + '}}') > -1){ //包含模版的项
+            let properties = piece.split('.');
+            let datas = data;
+            properties.forEach(function(value){
+              datas = datas[value];
+            });
+            result.push(datas);
+          }else if(piece){ //正常项
+            result.push(piece);
+          }
+      });
+      return result.join('');
+  }
+  let app = new Vue({
+    el: '#app',
+    data: {
+      user: {
+        name: 'youngwind',
+        age: 25
+      }
+    }
+  });
+</script>
+</html>

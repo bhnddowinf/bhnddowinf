@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>正则表达式之入门</title>
+  <style type="text/css" media="screen">
+    table{
+      margin: 50px auto;
+    }
+
+    td:first-child{
+      height: 50px;
+      font-size: 24px;
+      padding-right: 30px;
+      text-align: right;
+    }
+
+    input{
+      width: 300px;
+      height: 32px;
+      border-radius: 5px;
+      border-color: #ccc;
+      outline: 0;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr id="txtPhone">
+      <td>验证手机号：</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><span id="spanInfo1"></span></td>
+    </tr>
+    <tr id="txtWord">
+      <td>验证相邻单词是否重复：</td>
+      <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><span id="spanInfo2"></span></td>
+    </tr>
+  </table>
+</body>
+  <script>
+    //验证手机号
+    function phone() {
+      var txtPhone = document.getElementById("txtPhone");
+      var input = txtPhone.getElementsByTagName("input")[0];
+      var span = document.getElementById("spanInfo1");
+
+      input.onfocus = function () {
+        input.style.border = '1px solid #ccc';
+        span.style.color = '#ccc';
+        span.innerHTML = '请输入11个数字的手机号';
+      };
+      input.onblur = function () {
+        filter = /^1[34578]\d{9}$/;
+        if (input.value === '') {
+          span.innerHTML = '手机号不能为空';
+          inputStyle(span, input, false);
+        }
+        else if (filter.test(input.value)) {
+          span.innerHTML = '手机号 is true';
+          inputStyle(span, input, true);
+        }
+        else {
+          span.innerHTML = '您输入的手机号格式不正确';
+          inputStyle(span, input, false);
+        }
+      };
+    }
+
+    //验证相邻单词是否有重复
+    function word() {
+      var txtWord = document.getElementById("txtWord");
+      var input = txtWord.getElementsByTagName("input")[0];
+      var span = document.getElementById("spanInfo2");
+
+      input.onfocus = function () {
+        input.style.border = '1px solid #ccc';
+        span.style.color = '#ccc';
+        span.innerHTML = '请输入英文字母组成的单词';
+      };
+      input.onblur = function () {
+        filter = /\b([a-z]+)\b\s+\b\1\b/;
+        if (filter.test(input.value.trim())) {
+          span.innerHTML = 'is true';
+          inputStyle(span, input, true);
+        }
+        else if (input.value === '') {
+          span.innerHTML = '英文字母不能为空';
+          inputStyle(span, input, false);
+        }
+        else {
+          span.innerHTML = '相邻单词无重复';
+          inputStyle(span, input, false);
+        }
+      };
+    }
+
+    //input框样式函数
+    function inputStyle (span, input, bool) {
+      if (bool) {
+        span.style.color = 'lightgreen';
+        input.style.border = '1px solid green';
+      }
+      else {
+        span.style.color = 'red';
+        input.style.border = '1px solid red';
+      }
+    }
+
+    function init() {
+      phone();
+      word();
+    }
+
+    init();
+  </script>
+</html>

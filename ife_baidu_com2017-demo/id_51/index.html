@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE-3Dbox</title>
+    <link href="style/3D-box.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div class="wrapper" id="wrap">
+    <div class="container" id="contain">
+        <div class="picture"></div>
+        <div class="picture"></div>
+        <div class="picture"></div>
+        <div class="picture"></div>
+        <div class="picture"></div>
+        <div class="picture"></div>
+    </div>
+</div>
+<script>
+    (function (){
+        var wrap=document.getElementById('wrap'),
+                contain=document.getElementById('contain'),
+                pic1=document.getElementsByClassName('picture'),
+                n=0,
+                k= 0,
+                auto;
+        var pic = [].slice.call(pic1);
+// js获取pic是一个dom节点，不能算是一个真正数组，所以他没有数组的forEach方法
+// http://stackoverflow.com/questions/31534066/javascript-object-foreach-is-not-a-function
+        function rotate(){
+            n=k++;
+            pic.forEach(function (i,j) {
+//                i.setAttribute('transform','rotateY('+(++n*60)+'deg) translateZ(370px)');
+                i.style.cssText ='transform:rotateY('+(++n*60)+'deg) translateZ(370px)';
+//                已有css属性修改样式必须先获得属性值，然后用文本追加在属性值
+            })
+        }
+        auto=setInterval(rotate,2000);
+        contain.addEventListener('click',rotate);
+        contain.addEventListener('mouseover', function () {
+            clearInterval(auto);
+        });
+        contain.addEventListener('mouseout', function () {
+            auto=setInterval(rotate,2000);
+        });
+    }());
+</script>
+</body>
+</html>

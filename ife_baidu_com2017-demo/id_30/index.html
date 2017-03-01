@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>正则表达式之简易markdown文件解析器</title>
+        <link rel="stylesheet" href="../../../public/css/normalize.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="../../../public/css/github-markdown.css">
+        <script src="./js/utils.js"></script>
+        <script src="./js/html.js"></script>
+        <script src="./js/m2h.js"></script>
+
+    </head>
+    <body>
+        
+        <div class="container">
+
+            <div class="container-left">
+                <div id="line-counter">
+                </div>
+
+<textarea type="text" id="input-source">
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+**********************
+
+* item1
+* item2
+* item3
+
+1. item1
+2. item2
+3. item3
+
+**********************
+
+![Rem](http://i1.hdslb.com/bfs/archive/7b216a0fa9da638b0133c1ddd8012842ba2b75fc.jpg)
+
+[Pwcong](http://www.pwcong.me)
+
+[Github](https://github.com/pwcong)
+
+**********************
+
+**粗体粗体粗体粗体粗体粗体粗体粗体粗体粗体粗体粗体粗体粗体**
+
+*斜体斜体斜体斜体斜体斜体斜体斜体斜体斜体斜体斜体斜体斜体斜体*
+
+> 单行名言单行名言单行名言单行名言单行名言
+
+> 多行名言多行名言多行名言多行名言多行名言
+> 多行名言多行名言多行名言多行名言多行名言
+> 多行名言多行名言多行名言多行名言多行名言
+
+普通文字普通文字普通文字普通文字普通文字
+普通文字普通文字普通文字普通文字普通文字
+普通文字普通文字普通文字普通文字普通文字
+普通文字普通文字普通文字普通文字普通文字
+
+**********************
+
+| Name   | Age | Sex |
+|--------|-----|-----|
+| 彭伟聪 | 21  | 男  |
+
+**********************
+
+这里面有代码`console.log('Hello World !')`这里面有代码
+
+下面有一大串代码：
+```
+
+function sayHello(){
+    console.log('<p>Hello</p>');
+}
+
+sayHello();
+
+
+```
+</textarea>
+            </div>
+
+            <div class="container-right">
+
+                <article class="markdown-body" id="markdown-display">
+
+                    
+                </article>
+
+            </div>
+
+        </div>
+
+        <script src="./js/main.js"></script>
+
+
+    </body>
+</html>
