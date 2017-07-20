@@ -27,28 +27,28 @@
 
 <style>
 
-table.TB_COLLAPSE {
+.TB_COLLAPSE {
   width:100%;
   border-collapse:collapse;
 }
-table.TB_COLLAPSE caption {
+.TB_COLLAPSE caption {
   padding:10px;
   font-size:24px;
   background-color:#f3f6f9;
 }
-table.TB_COLLAPSE thead th {
+.TB_COLLAPSE thead th {
   padding:5px 0px;
   color:#fff;
   background-color:#915957;
 }
-table.TB_COLLAPSE tbody td {
+.TB_COLLAPSE tbody td {
   padding:5px 0px;
   color:#555;
   text-align:center;
   background-color:#fff;
   border-bottom:1px solid #915957;
 }
-table.TB_COLLAPSE tfoot td {
+.TB_COLLAPSE tfoot td {
   padding:5px 0px;
   text-align:center;
   background-color:#d6d6a5;
