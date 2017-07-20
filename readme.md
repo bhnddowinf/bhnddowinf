@@ -25,15 +25,60 @@
 
 - [开发网站中] (https://github.com/bhnddowinf/site01)  
 
+<style>
+table.TB_COLLAPSE {
+  width:100%;
+  border-collapse:collapse;
+}
+table.TB_COLLAPSE caption {
+  padding:10px;
+  font-size:24px;
+  background-color:#f3f6f9;
+}
+table.TB_COLLAPSE thead th {
+  padding:5px 0px;
+  color:#fff;
+  background-color:#915957;
+}
+table.TB_COLLAPSE tbody td {
+  padding:5px 0px;
+  color:#555;
+  text-align:center;
+  background-color:#fff;
+  border-bottom:1px solid #915957;
+}
+table.TB_COLLAPSE tfoot td {
+  padding:5px 0px;
+  text-align:center;
+  background-color:#d6d6a5;
+}
+</style>
 
-
-<table>
+<table class="TB_COLLAPSE">
+  <caption>Table Caption TB_COLLAPSE</caption>
+  <thead>
     <tr>
-        <td>應該是表格</td>
-        <td>應該是表格</td>
-        <td>應該是表格</td>
-        <td>應該是表格</td>
-        <td>應該是表格</td>
+      <th>TH Header</th>
+      <th>TH Header</th>
+      <th>TH Header</th>
     </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>TF foot</td>
+      <td>TF foot</td>
+      <td>TF foot</td>
+    </tr>
+  </tfoot>
+  <tr>
+    <td>row 1</td>
+    <td>row 1</td>
+    <td>row 1</td>
+  </tr>
+  <tr>
+    <td>row 2</td>
+    <td>row 2</td>
+    <td>row 2</td>
+  </tr>
 </table>
 
