@@ -26,6 +26,7 @@
 - [开发网站中] (https://github.com/bhnddowinf/site01)  
 
 <style>
+
 table.TB_COLLAPSE {
   width:100%;
   border-collapse:collapse;
@@ -52,6 +53,7 @@ table.TB_COLLAPSE tfoot td {
   text-align:center;
   background-color:#d6d6a5;
 }
+
 </style>
 
 <table class="TB_COLLAPSE">
