@@ -14,51 +14,54 @@
 ## 工作经历
 
 
-1. 中科安全科技有限公司 (2003-2018)
+### 1. 中科安全科技有限公司 (2003-2018)
 
-  1.1 网站营运、ERP
+- 网站营运、ERP
   
-    - http://www.tcstc.com.tw
+- http://www.tcstc.com.tw
   
-  1.2 工地安全管理系统
+- 工地安全管理系统
 
-    - http://www.tcstc.com.tw/serp/tmp/fc/index.asp 
+- http://www.tcstc.com.tw/serp/tmp/fc/index.asp 
 
   
-2. 赛佛数位营销有限公司 (2009-2018)
+### 2. 赛佛数位营销有限公司 (2009-2018)
 
-  2.1 网站营运、ERP 
+- 网站营运、ERP 
 
-    - http://www.tcstc.com.tw/safer 
+- http://www.tcstc.com.tw/safer 
   
-  2.2 电子商务
+- 电子商务
 
-     - http://www.safer.com.tw 
+- http://www.safer.com.tw 
   
-3. 晶安康实业股份有限公司 (2011-2018)
+### 3. 晶安康实业股份有限公司 (2011-2018)
 
- 3.1 网站营运、ERP
+- 网站营运、ERP
 
-  - http://www.jak.com.tw 
+- http://www.jak.com.tw 
   
-4.北京京安康科技发展有限公司 (2011-2018)
+### 4.北京京安康科技发展有限公司 (2011-2018)
 
-  4.1 网站营运、ERP
+- 网站营运、ERP
 
-    - http://www.safetycloud.com.cn/cms_cn/
+- http://www.safetycloud.com.cn/cms_cn/
    
-   
-5. 昆山睿安工程有限公司 (2014-2018)
+- 电子商务
 
-  5.1 网站营运、ERP
-
-    - http://www.tcstc.com.tw/ray  
+- http://www.saferchina.com.cn 
    
-6. 奇威鸟事业有限公司 (2015)
+### 5. 昆山睿安工程有限公司 (2014-2018)
+
+- 网站营运、ERP
+
+- http://www.tcstc.com.tw/ray  
+   
+### 6. 奇威鸟事业有限公司 (2015)
 
 - 网站营运
 
-    - http://www.ki-wi.com.tw  
+- http://www.ki-wi.com.tw  
 
 
 
