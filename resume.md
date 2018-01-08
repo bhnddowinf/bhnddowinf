@@ -16,44 +16,41 @@
 
 1. 中科安全科技有限公司 (2003-2018)
 
-  - 网站营运、ERP
+  1.1 网站营运、ERP
   
     - http://www.tcstc.com.tw
   
-  - 工地安全管理系统
+  1.2 工地安全管理系统
 
     - http://www.tcstc.com.tw/serp/tmp/fc/index.asp 
 
   
 2. 赛佛数位营销有限公司 (2009-2018)
 
-- 网站营运、ERP 
+  2.1 网站营运、ERP 
 
     - http://www.tcstc.com.tw/safer 
   
-- 电子商务
+  2.2 电子商务
 
      - http://www.safer.com.tw 
   
 3. 晶安康实业股份有限公司 (2011-2018)
 
-- 网站营运、ERP
+ 3.1 网站营运、ERP
 
   - http://www.jak.com.tw 
   
 4.北京京安康科技发展有限公司 (2011-2018)
 
-- 网站营运、ERP
+  4.1 网站营运、ERP
 
     - http://www.safetycloud.com.cn/cms_cn/
    
-- 电子商务
-
-    - http://www.saferchina.com.cn 
    
 5. 昆山睿安工程有限公司 (2014-2018)
 
-- 网站营运、ERP
+  5.1 网站营运、ERP
 
     - http://www.tcstc.com.tw/ray  
    
