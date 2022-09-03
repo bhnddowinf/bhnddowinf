@@ -5,7 +5,7 @@
 
 ## 安裝與設定 iTerm2
 
-- http://oomusou.io/osx/iterm2-setup/
+- https://old-oomusou.goodjack.tw/macos/iterm2-setup/
 
 # ifind
 - command+shift+g
